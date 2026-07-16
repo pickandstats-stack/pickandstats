@@ -1,0 +1,36 @@
+name: Actualizar datos Tercera FEB
+
+on:
+  schedule:
+    # Lunes a las 07:00 UTC (08:00/09:00 en España según horario)
+    - cron: '0 7 * * 1'
+  workflow_dispatch:   # y botón manual para lanzarlo cuando quieras
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Instalar dependencias
+        run: npm ci
+      - name: Scrapear partidos nuevos
+        run: node scraper/scrape.js
+      - name: Recalcular estadísticas
+        run: node scraper/calcular.js
+      - name: Commit y push si hay cambios
+        run: |
+          git config user.name "pickandstats-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Sin partidos nuevos esta semana."
+          else
+            git commit -m "Actualización automática de datos ($(date +%d/%m/%Y))"
+            git push
+          fi
