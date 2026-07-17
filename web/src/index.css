@@ -305,3 +305,41 @@ th.col-a { color: #ffd9c4; }
 .filtro-grupos { margin: 12px 0 4px; }
 .filtro-grupos-botones { display: flex; flex-wrap: wrap; gap: 6px; }
 .card-vacio { color: var(--tinta-suave); font-size: 14px; margin: 10px 0; }
+
+/* ---- página de partido ---- */
+.partido-marcador {
+  background: var(--panel);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  padding: 16px 20px;
+  margin: 16px 0 8px;
+}
+.partido-grupo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px; font-weight: 600; letter-spacing: .6px;
+  text-transform: uppercase; color: var(--tinta-suave); margin-bottom: 8px;
+}
+.partido-equipo {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 6px 0; color: var(--tinta-suave);
+}
+.partido-equipo.gana { color: var(--tinta); }
+.partido-nombre {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px; font-weight: 600;
+}
+.partido-tanteo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums;
+}
+.partido-equipo.gana .partido-tanteo { color: var(--acento); }
+
+.enlace-card { cursor: pointer; transition: border-color .15s; }
+.enlace-card:hover { border-color: var(--acento); }
+
+tfoot .fila-total td {
+  border-top: 2px solid var(--tinta);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  background: #f4f4f8;
+}

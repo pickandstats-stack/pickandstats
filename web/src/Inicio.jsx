@@ -8,7 +8,7 @@ const fecha = j => {
   return m ? new Date(+m[3], +m[2] - 1, +m[1]) : new Date(0);
 };
 
-export default function Inicio({ equipos, jugadores, partidos, onVerEquipo, onVerJugador, temporada }) {
+export default function Inicio({ equipos, jugadores, partidos, onVerEquipo, onVerJugador, onVerPartido, temporada }) {
   const etiquetaTemp = `${temporada}/${(+temporada + 1).toString().slice(2)}`;
 
   // Grupos seleccionados (todos activos por defecto)
@@ -169,7 +169,7 @@ export default function Inicio({ equipos, jugadores, partidos, onVerEquipo, onVe
             {ultimos.map(p => {
               const [gl, gv] = p.resultado.split('-').map(Number);
               return (
-                <div className="resultado-card" key={p.id}>
+                <div className="resultado-card enlace-card" key={p.id} onClick={() => onVerPartido(p.id)}>
                   <div className="resultado-grupo">{p.grupo}</div>
                   <div className={`resultado-linea ${gl > gv ? 'gana' : ''}`}>
                     <span className="enlace" onClick={() => clicEquipoId(p.local.id)}>{p.local.nombre}</span>

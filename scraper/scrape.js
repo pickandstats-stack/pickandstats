@@ -96,13 +96,26 @@ function parsearBoxscore($, tabla) {
   return jugadores;
 }
 
+function parsearCuartos($) {
+  const cuartos = [];
+  $('.box-cuartos .nodo').each((i, nodo) => {
+    const etiqueta = $(nodo).find('.cuarto').text().trim();
+    const marcador = $(nodo).find('.marcador').text().trim();
+    const m = marcador.match(/(\d+)\s*\/\s*(\d+)/);
+    if (m) cuartos.push({ periodo: etiqueta, local: +m[1], visitante: +m[2] });
+  });
+  return cuartos;
+}
+
 async function scrapePartido(idPartido) {
   const res = await axios.get(`${CFG.BASE}/Partido.aspx?p=${idPartido}`, { headers: CFG.HEADERS });
   const $ = cheerio.load(res.data);
   const tablas = $('table').toArray();
+  const tablas = $('table').toArray();
   return {
     local: parsearBoxscore($, tablas[0]),
-    visitante: parsearBoxscore($, tablas[1])
+    visitante: parsearBoxscore($, tablas[1]),
+    cuartos: parsearCuartos($)
   };
 }
 

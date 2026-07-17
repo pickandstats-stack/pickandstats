@@ -283,7 +283,9 @@ const traspasados = carreras.filter(c => c.nEtapas > 1);
 // ---------- partidos ----------
 const salidaPartidos = partidos.map(p => ({
   id: p.id, grupo: p.grupo, jornada: p.jornada,
-  local: p.equipoLocal, visitante: p.equipoVisitante, resultado: p.resultado
+  local: p.equipoLocal, visitante: p.equipoVisitante, resultado: p.resultado,
+  cuartos: (p.boxscore && p.boxscore.cuartos) || [],
+  boxscore: p.boxscore ? { local: p.boxscore.local, visitante: p.boxscore.visitante } : null
 }));
 
 // ---------- escritura ----------

@@ -8,7 +8,7 @@ const numJornada = j => parseInt((j.match(/\d+/) || [0])[0], 10);
 
 const COLOR = { tinta: '#16233a', acento: '#e8622c', suave: '#9aa1ac' };
 
-export default function Equipo({ equipo, jugadores, partidos, onVolver, onVerEquipo, onVerJugador, equipos }) {
+export default function Equipo({ equipo, jugadores, partidos, onVolver, onVerEquipo, onVerJugador, onVerPartido, equipos }) {
   const plantilla = useMemo(() =>
     jugadores.filter(j => j.equipoId === equipo.id)
       .sort((a, b) => b.vaPorPartido - a.vaPorPartido),
@@ -213,7 +213,7 @@ export default function Equipo({ equipo, jugadores, partidos, onVolver, onVerEqu
                   </td>
                   <td className="izq">{r.esLocal ? 'Casa' : 'Fuera'}</td>
                   <td className={`izq ${r.gano ? 'net-pos' : 'net-neg'}`}>{r.gano ? 'V' : 'D'}</td>
-                  <td>{r.marcador}</td>
+                  <td><span className="enlace" onClick={() => onVerPartido(p.id)}>{r.marcador}</span></td>
                 </tr>
               );
             })}
