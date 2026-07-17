@@ -1,0 +1,896 @@
+{
+ "id": "2487586",
+ "temporada": "2025",
+ "grupo": "B-B",
+ "jornada": "Jornada 2(12/10/2025)",
+ "equipoLocal": {
+  "id": "981295",
+  "nombre": "RECUCYM BAZU"
+ },
+ "equipoVisitante": {
+  "id": "982361",
+  "nombre": "BALONCESTO TELDE"
+ },
+ "resultado": "58-62",
+ "disputado": true,
+ "descargado": "2026-07-17T21:01:12.686Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1751781",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "FERNANDEZ MORAN, VICTOR",
+    "seg": 1719,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tc": {
+     "a": 2,
+     "i": 10
+    },
+    "tl": {
+     "a": 1,
+     "i": 1
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 5,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 3,
+    "pm": -2
+   },
+   {
+    "idJugador": "2598138",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "HIERRO ABAD, GERMAN",
+    "seg": 1212,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 2,
+    "va": -5,
+    "pm": 1
+   },
+   {
+    "idJugador": "2074108",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "BARRA DE LA CRUZ, JORGE",
+    "seg": 1615,
+    "pt": 11,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 7
+    },
+    "tc": {
+     "a": 4,
+     "i": 11
+    },
+    "tl": {
+     "a": 2,
+     "i": 6
+    },
+    "ro": 1,
+    "rd": 5,
+    "rt": 6,
+    "as": 2,
+    "br": 3,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 5,
+    "va": 12,
+    "pm": -11
+   },
+   {
+    "idJugador": "1990032",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "ECHEVERRIA FERNANDEZ, MARCO",
+    "seg": 1935,
+    "pt": 13,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 4,
+     "i": 9
+    },
+    "tl": {
+     "a": 4,
+     "i": 6
+    },
+    "ro": 7,
+    "rd": 5,
+    "rt": 12,
+    "as": 2,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 6,
+    "va": 22,
+    "pm": 2
+   },
+   {
+    "idJugador": "2251602",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "MANGUE NVOMO, MANUEL ANGEL",
+    "seg": 588,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": -3,
+    "pm": -5
+   },
+   {
+    "idJugador": "2305874",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "DE LAS HERAS SANZ, ALVARO",
+    "seg": 166,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -2,
+    "pm": 1
+   },
+   {
+    "idJugador": "1819146",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "ECHEVERRIA MATEO, EDUARDO",
+    "seg": 1205,
+    "pt": 15,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tc": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 3,
+     "i": 4
+    },
+    "ro": 2,
+    "rd": 5,
+    "rt": 7,
+    "as": 0,
+    "br": 1,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 4,
+    "va": 20,
+    "pm": -6
+   },
+   {
+    "idJugador": "1679297",
+    "titular": true,
+    "dorsal": "16",
+    "nombre": "MARTIN LLUNA, DANIEL",
+    "seg": 1271,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 4,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 2,
+    "pm": 2
+   },
+   {
+    "idJugador": "2017939",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "PRATS PEINADO, JAIME",
+    "seg": 902,
+    "pt": 8,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tc": {
+     "a": 3,
+     "i": 4
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 7,
+    "pm": 11
+   },
+   {
+    "idJugador": "2736806",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "DE LA CRUZ DE LA ROSA, LUIS JAVIER",
+    "seg": 743,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 3,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 0,
+    "va": 1,
+    "pm": -9
+   },
+   {
+    "idJugador": "1901961",
+    "titular": false,
+    "dorsal": "32",
+    "nombre": "MORENO ABAD, GUILLERMO",
+    "seg": 644,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -3,
+    "pm": -4
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2047293",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "SÁNCHEZ GUTIERREZ, PABLO ARIDANY",
+    "seg": 1674,
+    "pt": 7,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tc": {
+     "a": 2,
+     "i": 10
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 1,
+    "va": 1,
+    "pm": -4
+   },
+   {
+    "idJugador": "2101260",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "MENCARA JIMENEZ, IGNACIO",
+    "seg": 252,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -1,
+    "pm": -9
+   },
+   {
+    "idJugador": "2046585",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "ARTILES ROMERO, GUILLERMO",
+    "seg": 1152,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 4,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 5,
+    "fr": 0,
+    "va": 3,
+    "pm": 14
+   },
+   {
+    "idJugador": "1825393",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "REDONDO ALVAREZ DE SOTOMAYOR, ALBERTO",
+    "seg": 1462,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 5,
+    "rd": 5,
+    "rt": 10,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 9,
+    "pm": -8
+   },
+   {
+    "idJugador": "1251413",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "FERNÁNDEZ GÓMEZ, ARTURO",
+    "seg": 1961,
+    "pt": 19,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tc": {
+     "a": 5,
+     "i": 14
+    },
+    "tl": {
+     "a": 7,
+     "i": 13
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 4,
+    "as": 4,
+    "br": 3,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 9,
+    "va": 18,
+    "pm": 11
+   },
+   {
+    "idJugador": "1885981",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "SANTANA OJEDA, ALEJANDRO",
+    "seg": 726,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tc": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": 2,
+    "pm": 8
+   },
+   {
+    "idJugador": "1877414",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "VIDAL RODRIGUEZ, ALBERTO",
+    "seg": 288,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 0,
+    "va": 2,
+    "pm": -6
+   },
+   {
+    "idJugador": "1885989",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "VIDAL RODRIGUEZ, ENRIQUE",
+    "seg": 354,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": -1,
+    "pm": -2
+   },
+   {
+    "idJugador": "1594611",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "VAZQUEZ JEREZ, DANIEL ALEJANDRO",
+    "seg": 650,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 5,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 2,
+    "pm": 18
+   },
+   {
+    "idJugador": "1824743",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "ALMENARA AMADOR, DANIEL",
+    "seg": 1289,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 2,
+     "i": 3
+    },
+    "ro": 2,
+    "rd": 4,
+    "rt": 6,
+    "as": 2,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 2,
+    "va": 10,
+    "pm": 7
+   },
+   {
+    "idJugador": "2048055",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "JIMENEZ HERNANDEZ, JORDAN",
+    "seg": 532,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": 1,
+    "pm": -5
+   },
+   {
+    "idJugador": "1686556",
+    "titular": true,
+    "dorsal": "34",
+    "nombre": "MARTIN GONZALEZ, ALEJANDRO",
+    "seg": 1660,
+    "pt": 11,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 9
+    },
+    "tc": {
+     "a": 4,
+     "i": 12
+    },
+    "tl": {
+     "a": 1,
+     "i": 4
+    },
+    "ro": 1,
+    "rd": 5,
+    "rt": 6,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 3,
+    "va": 10,
+    "pm": -4
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 7,
+    "visitante": 14
+   },
+   {
+    "periodo": "2º C",
+    "local": 22,
+    "visitante": 5
+   },
+   {
+    "periodo": "3º C",
+    "local": 9,
+    "visitante": 21
+   },
+   {
+    "periodo": "4º C",
+    "local": 20,
+    "visitante": 22
+   }
+  ]
+ }
+}
