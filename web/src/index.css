@@ -466,3 +466,5 @@ th.col-a { color: #ffd9c4; }
 @media (max-width: 680px) {
   .cabecera-buscador { flex-basis: 100%; max-width: 100%; }
 }
+
+.filtros-modo { margin-top: -4px; }

@@ -52,6 +52,7 @@ const ORDEN_DEFECTO = { basica: 'ptPorPartido', avanzada: 'vaPorPartido', per36:
 
 export default function Jugadores({ jugadores, grupos, equipos, onVerEquipo, onVerJugador }) {
   const [grupo, setGrupo] = useState('todos');
+  const [equipoFiltro, setEquipoFiltro] = useState('todos');
   const [busqueda, setBusqueda] = useState('');
   const [minPj, setMinPj] = useState(10);
   const [modo, setModo] = useState('basica');
@@ -63,9 +64,23 @@ export default function Jugadores({ jugadores, grupos, equipos, onVerEquipo, onV
 
   const cambiarModo = m => { setModo(m); setOrden({ clave: ORDEN_DEFECTO[m], desc: true }); };
 
+  // Equipos disponibles según el grupo elegido (derivados de los jugadores)
+  const equiposDisponibles = useMemo(() => {
+    const base = grupo === 'todos' ? jugadores : jugadores.filter(j => j.grupo === grupo);
+    const mapa = new Map();
+    base.forEach(j => { if (!mapa.has(j.equipoId)) mapa.set(j.equipoId, j.equipo); });
+    return [...mapa.entries()]
+      .map(([id, nombre]) => ({ id, nombre }))
+      .sort((a, b) => a.nombre.localeCompare(b.nombre));
+  }, [jugadores, grupo]);
+
+  // Al cambiar de grupo, reiniciar el filtro de equipo
+  const cambiarGrupo = g => { setGrupo(g); setEquipoFiltro('todos'); };
+
   const filas = useMemo(() => {
     let f = jugadores.filter(j => j.pj >= minPj);
     if (grupo !== 'todos') f = f.filter(j => j.grupo === grupo);
+    if (equipoFiltro !== 'todos') f = f.filter(j => j.equipoId === equipoFiltro);
     if (busqueda.trim()) {
       const q = busqueda.trim().toLowerCase();
       f = f.filter(j => j.nombre.toLowerCase().includes(q) || j.equipo.toLowerCase().includes(q));
@@ -77,7 +92,7 @@ export default function Jugadores({ jugadores, grupos, equipos, onVerEquipo, onV
       return desc ? vb - va : va - vb;
     });
     return f;
-  }, [jugadores, grupo, busqueda, minPj, orden]);
+  }, [jugadores, grupo, equipoFiltro, busqueda, minPj, orden]);
 
   const clicOrden = clave =>
     setOrden(o => o.clave === clave ? { clave, desc: !o.desc } : { clave, desc: true });
@@ -90,16 +105,22 @@ export default function Jugadores({ jugadores, grupos, equipos, onVerEquipo, onV
           value={busqueda}
           onChange={e => setBusqueda(e.target.value)}
         />
-        <select value={grupo} onChange={e => setGrupo(e.target.value)}>
+        <select value={grupo} onChange={e => cambiarGrupo(e.target.value)}>
           <option value="todos">Todos los grupos</option>
           {grupos.map(g => <option key={g} value={g}>{g}</option>)}
+        </select>
+        <select value={equipoFiltro} onChange={e => setEquipoFiltro(e.target.value)}>
+          <option value="todos">Todos los equipos</option>
+          {equiposDisponibles.map(e => <option key={e.id} value={e.id}>{e.nombre}</option>)}
         </select>
         <label>
           Mín. partidos{' '}
           <input type="number" min="1" max="26" value={minPj}
             onChange={e => setMinPj(+e.target.value || 1)} style={{ width: 60 }} />
         </label>
-        <span className="separador" />
+        </div>
+
+      <div className="filtros filtros-modo">
         <button className={`boton-grupo ${modo === 'basica' ? 'activo' : ''}`}
           onClick={() => cambiarModo('basica')}>Básica</button>
         <button className={`boton-grupo ${modo === 'avanzada' ? 'activo' : ''}`}
