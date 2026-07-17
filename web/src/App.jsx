@@ -8,6 +8,7 @@ import Leyenda from './Leyenda';
 import Jugador from './Jugador';
 import Partido from './Partido';
 import Resultados from './Resultados';
+import Legal from './Legal';
 
 const GRUPOS = ['A-A','A-B','B-A','B-B','C-A','C-B','D-A','D-B','E-A','E-B'];
 const etiquetaTemporada = t => `${t}/${(+t + 1).toString().slice(2)}`;
@@ -24,6 +25,7 @@ export default function App() {
   const [equipoSel, setEquipoSel] = useState(null);
   const [jugadorSel, setJugadorSel] = useState(null);
   const [partidoSel, setPartidoSel] = useState(null);
+  const [legalVisible, setLegalVisible] = useState(false);
   const [cargando, setCargando] = useState(false);
 
   useEffect(() => {
@@ -31,7 +33,6 @@ export default function App() {
       .then(r => r.json())
       .then(ts => { setTemporadas(ts); setTemporada(ts[0]); })
       .catch(err => console.error('Error cargando temporadas:', err));
-    // el histórico es transversal: se carga una vez
     fetch('data/historico.json')
       .then(r => r.json())
       .then(setHistorico)
@@ -55,19 +56,25 @@ export default function App() {
   }, [temporada]);
 
   const verEquipo = equipo => {
-    setEquipoSel(equipo); setJugadorSel(null); setPartidoSel(null); window.scrollTo(0, 0);
+    setEquipoSel(equipo); setJugadorSel(null); setPartidoSel(null); setLegalVisible(false); window.scrollTo(0, 0);
   };
   const verJugador = idJugador => {
     const c = carreras.find(x => x.idJugador === idJugador);
-    if (c) { setJugadorSel(c); setEquipoSel(null); setPartidoSel(null); window.scrollTo(0, 0); }
+    if (c) { setJugadorSel(c); setEquipoSel(null); setPartidoSel(null); setLegalVisible(false); window.scrollTo(0, 0); }
   };
   const verPartido = idPartido => {
     const p = partidos.find(x => x.id === idPartido);
-    if (p) { setPartidoSel(p); setEquipoSel(null); setJugadorSel(null); window.scrollTo(0, 0); }
+    if (p) { setPartidoSel(p); setEquipoSel(null); setJugadorSel(null); setLegalVisible(false); window.scrollTo(0, 0); }
   };
 
-  const irPestana = v => { setVista(v); setEquipoSel(null); setJugadorSel(null); setPartidoSel(null); };
-  const sinSeleccion = !equipoSel && !jugadorSel && !partidoSel;
+  const irPestana = v => {
+    setVista(v); setEquipoSel(null); setJugadorSel(null); setPartidoSel(null); setLegalVisible(false);
+  };
+  const abrirLegal = () => {
+    setLegalVisible(true); setEquipoSel(null); setJugadorSel(null); setPartidoSel(null); window.scrollTo(0, 0);
+  };
+
+  const sinSeleccion = !equipoSel && !jugadorSel && !partidoSel && !legalVisible;
 
   const pestana = (id, texto) => (
     <button className={`pestana ${vista === id && sinSeleccion ? 'activa' : ''}`}
@@ -104,6 +111,8 @@ export default function App() {
 
       {cargando ? (
         <p className="cargando">Cargando datos…</p>
+      ) : legalVisible ? (
+        <Legal />
       ) : partidoSel ? (
         <Partido partido={partidoSel} equipos={equipos}
           onVolver={() => setPartidoSel(null)} onVerEquipo={verEquipo} onVerJugador={verJugador} />
@@ -134,6 +143,8 @@ export default function App() {
       <p className="pie">
         Datos: baloncestoenvivo.feb.es · Cálculos propios · Partidos por
         sanción/incomparecencia excluidos de las métricas
+        {' · '}
+        <span className="enlace" onClick={abrirLegal}>Aviso legal y privacidad</span>
       </p>
     </div>
   );
