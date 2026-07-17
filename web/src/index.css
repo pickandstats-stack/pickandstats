@@ -286,7 +286,7 @@ th.col-a { color: #ffd9c4; }
 .card-sufijo { font-size: 15px; color: var(--tinta-suave); font-weight: 500; }
 .card-nombre { font-weight: 600; margin-top: 4px; display: inline-block; }
 .card-equipo { font-size: 13px; color: var(--tinta-suave); }
-.card-lista { list-style: none; margin: 0; padding: 0; counter-reset: r; }
+.card-lista { list-style: none; margin: 0; padding: 0; counter-reset: r 1; }
 .card-lista li {
   display: flex; justify-content: space-between; gap: 8px;
   font-size: 14px; padding: 3px 0; counter-increment: r;
