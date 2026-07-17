@@ -9,18 +9,19 @@ const etiquetaTemp = t => `${t}/${(+t + 1).toString().slice(2)}`;
 const COLOR = { tinta: '#16233a', acento: '#e8622c' };
 
 export default function Jugador({ carrera, historico, equipos, onVolver, onVerEquipo }) {
+  const soloHistorico = carrera.soloHistorico === true;
   const multiEtapa = carrera.nEtapas > 1;
 
-  const evolucion = useMemo(() =>
-    carrera.etapas
+  const evolucion = useMemo(() => {
+    if (soloHistorico || !carrera.etapas) return [];
+    return carrera.etapas
       .flatMap(e => e.evolucion.map(p => ({
         jornada: numJornada(p.jornada),
         pt: p.pt, va: p.va, min: Math.round(p.seg / 60), equipo: e.equipo
       })))
-      .sort((a, b) => a.jornada - b.jornada),
-    [carrera]);
+      .sort((a, b) => a.jornada - b.jornada);
+  }, [carrera, soloHistorico]);
 
-  // Trayectoria histórica: array de años ordenado
   const trayectoria = useMemo(() => {
     if (!historico || !historico.temporadas) return [];
     return Object.entries(historico.temporadas)
@@ -42,6 +43,15 @@ export default function Jugador({ carrera, historico, equipos, onVolver, onVerEq
       : etapa.equipo;
   };
 
+  // Cabecera: para jugador activo, sus etapas; para histórico, su última temporada registrada
+  const subtitulo = soloHistorico
+    ? `Última temporada registrada: ${etiquetaTemp(carrera.ultimaTemporada)} · no juega en la temporada seleccionada`
+    : null;
+
+  const tituloProduccion = soloHistorico
+    ? `Temporada ${etiquetaTemp(carrera.ultimaTemporada)} · Producción`
+    : 'Temporada actual · Producción';
+
   return (
     <div>
       <button className="boton-mas" onClick={onVolver}>← Volver</button>
@@ -50,17 +60,21 @@ export default function Jugador({ carrera, historico, equipos, onVolver, onVerEq
         <div>
           <h2 className="ficha-nombre">{carrera.nombre}</h2>
           <p className="lema">
-            {carrera.etapas.map((e, i) => (
-              <span key={e.equipoId}>
-                {i > 0 && ' → '}
-                {enlaceEquipo(e)} · {e.grupo}
-              </span>
-            ))}
-            {multiEtapa && '  ·  (totales combinados de todas las etapas)'}
+            {soloHistorico ? subtitulo : (
+              <>
+                {carrera.etapas.map((e, i) => (
+                  <span key={e.equipoId}>
+                    {i > 0 && ' → '}
+                    {enlaceEquipo(e)} · {e.grupo}
+                  </span>
+                ))}
+                {multiEtapa && '  ·  (totales combinados de todas las etapas)'}
+              </>
+            )}
           </p>
         </div>
         <div className="datos-bloque">
-          <div className="datos-titulo">Temporada actual · Producción</div>
+          <div className="datos-titulo">{tituloProduccion}</div>
           <div className="datos">
             {dato('PJ', carrera.pj)}
             {dato('MIN', carrera.minPorPartido)}
@@ -84,12 +98,51 @@ export default function Jugador({ carrera, historico, equipos, onVolver, onVerEq
             {dato('TR', carrera.tcoPorPartido)}
             {dato('FC', carrera.fcPorPartido)}
             {dato('FR', carrera.frPorPartido)}
-            {dato('+/-', carrera.pm)}
+            {!soloHistorico && dato('+/-', carrera.pm)}
           </div>
         </div>
       </div>
 
-      {trayectoria.length > 1 && (
+      {/* Estadística completa de la temporada actual — justo bajo la cabecera */}
+      {!soloHistorico && (
+        <>
+          <h3 className="seccion">{multiEtapa ? 'Etapas · temporada actual' : 'Estadística completa · temporada actual'}</h3>
+          <div className="tabla-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th className="izq">Equipo</th><th className="izq">Grupo</th>
+                  <th>PJ</th><th>MIN</th><th>PTS</th><th>RO</th><th>RD</th><th>REB</th>
+                  <th>AST</th><th>ROB</th><th>BP</th><th>TAP</th><th>FC</th><th>FR</th>
+                  <th>T2</th><th>T3</th><th>TL</th>
+                  <th>VAL</th><th>TS%</th><th>eFG%</th><th>USG%</th><th>+/-</th>
+                </tr>
+              </thead>
+              <tbody>
+                {carrera.etapas.map(e => (
+                  <tr key={e.equipoId}>
+                    <td className="izq">{enlaceEquipo(e)}</td>
+                    <td className="izq">{e.grupo}</td>
+                    <td>{e.pj}</td><td>{e.minPorPartido}</td><td>{e.ptPorPartido}</td>
+                    <td>{e.roPorPartido}</td><td>{e.rdPorPartido}</td><td>{e.rtPorPartido}</td>
+                    <td>{e.asPorPartido}</td><td>{e.brPorPartido}</td><td>{e.bpPorPartido}</td>
+                    <td>{e.tpPorPartido}</td><td>{e.fcPorPartido}</td><td>{e.frPorPartido}</td>
+                    <td>{e.t2} ({e.t2Pct}%)</td><td>{e.t3} ({e.t3Pct}%)</td><td>{e.tl} ({e.tlPct}%)</td>
+                    <td>{e.vaPorPartido}</td><td>{e.ts}</td><td>{e.efg}</td><td>{e.usg}</td><td>{e.pm}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="pie">
+            Los tiros (T2, T3, TL) se muestran como anotados/intentados totales de la etapa,
+            con el porcentaje entre paréntesis. El resto son medias por partido.
+          </p>
+        </>
+      )}
+
+      {/* Trayectoria histórica */}
+      {trayectoria.length >= 1 && (
         <>
           <h3 className="seccion">Trayectoria por temporada</h3>
           <div className="tabla-scroll tabla-ancha">
@@ -119,7 +172,7 @@ export default function Jugador({ carrera, historico, equipos, onVolver, onVerEq
                   </tr>
                 ))}
               </tbody>
-		<tfoot>
+              <tfoot>
                 <tr className="fila-total">
                   <td className="izq">CARRERA</td>
                   <td className="izq">{historico.carrera.nTemporadas} temporadas</td>
@@ -143,7 +196,6 @@ export default function Jugador({ carrera, historico, equipos, onVolver, onVerEq
                   <td>{historico.carrera.ts}</td>
                 </tr>
               </tfoot>
-            
             </table>
           </div>
 
@@ -169,59 +221,39 @@ export default function Jugador({ carrera, historico, equipos, onVolver, onVerEq
         </>
       )}
 
-      <h3 className="seccion">Evolución por jornada · temporada actual</h3>
-      <div className="panel-grafico">
-        <ResponsiveContainer width="100%" height={280}>
-          <LineChart data={evolucion} margin={{ top: 8, right: 12, left: -14, bottom: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#e3e6eb" />
-            <XAxis dataKey="jornada" tick={{ fontSize: 12 }} />
-            <YAxis tick={{ fontSize: 12 }} />
-            <Tooltip
-              formatter={(v, nombre) => [v, nombre === 'pt' ? 'Puntos' : 'Valoración']}
-              labelFormatter={(j, datos) => {
-                const d = datos && datos[0] && datos[0].payload;
-                return `Jornada ${j}${d ? ` · ${d.equipo} · ${d.min} min` : ''}`;
-              }}
-            />
-            <Legend formatter={v => v === 'pt' ? 'Puntos' : 'Valoración'} />
-            <Line type="monotone" dataKey="pt" stroke={COLOR.acento} strokeWidth={2.5} dot={{ r: 3 }} />
-            <Line type="monotone" dataKey="va" stroke={COLOR.tinta} strokeWidth={2} dot={{ r: 3 }} strokeDasharray="4 3" />
-          </LineChart>
-        </ResponsiveContainer>
-      </div>
+      {/* Evolución por jornada — solo para jugador de la temporada activa */}
+      {!soloHistorico && (
+        <>
+          <h3 className="seccion">Evolución por jornada · temporada actual</h3>
+          <div className="panel-grafico">
+            <ResponsiveContainer width="100%" height={280}>
+              <LineChart data={evolucion} margin={{ top: 8, right: 12, left: -14, bottom: 0 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#e3e6eb" />
+                <XAxis dataKey="jornada" tick={{ fontSize: 12 }} />
+                <YAxis tick={{ fontSize: 12 }} />
+                <Tooltip
+                  formatter={(v, nombre) => [v, nombre === 'pt' ? 'Puntos' : 'Valoración']}
+                  labelFormatter={(j, datos) => {
+                    const d = datos && datos[0] && datos[0].payload;
+                    return `Jornada ${j}${d ? ` · ${d.equipo} · ${d.min} min` : ''}`;
+                  }}
+                />
+                <Legend formatter={v => v === 'pt' ? 'Puntos' : 'Valoración'} />
+                <Line type="monotone" dataKey="pt" stroke={COLOR.acento} strokeWidth={2.5} dot={{ r: 3 }} />
+                <Line type="monotone" dataKey="va" stroke={COLOR.tinta} strokeWidth={2} dot={{ r: 3 }} strokeDasharray="4 3" />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </>
+      )}
 
-      <h3 className="seccion">{multiEtapa ? 'Etapas · temporada actual' : 'Estadística completa'}</h3>
-      <div className="tabla-scroll tabla-ancha">
-        <table>
-          <thead>
-            <tr>
-              <th className="izq">Equipo</th><th className="izq">Grupo</th>
-              <th>PJ</th><th>MIN</th><th>PTS</th><th>RO</th><th>RD</th><th>REB</th>
-              <th>AST</th><th>ROB</th><th>BP</th><th>TAP</th><th>FC</th><th>FR</th>
-              <th>T2</th><th>T3</th><th>TL</th>
-              <th>VAL</th><th>TS%</th><th>eFG%</th><th>USG%</th><th>+/-</th>
-            </tr>
-          </thead>
-          <tbody>
-            {carrera.etapas.map(e => (
-              <tr key={e.equipoId}>
-                <td className="izq">{enlaceEquipo(e)}</td>
-                <td className="izq">{e.grupo}</td>
-                <td>{e.pj}</td><td>{e.minPorPartido}</td><td>{e.ptPorPartido}</td>
-                <td>{e.roPorPartido}</td><td>{e.rdPorPartido}</td><td>{e.rtPorPartido}</td>
-                <td>{e.asPorPartido}</td><td>{e.brPorPartido}</td><td>{e.bpPorPartido}</td>
-                <td>{e.tpPorPartido}</td><td>{e.fcPorPartido}</td><td>{e.frPorPartido}</td>
-                <td>{e.t2} ({e.t2Pct}%)</td><td>{e.t3} ({e.t3Pct}%)</td><td>{e.tl} ({e.tlPct}%)</td>
-                <td>{e.vaPorPartido}</td><td>{e.ts}</td><td>{e.efg}</td><td>{e.usg}</td><td>{e.pm}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <p className="pie">
-        Los tiros (T2, T3, TL) se muestran como anotados/intentados totales de la etapa,
-        con el porcentaje entre paréntesis. El resto son medias por partido.
-      </p>
+      {soloHistorico && (
+        <p className="pie">
+          Este jugador no aparece en la temporada seleccionada. Se muestra su trayectoria
+          en las temporadas registradas. Para ver su detalle por jornada, selecciona una
+          temporada en la que haya jugado.
+        </p>
+      )}
     </div>
   );
 }
