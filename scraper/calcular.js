@@ -1,5 +1,5 @@
 // Cálculo de estadísticas (básicas + avanzadas) desde data/raw -> data/processed
-// Uso: node scraper/calcular.js [--temporada 2025]
+// Agrega jugadores por licencia FEB (idJugador). Uso: node scraper/calcular.js [--temporada 2025]
 const fs = require('fs');
 const path = require('path');
 
@@ -57,7 +57,7 @@ const posesiones = t => tci(t) - t.ro + t.bp + 0.44 * t.tli;
 
 // ---------- agregación ----------
 const equipos = {};
-const jugadores = {};
+const jugadores = {};   // clave: idJugador|equipoId (etapa)
 const rivalesDe = {};
 
 function initEquipo(id, nombre, grupo) {
@@ -81,8 +81,9 @@ function acumular(eq, t, tRival, esLocal, gano, jor) {
 }
 
 function acumularJugador(j, equipoId, equipoNombre, grupo, jornada, idPartido) {
-  const clave = `${equipoId}|${j.nombre}`;
-  if (!jugadores[clave]) jugadores[clave] = { nombre: j.nombre, dorsal: j.dorsal,
+  const idJ = j.idJugador || `sin-id:${j.nombre}`;
+  const clave = `${idJ}|${equipoId}`;
+  if (!jugadores[clave]) jugadores[clave] = { idJugador: idJ, nombre: j.nombre, dorsal: j.dorsal,
     equipoId, equipo: equipoNombre, grupo, pj: 0, titular: 0, seg: 0,
     pt:0, t2a:0,t2i:0,t3a:0,t3i:0,tla:0,tli:0, ro:0,rd:0,rt:0,as:0,br:0,bp:0,
     tf:0,tco:0,fc:0,fr:0,va:0,pm:0, partidos: [] };
@@ -111,7 +112,7 @@ for (const p of partidos) {
   p.boxscore.visitante.forEach(j => acumularJugador(j, p.equipoVisitante.id, p.equipoVisitante.nombre, p.grupo, p.jornada, p.id));
 }
 
-// ---------- SRS (rating ajustado por calendario, por grupo) ----------
+// ---------- SRS ----------
 const net = {};
 for (const e of Object.values(equipos))
   net[e.id] = 100 * e.pf / e.pos - 100 * e.pc / e.posRival;
@@ -139,7 +140,6 @@ const salidaEquipos = Object.values(equipos).map(e => {
     pj: e.pj, pg: e.pg, pp: e.pj - e.pg,
     pf: e.pf, pc: e.pc,
     casa: e.casa, fuera: e.fuera,
-    // ---- básica ----
     pfPartido: r1(e.pf / e.pj),
     pcPartido: r1(e.pc / e.pj),
     difPartido: r1((e.pf - e.pc) / e.pj),
@@ -156,7 +156,6 @@ const salidaEquipos = Object.values(equipos).map(e => {
     frPartido: r1(r.fc / e.pj),
     tapFavor: r1(t.tf / e.pj),
     tapContra: r1(t.tco / e.pj),
-    // ---- avanzada ----
     pace: r2(e.pos / e.pj),
     ortg: r2(100 * e.pf / e.pos),
     drtg: r2(100 * e.pc / e.posRival),
@@ -185,21 +184,25 @@ const salidaEquipos = Object.values(equipos).map(e => {
   };
 }).sort((a, b) => a.grupo.localeCompare(b.grupo) || b.netrtg - a.netrtg);
 
-// ---------- salida jugadores ----------
-const salidaJugadores = Object.values(jugadores).map(J => {
+// ---------- salida jugadores (una fila por etapa jugador-equipo) ----------
+function filaJugador(J) {
   const min = J.seg / 60;
   const tciJ = J.t2i + J.t3i;
   const tcaJ = J.t2a + J.t3a;
   const eq = equipos[J.equipoId];
-  const usg = min > 0 ? 100 * ((tciJ + 0.44 * J.tli + J.bp) * (eq.t.seg / 60 / 5)) /
+  const usg = min > 0 && eq ? 100 * ((tciJ + 0.44 * J.tli + J.bp) * (eq.t.seg / 60 / 5)) /
     (min * (tci(eq.t) + 0.44 * eq.t.tli + eq.t.bp)) : 0;
   const per36 = v => min > 0 ? r2(v * 36 / min) : 0;
   const porPartido = v => r2(v / J.pj);
   return {
+    idJugador: J.idJugador,
     nombre: J.nombre, dorsal: J.dorsal, equipo: J.equipo, equipoId: J.equipoId, grupo: J.grupo,
     pj: J.pj, titular: J.titular, minTotales: r2(min), minPorPartido: r2(min / J.pj),
-    pt: J.pt, rt: J.rt, as: J.as, br: J.br, bp: J.bp, va: J.va, pm: J.pm, tf: J.tf,
-    // ---- básica por partido ----
+    // totales en bruto (para agregar carreras)
+    pt: J.pt, ro: J.ro, rd: J.rd, rt: J.rt, as: J.as, br: J.br, bp: J.bp,
+    tfTot: J.tf, tcoTot: J.tco, fcTot: J.fc, frTot: J.fr, va: J.va, pm: J.pm,
+    t2a: J.t2a, t2i: J.t2i, t3a: J.t3a, t3i: J.t3i, tla: J.tla, tli: J.tli,
+    // básica por partido
     ptPorPartido: porPartido(J.pt),
     roPorPartido: porPartido(J.ro),
     rdPorPartido: porPartido(J.rd),
@@ -212,21 +215,70 @@ const salidaJugadores = Object.values(jugadores).map(J => {
     fcPorPartido: porPartido(J.fc),
     frPorPartido: porPartido(J.fr),
     vaPorPartido: porPartido(J.va),
-    // ---- tiro clásico ----
+    // tiro clásico
     t2: `${J.t2a}/${J.t2i}`,
     t3: `${J.t3a}/${J.t3i}`,
     tl: `${J.tla}/${J.tli}`,
     t2Pct: J.t2i > 0 ? r2(100 * J.t2a / J.t2i) : 0,
     t3Pct: J.t3i > 0 ? r2(100 * J.t3a / J.t3i) : 0,
     tlPct: J.tli > 0 ? r2(100 * J.tla / J.tli) : 0,
-    // ---- avanzada ----
+    // avanzada
     ts: tciJ + 0.44 * J.tli > 0 ? r2(100 * J.pt / (2 * (tciJ + 0.44 * J.tli))) : 0,
     efg: tciJ > 0 ? r2(100 * (tcaJ + 0.5 * J.t3a) / tciJ) : 0,
     usg: r2(usg),
     per36: { pt: per36(J.pt), rt: per36(J.rt), as: per36(J.as), br: per36(J.br), va: per36(J.va) },
     evolucion: J.partidos
   };
+}
+const salidaJugadores = Object.values(jugadores).map(filaJugador)
+  .sort((a, b) => b.vaPorPartido - a.vaPorPartido);
+
+// ---------- carreras: una entrada por licencia, con básica completa ----------
+const porLicencia = {};
+for (const fila of salidaJugadores) {
+  const id = fila.idJugador;
+  if (!porLicencia[id]) porLicencia[id] = { idJugador: id, nombre: fila.nombre, etapas: [] };
+  porLicencia[id].etapas.push(fila);
+}
+const carreras = Object.values(porLicencia).map(c => {
+  const tot = k => c.etapas.reduce((a, e) => a + e[k], 0);
+  const pj = tot('pj');
+  const min = tot('minTotales');
+  const t2a = tot('t2a'), t2i = tot('t2i'), t3a = tot('t3a'), t3i = tot('t3i');
+  const tla = tot('tla'), tli = tot('tli');
+  const pt = tot('pt');
+  const tciC = t2i + t3i, tcaC = t2a + t3a;
+  const pp = k => r2(tot(k) / pj);
+  return {
+    idJugador: c.idJugador,
+    nombre: c.nombre,
+    equipos: c.etapas.map(e => `${e.equipo} (${e.grupo})`),
+    nEtapas: c.etapas.length,
+    pj,
+    minPorPartido: r2(min / pj),
+    ptPorPartido: pp('pt'),
+    roPorPartido: pp('ro'),
+    rdPorPartido: pp('rd'),
+    rtPorPartido: pp('rt'),
+    asPorPartido: pp('as'),
+    brPorPartido: pp('br'),
+    bpPorPartido: pp('bp'),
+    tpPorPartido: pp('tfTot'),
+    tcoPorPartido: pp('tcoTot'),
+    fcPorPartido: pp('fcTot'),
+    frPorPartido: pp('frTot'),
+    vaPorPartido: pp('va'),
+    pm: tot('pm'),
+    t2Pct: t2i > 0 ? r2(100 * t2a / t2i) : 0,
+    t3Pct: t3i > 0 ? r2(100 * t3a / t3i) : 0,
+    tlPct: tli > 0 ? r2(100 * tla / tli) : 0,
+    ts: tciC + 0.44 * tli > 0 ? r2(100 * pt / (2 * (tciC + 0.44 * tli))) : 0,
+    efg: tciC > 0 ? r2(100 * (tcaC + 0.5 * t3a) / tciC) : 0,
+    etapas: c.etapas
+  };
 }).sort((a, b) => b.vaPorPartido - a.vaPorPartido);
+
+const traspasados = carreras.filter(c => c.nEtapas > 1);
 
 // ---------- partidos ----------
 const salidaPartidos = partidos.map(p => ({
@@ -237,10 +289,12 @@ const salidaPartidos = partidos.map(p => ({
 // ---------- escritura ----------
 fs.writeFileSync(path.join(DIR_OUT, 'equipos.json'), JSON.stringify(salidaEquipos, null, 1));
 fs.writeFileSync(path.join(DIR_OUT, 'jugadores.json'), JSON.stringify(salidaJugadores, null, 1));
+fs.writeFileSync(path.join(DIR_OUT, 'carreras.json'), JSON.stringify(carreras, null, 1));
 fs.writeFileSync(path.join(DIR_OUT, 'partidos.json'), JSON.stringify(salidaPartidos, null, 1));
 fs.writeFileSync(path.join(DIR_OUT, 'excluidos.json'), JSON.stringify(excluidos, null, 1));
 
-console.log(`Equipos: ${salidaEquipos.length} | Jugadores: ${salidaJugadores.length} | Partidos: ${salidaPartidos.length}`);
-console.log('Campos básicos de equipo exportados: pfPartido, pcPartido, difPartido, T2/T3/TL%, RO, RD, REB, AST, ROB, BP, FC, FR, TAP, TR');
+const sinId = salidaJugadores.filter(j => String(j.idJugador).startsWith('sin-id:')).length;
+console.log(`Equipos: ${salidaEquipos.length} | Filas jugador-equipo: ${salidaJugadores.length} | Licencias únicas: ${carreras.length}`);
+console.log(`Jugadores con más de una etapa: ${traspasados.length} | Filas sin ID: ${sinId}`);
 console.log('\n=== Partidos excluidos ===');
 excluidos.forEach(e => console.log(`  ${e.grupo} ${e.jornada}: ${e.partido} (${e.resultado})`));

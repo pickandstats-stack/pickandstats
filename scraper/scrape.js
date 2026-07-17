@@ -65,7 +65,10 @@ function parsearBoxscore($, tabla) {
     $(tr).find('td, th').each((j, td) => c.push($(td).text().trim()));
     if (c.length < 20 || !c[2] || /jugador/i.test(c[2])) return;
     if (/total|equipo/i.test(c[2]) && !c[1]) return;
+    const enlace = $(tr).find('a[href*="Jugador.aspx"]').attr('href') || '';
+    const idJugador = (enlace.match(/[?&]c=(\d+)/) || [])[1] || null;
     jugadores.push({
+      idJugador,
       titular: c[0] === '*',
       dorsal: c[1],
       nombre: c[2],

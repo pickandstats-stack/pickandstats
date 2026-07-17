@@ -1,9 +1,10 @@
-import Leyenda from './Leyenda';
-import Comparador from './Comparador';
 import { useEffect, useState } from 'react';
 import Equipos from './Equipos';
 import Jugadores from './Jugadores';
 import Equipo from './Equipo';
+import Comparador from './Comparador';
+import Leyenda from './Leyenda';
+import Jugador from './Jugador';
 
 const GRUPOS = ['A-A','A-B','B-A','B-B','C-A','C-B','D-A','D-B','E-A','E-B'];
 const etiquetaTemporada = t => `${t}/${(+t + 1).toString().slice(2)}`;
@@ -13,9 +14,11 @@ export default function App() {
   const [temporada, setTemporada] = useState(null);
   const [equipos, setEquipos] = useState([]);
   const [jugadores, setJugadores] = useState([]);
+  const [carreras, setCarreras] = useState([]);
   const [partidos, setPartidos] = useState([]);
   const [vista, setVista] = useState('equipos');
   const [equipoSel, setEquipoSel] = useState(null);
+  const [jugadorSel, setJugadorSel] = useState(null);
   const [cargando, setCargando] = useState(false);
 
   useEffect(() => {
@@ -31,16 +34,31 @@ export default function App() {
     Promise.all([
       fetch(`data/${temporada}/equipos.json`).then(r => r.json()),
       fetch(`data/${temporada}/jugadores.json`).then(r => r.json()),
+      fetch(`data/${temporada}/carreras.json`).then(r => r.json()),
       fetch(`data/${temporada}/partidos.json`).then(r => r.json())
     ])
-      .then(([eq, jug, par]) => {
-        setEquipos(eq); setJugadores(jug); setPartidos(par);
-        setEquipoSel(null); setCargando(false);
+      .then(([eq, jug, car, par]) => {
+        setEquipos(eq); setJugadores(jug); setCarreras(car); setPartidos(par);
+        setEquipoSel(null); setJugadorSel(null); setCargando(false);
       })
       .catch(err => { console.error('Error cargando datos:', err); setCargando(false); });
   }, [temporada]);
 
-  const verEquipo = equipo => { setEquipoSel(equipo); window.scrollTo(0, 0); };
+  const verEquipo = equipo => {
+    setEquipoSel(equipo); setJugadorSel(null); window.scrollTo(0, 0);
+  };
+
+  const verJugador = idJugador => {
+    const c = carreras.find(x => x.idJugador === idJugador);
+    if (c) { setJugadorSel(c); setEquipoSel(null); window.scrollTo(0, 0); }
+  };
+
+  const irPestana = v => { setVista(v); setEquipoSel(null); setJugadorSel(null); };
+
+  const pestana = (id, texto) => (
+    <button className={`pestana ${vista === id && !equipoSel && !jugadorSel ? 'activa' : ''}`}
+      onClick={() => irPestana(id)}>{texto}</button>
+  );
 
   return (
     <div className="contenedor">
@@ -58,25 +76,26 @@ export default function App() {
       </div>
 
       <div className="pestanas">
-        <button className={`pestana ${vista === 'equipos' && !equipoSel ? 'activa' : ''}`}
-          onClick={() => { setVista('equipos'); setEquipoSel(null); }}>Equipos</button>
-        <button className={`pestana ${vista === 'jugadores' && !equipoSel ? 'activa' : ''}`}
-          onClick={() => { setVista('jugadores'); setEquipoSel(null); }}>Jugadores</button>
-      	<button className={`pestana ${vista === 'comparador' && !equipoSel ? 'activa' : ''}`}
-          onClick={() => { setVista('comparador'); setEquipoSel(null); }}>Comparador</button>
-	<button className={`pestana ${vista === 'leyenda' && !equipoSel ? 'activa' : ''}`}
-          onClick={() => { setVista('leyenda'); setEquipoSel(null); }}>Leyenda</button>
-	</div>
+        {pestana('equipos', 'Equipos')}
+        {pestana('jugadores', 'Jugadores')}
+        {pestana('comparador', 'Comparador')}
+        {pestana('leyenda', 'Leyenda')}
+      </div>
 
       {cargando ? (
         <p className="cargando">Cargando datos…</p>
+      ) : jugadorSel ? (
+        <Jugador carrera={jugadorSel} equipos={equipos}
+          onVolver={() => setJugadorSel(null)} onVerEquipo={verEquipo} />
       ) : equipoSel ? (
         <Equipo equipo={equipoSel} jugadores={jugadores} partidos={partidos}
-          equipos={equipos} onVolver={() => setEquipoSel(null)} onVerEquipo={verEquipo} />
+          equipos={equipos} onVolver={() => setEquipoSel(null)}
+          onVerEquipo={verEquipo} onVerJugador={verJugador} />
       ) : vista === 'equipos' ? (
         <Equipos equipos={equipos} grupos={GRUPOS} onVerEquipo={verEquipo} />
       ) : vista === 'jugadores' ? (
-        <Jugadores jugadores={jugadores} grupos={GRUPOS} equipos={equipos} onVerEquipo={verEquipo} />
+        <Jugadores jugadores={jugadores} grupos={GRUPOS} equipos={equipos}
+          onVerEquipo={verEquipo} onVerJugador={verJugador} />
       ) : vista === 'comparador' ? (
         <Comparador equipos={equipos} grupos={GRUPOS} />
       ) : (

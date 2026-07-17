@@ -50,7 +50,7 @@ const MODOS = {
 
 const ORDEN_DEFECTO = { basica: 'ptPorPartido', avanzada: 'vaPorPartido', per36: 'per36.va' };
 
-export default function Jugadores({ jugadores, grupos, equipos, onVerEquipo }) {
+export default function Jugadores({ jugadores, grupos, equipos, onVerEquipo, onVerJugador }) {
   const [grupo, setGrupo] = useState('todos');
   const [busqueda, setBusqueda] = useState('');
   const [minPj, setMinPj] = useState(10);
@@ -132,6 +132,8 @@ export default function Jugadores({ jugadores, grupos, equipos, onVerEquipo }) {
                           const eq = equipos.find(x => x.id === j.equipoId);
                           if (eq) onVerEquipo(eq);
                         }}>{j.equipo}</span>
+                      : c.clave === 'nombre'
+                      ? <span className="enlace" onClick={() => onVerJugador(j.idJugador)}>{j.nombre}</span>
                       : valor(j, c.clave)}
                   </td>
                 ))}
