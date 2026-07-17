@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Inicio from './Inicio';
 import Equipos from './Equipos';
 import Jugadores from './Jugadores';
 import Equipo from './Equipo';
@@ -16,7 +17,7 @@ export default function App() {
   const [jugadores, setJugadores] = useState([]);
   const [carreras, setCarreras] = useState([]);
   const [partidos, setPartidos] = useState([]);
-  const [vista, setVista] = useState('equipos');
+  const [vista, setVista] = useState('inicio');
   const [equipoSel, setEquipoSel] = useState(null);
   const [jugadorSel, setJugadorSel] = useState(null);
   const [cargando, setCargando] = useState(false);
@@ -76,6 +77,7 @@ export default function App() {
       </div>
 
       <div className="pestanas">
+        {pestana('inicio', 'Inicio')}
         {pestana('equipos', 'Equipos')}
         {pestana('jugadores', 'Jugadores')}
         {pestana('comparador', 'Comparador')}
@@ -91,6 +93,9 @@ export default function App() {
         <Equipo equipo={equipoSel} jugadores={jugadores} partidos={partidos}
           equipos={equipos} onVolver={() => setEquipoSel(null)}
           onVerEquipo={verEquipo} onVerJugador={verJugador} />
+      ) : vista === 'inicio' ? (
+        <Inicio equipos={equipos} jugadores={jugadores} partidos={partidos}
+          temporada={temporada} onVerEquipo={verEquipo} onVerJugador={verJugador} />
       ) : vista === 'equipos' ? (
         <Equipos equipos={equipos} grupos={GRUPOS} onVerEquipo={verEquipo} />
       ) : vista === 'jugadores' ? (

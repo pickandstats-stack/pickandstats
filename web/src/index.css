@@ -229,3 +229,79 @@ th.col-a { color: #ffd9c4; }
 .leyenda-texto { color: var(--tinta-suave); font-size: 14px; }
 
 .separador { width: 1px; align-self: stretch; background: var(--linea); margin: 0 6px; }
+
+/* ---- portada ---- */
+.inicio-intro { color: var(--tinta-suave); margin: 12px 0 4px; max-width: 640px; }
+
+.cards-lideres {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+}
+.card-lider {
+  background: var(--panel);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  padding: 14px 16px;
+}
+.card-titulo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .7px;
+  color: var(--tinta-suave);
+}
+.card-cabeza { margin: 6px 0 10px; padding-bottom: 10px; border-bottom: 1px solid var(--linea); }
+.card-valor {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--acento);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.card-sufijo { font-size: 15px; color: var(--tinta-suave); font-weight: 500; }
+.card-nombre { font-weight: 600; margin-top: 4px; display: inline-block; }
+.card-equipo { font-size: 13px; color: var(--tinta-suave); }
+.card-lista { list-style: none; margin: 0; padding: 0; counter-reset: r; }
+.card-lista li {
+  display: flex; justify-content: space-between; gap: 8px;
+  font-size: 14px; padding: 3px 0; counter-increment: r;
+}
+.card-lista li::before { content: counter(r) "."; color: var(--tinta-suave); margin-right: 6px; }
+.card-mini-val { font-variant-numeric: tabular-nums; color: var(--tinta-suave); }
+
+.inicio-dos-col {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 720px) { .inicio-dos-col { grid-template-columns: 1fr; } }
+
+.resultados-recientes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.resultado-card {
+  background: var(--panel);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  padding: 10px 12px;
+}
+.resultado-grupo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 600; letter-spacing: .5px;
+  color: var(--tinta-suave); text-transform: uppercase; margin-bottom: 4px;
+}
+.resultado-linea {
+  display: flex; justify-content: space-between; gap: 8px;
+  padding: 2px 0; color: var(--tinta-suave);
+}
+.resultado-linea.gana { color: var(--tinta); font-weight: 600; }
+.resultado-marca { font-variant-numeric: tabular-nums; }
+
+.filtro-grupos { margin: 12px 0 4px; }
+.filtro-grupos-botones { display: flex; flex-wrap: wrap; gap: 6px; }
+.card-vacio { color: var(--tinta-suave); font-size: 14px; margin: 10px 0; }
