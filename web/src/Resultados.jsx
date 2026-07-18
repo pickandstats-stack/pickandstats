@@ -6,7 +6,6 @@ const etiquetaJornada = j => (String(j).match(/Jornada\s*\d+\s*\([^)]*\)/) || [j
 export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onVerPartido }) {
   const [grupo, setGrupo] = useState('E-A');
 
-  // Partidos del grupo, agrupados por número de jornada
   const porJornada = useMemo(() => {
     const m = new Map();
     partidos.filter(p => p.grupo === grupo).forEach(p => {
@@ -24,27 +23,100 @@ export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onV
 
   const jornadaData = porJornada.find(([n]) => n === jornadaActiva);
 
-  // Clasificación acumulada hasta la jornada activa (incluida)
   const clasificacion = useMemo(() => {
+    // Partidos válidos (disputados) del grupo hasta la jornada activa
+    const jugados = partidos
+      .filter(p => p.grupo === grupo && numJornada(p.jornada) <= jornadaActiva)
+      .map(p => {
+        const [gl, gv] = p.resultado.split('-').map(Number);
+        return { p, gl, gv };
+      })
+      .filter(({ gl, gv }) => !isNaN(gl) && !isNaN(gv));
+
+    // Totales generales por equipo
     const tab = {};
     const nombreEq = {};
-    partidos.filter(p => p.grupo === grupo && numJornada(p.jornada) <= jornadaActiva)
-      .forEach(p => {
-        const [gl, gv] = p.resultado.split('-').map(Number);
-        if (isNaN(gl) || isNaN(gv)) return;
-        for (const lado of ['local', 'visitante']) {
-          const eq = p[lado];
-          if (!tab[eq.id]) tab[eq.id] = { id: eq.id, pj: 0, pg: 0, pp: 0, pf: 0, pc: 0 };
-          nombreEq[eq.id] = eq.nombre;
+    for (const { p, gl, gv } of jugados) {
+      for (const lado of ['local', 'visitante']) {
+        const eq = p[lado];
+        if (!tab[eq.id]) tab[eq.id] = { id: eq.id, pj: 0, pg: 0, pp: 0, pf: 0, pc: 0 };
+        nombreEq[eq.id] = eq.nombre;
+      }
+      const L = tab[p.local.id], V = tab[p.visitante.id];
+      L.pj++; V.pj++;
+      L.pf += gl; L.pc += gv; V.pf += gv; V.pc += gl;
+      if (gl > gv) { L.pg++; V.pp++; } else { V.pg++; L.pp++; }
+    }
+
+    const equiposArr = Object.values(tab).map(e => ({ ...e, nombre: nombreEq[e.id], dif: e.pf - e.pc }));
+
+    // --- Average particular ---
+    // Dada una lista de ids empatados, calcula su mini-clasificación
+    // usando SOLO los partidos entre ellos. Devuelve un mapa id -> {pg, dif, pf}
+    const calcularParticular = (ids) => {
+      const set = new Set(ids);
+      const mini = {};
+      ids.forEach(id => { mini[id] = { id, pg: 0, dif: 0, pf: 0 }; });
+      for (const { p, gl, gv } of jugados) {
+        if (set.has(p.local.id) && set.has(p.visitante.id)) {
+          const L = mini[p.local.id], V = mini[p.visitante.id];
+          L.pf += gl; V.pf += gv;
+          L.dif += (gl - gv); V.dif += (gv - gl);
+          if (gl > gv) L.pg++; else V.pg++;
         }
-        const L = tab[p.local.id], V = tab[p.visitante.id];
-        L.pj++; V.pj++;
-        L.pf += gl; L.pc += gv; V.pf += gv; V.pc += gl;
-        if (gl > gv) { L.pg++; V.pp++; } else { V.pg++; L.pp++; }
+      }
+      return mini;
+    };
+
+    // Ordena un conjunto de equipos empatados a victorias aplicando el average
+    // particular de forma iterativa (resuelve empates de 2, 3 o más).
+    const ordenarEmpatados = (grupoEmpatado) => {
+      if (grupoEmpatado.length === 1) return grupoEmpatado;
+      const ids = grupoEmpatado.map(e => e.id);
+      const mini = calcularParticular(ids);
+
+      // ordenar por: victorias particulares, luego dif particular, luego dif general, luego pf general
+      const ordenados = [...grupoEmpatado].sort((a, b) => {
+        const ma = mini[a.id], mb = mini[b.id];
+        return mb.pg - ma.pg || mb.dif - ma.dif || b.dif - a.dif || b.pf - a.pf;
       });
-    return Object.values(tab).map(e => ({
-      ...e, nombre: nombreEq[e.id], dif: e.pf - e.pc
-    })).sort((a, b) => b.pg - a.pg || b.dif - a.dif || b.pf - a.pf);
+
+      // detectar si el average particular ha dejado subgrupos aún empatados
+      // (mismos pg y dif particulares) para re-resolverlos recursivamente
+      const resultado = [];
+      let i = 0;
+      while (i < ordenados.length) {
+        let j = i + 1;
+        while (j < ordenados.length &&
+               mini[ordenados[j].id].pg === mini[ordenados[i].id].pg &&
+               mini[ordenados[j].id].dif === mini[ordenados[i].id].dif) {
+          j++;
+        }
+        const subgrupo = ordenados.slice(i, j);
+        if (subgrupo.length > 1 && subgrupo.length < grupoEmpatado.length) {
+          // el empate se rompió parcialmente: re-resolver el subgrupo desde cero
+          resultado.push(...ordenarEmpatados(subgrupo));
+        } else {
+          // subgrupo irreducible (o igual al grupo entero): dejar como está
+          resultado.push(...subgrupo);
+        }
+        i = j;
+      }
+      return resultado;
+    };
+
+    // Ordenar: primero por victorias; los empatados a victorias, por average particular
+    const porVictorias = [...equiposArr].sort((a, b) => b.pg - a.pg);
+    const final = [];
+    let i = 0;
+    while (i < porVictorias.length) {
+      let j = i + 1;
+      while (j < porVictorias.length && porVictorias[j].pg === porVictorias[i].pg) j++;
+      const empatados = porVictorias.slice(i, j);
+      final.push(...(empatados.length > 1 ? ordenarEmpatados(empatados) : empatados));
+      i = j;
+    }
+    return final;
   }, [partidos, grupo, jornadaActiva]);
 
   const buscarEquipo = id => equipos.find(e => e.id === id);
@@ -115,8 +187,9 @@ export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onV
             </table>
           </div>
           <p className="pie" style={{ marginTop: 4 }}>
-            Clasificación por victorias; desempate por diferencia de puntos general.
-            No aplica el average particular oficial de la FEB.
+            Clasificación con desempate por average particular entre los equipos igualados
+            a victorias (enfrentamientos directos). En empates aún irresueltos se aplica
+            diferencia de puntos general.
           </p>
         </div>
       </div>
