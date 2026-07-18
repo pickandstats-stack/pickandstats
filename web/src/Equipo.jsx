@@ -1,3 +1,4 @@
+import AnalisisEquipo from './AnalisisEquipo';
 import { useMemo } from 'react';
 import {
   LineChart, Line, BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
@@ -122,6 +123,8 @@ export default function Equipo({ equipo, jugadores, partidos, onVolver, onVerEqu
           </div>
         </div>
       </div>
+      <h3 className="seccion">Análisis del equipo</h3>
+      <AnalisisEquipo equipo={equipo} equipos={equipos} />
 
       <h3 className="seccion">Evolución por jornada</h3>
       <div className="panel-grafico">

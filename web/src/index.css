@@ -507,3 +507,35 @@ th.col-a { color: #ffd9c4; }
 @media (max-width: 560px) {
   .pct-cabecera, .pct-fila { grid-template-columns: 80px 1fr 1fr; gap: 8px; }
 }
+
+/* ---- análisis de equipo ---- */
+.analisis-resumen { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+.analisis-badge {
+  background: var(--tinta); color: #fff;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px; font-weight: 600; letter-spacing: .3px;
+  padding: 6px 14px; border-radius: 999px;
+}
+.analisis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+}
+.analisis-bloque {
+  background: var(--panel);
+  border: 1px solid var(--linea);
+  border-radius: var(--radio);
+  padding: 14px 16px;
+}
+.analisis-titulo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px; font-weight: 600; letter-spacing: .5px;
+  text-transform: uppercase; color: var(--tinta-suave);
+  margin-bottom: 8px;
+}
+.analisis-lista { margin: 0; padding-left: 18px; }
+.analisis-lista li { margin-bottom: 6px; line-height: 1.4; }
+.analisis-fort { border-left: 3px solid var(--positivo); }
+.analisis-deb { border-left: 3px solid var(--negativo); }
+.analisis-claves { border-left: 3px solid var(--acento); grid-column: 1 / -1; }
+.analisis-claves .analisis-titulo { color: var(--acento); }
