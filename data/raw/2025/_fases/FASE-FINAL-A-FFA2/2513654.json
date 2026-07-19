@@ -1,0 +1,745 @@
+{
+ "id": "2513654",
+ "fase": "FASE FINAL-A FFA2",
+ "jornada": "Jornada 1(28/05/2026)",
+ "temporada": "2025",
+ "celdas": [
+  "C.B. PUERTO SAGUNTO -\n\t\t\t\t\t\t\tUROS DE RIVAS",
+  "70-65",
+  "28/05/2026",
+  "11:00"
+ ],
+ "resultado": "70-65",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1617928",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "MONRABAL ROMEU, ANDREU",
+    "seg": 1658,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 7,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2180737",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "MASIP CANTERO, DANIEL",
+    "seg": 915,
+    "pt": 6,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 5,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1212089",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "RODENAS SANCHEZ, JOAQUIN",
+    "seg": 1375,
+    "pt": 12,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 3,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 14,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2451667",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "TORTAROLO, MARCO ALESANDRO",
+    "seg": 1177,
+    "pt": 13,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 4,
+    "fr": 7,
+    "va": 14,
+    "pm": 0
+   },
+   {
+    "idJugador": "2096980",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "DE LA CAL DOMINGUEZ, ALVARO",
+    "seg": 949,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": -4,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2711938",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "GJENERALI, QIRJAKO",
+    "seg": 738,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 5,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1883035",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "GOMEZ GARCIA, HUGO",
+    "seg": 1232,
+    "pt": 15,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 7,
+    "fr": 17,
+    "va": 8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2790960",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "YURCHENKO, SERHII",
+    "seg": 1449,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": 3,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1874971",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "GOMEZ CARBONELL, JOAN",
+    "seg": 939,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -2,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "2100497",
+    "titular": false,
+    "dorsal": "24",
+    "nombre": "GADEA HIERRO, ALEJANDRO",
+    "seg": 1568,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 1,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 4,
+    "fr": 10,
+    "va": 5,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2364931",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "PEREZ CONTI, ADRIAN",
+    "seg": 27,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2816704",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "ROSSI, PEDRO",
+    "seg": 1563,
+    "pt": 8,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 4,
+    "fr": 7,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2365432",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "ROLDAN DE LA PORTILLA, ALONSO",
+    "seg": 698,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 0,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2370182",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "HADI ADEGBITE, OSAYAMEN ADEDAYO",
+    "seg": 509,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": -3,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2030533",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "ESTEBANEZ GONZALEZ, PABLO",
+    "seg": 949,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": -3,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1591037",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "MENDEZ BLANCO, OSCAR",
+    "seg": 1077,
+    "pt": 8,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 4,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 3,
+    "fr": 3,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1811376",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "MARTIN LOPEZ-LAGO, GUSTAVO",
+    "seg": 1424,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 3,
+    "rt": 1,
+    "as": 5,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 5,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1432491",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "BIERSACK LOPEZ, ALVARO",
+    "seg": 1693,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 1,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": -8,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1820277",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "VILA DE MIGUEL, CARLOS",
+    "seg": 69,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2034412",
+    "titular": false,
+    "dorsal": "19",
+    "nombre": "MARINEZ FERNANDEZ-URRUTIA, DIEGO",
+    "seg": 1278,
+    "pt": 13,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 8,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1596112",
+    "titular": true,
+    "dorsal": "21",
+    "nombre": "GARCIA QUILEZ CUERVAS, ALVARO",
+    "seg": 1319,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 13,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1874932",
+    "titular": false,
+    "dorsal": "31",
+    "nombre": "CRESPO MONTESINOS, CARLOS",
+    "seg": 1394,
+    "pt": 11,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 3,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 7,
+    "fr": 18,
+    "va": -15,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 20,
+    "visitante": 24
+   },
+   {
+    "periodo": "2º C",
+    "local": 19,
+    "visitante": 15
+   },
+   {
+    "periodo": "3º C",
+    "local": 14,
+    "visitante": 19
+   },
+   {
+    "periodo": "4º C",
+    "local": 17,
+    "visitante": 7
+   }
+  ]
+ }
+}

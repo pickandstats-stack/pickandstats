@@ -1,0 +1,809 @@
+{
+ "id": "2512473",
+ "fase": "ELIMIN. GR \"D\" 1/4 Final",
+ "jornada": "Jornada 1(10/05/2026)",
+ "temporada": "2025",
+ "celdas": [
+  "JAEN PARAISO INTERIOR FS -\n\t\t\t\t\t\t\tLITHIUM IBERIA SAGRADO",
+  "97-70",
+  "10/05/2026",
+  "12:00"
+ ],
+ "resultado": "97-70",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2023248",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "BOTAS FERNANDEZ, MIGUEL",
+    "seg": 1402,
+    "pt": 13,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 3,
+    "rt": 4,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 6,
+    "fr": 22,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1994425",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "ÁVALOS ORTIZ, PABLO",
+    "seg": 849,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": -2,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1659932",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "TRUÑO SOMS, PAU",
+    "seg": 998,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 9,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "2025531",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "REVELLES DIAZ, RICARDO",
+    "seg": 677,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": -2,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1978774",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "SALAS MERCHAN, RUBEN",
+    "seg": 720,
+    "pt": 12,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 1,
+    "fc": 1,
+    "fr": 16,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2027204",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "MELERO ZURITA, SERGIO",
+    "seg": 1581,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 4,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": 14,
+    "va": 26,
+    "pm": 0
+   },
+   {
+    "idJugador": "2027205",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "MELERO ZURITA, DAVID",
+    "seg": 1450,
+    "pt": 16,
+    "t2": {
+     "a": 6,
+     "i": 8
+    },
+    "t3": {
+     "a": 6,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 5,
+    "fr": 20,
+    "va": 22,
+    "pm": 0
+   },
+   {
+    "idJugador": "2572704",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "JIMÉNEZ EXPÓSITO, DIEGO",
+    "seg": 148,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2653517",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "SIGISMONTI RODRÍGUEZ, LUCAS NESTOR",
+    "seg": 1103,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 5,
+    "va": 23,
+    "pm": 0
+   },
+   {
+    "idJugador": "1793779",
+    "titular": true,
+    "dorsal": "44",
+    "nombre": "VALEIRAS CREUS, JAVIER",
+    "seg": 1512,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 4,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 2,
+    "fr": 7,
+    "va": 18,
+    "pm": 0
+   },
+   {
+    "idJugador": "1731675",
+    "titular": false,
+    "dorsal": "77",
+    "nombre": "CEBOLLA HERRERA, JUAN MANUEL",
+    "seg": 556,
+    "pt": 5,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 4,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2643537",
+    "titular": false,
+    "dorsal": "88",
+    "nombre": "JUZBASIC, DUSAN",
+    "seg": 1004,
+    "pt": 17,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 6,
+    "fr": 21,
+    "va": 13,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2206967",
+    "titular": true,
+    "dorsal": "0",
+    "nombre": "CASERO MIGLIAVACCA, MATTEO",
+    "seg": 1568,
+    "pt": 8,
+    "t2": {
+     "a": 2,
+     "i": 10
+    },
+    "t3": {
+     "a": 3,
+     "i": 19
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 1,
+    "fr": -6,
+    "va": -10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2169498",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "SANTOS PARRA, HUGO",
+    "seg": 232,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2819343",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "CISSE, SEKOU MAMADOU",
+    "seg": 1030,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 4,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 2,
+    "fr": 2,
+    "va": -16,
+    "pm": 0
+   },
+   {
+    "idJugador": "2375154",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "LEÓN TEJERA, BRUNO",
+    "seg": 1301,
+    "pt": 8,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": 2,
+    "va": -22,
+    "pm": 0
+   },
+   {
+    "idJugador": "2823282",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "KVERNADZE, SANDRO",
+    "seg": 1274,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -7,
+    "va": -24,
+    "pm": 0
+   },
+   {
+    "idJugador": "1979461",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "SANCHEZ BARQUIN, JUAN",
+    "seg": 1099,
+    "pt": 8,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 11,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2819339",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "PERRY II, TYRONE RONDELL",
+    "seg": 1726,
+    "pt": 27,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 9,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 2,
+    "as": 4,
+    "br": 1,
+    "bp": 1,
+    "tf": 1,
+    "tco": 3,
+    "fc": 9,
+    "fr": 27,
+    "va": -14,
+    "pm": 0
+   },
+   {
+    "idJugador": "2407191",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "CACHO REGUERO, JORGE",
+    "seg": 148,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2006352",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "CASAS GARCÍA, SAÚL",
+    "seg": 148,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2099517",
+    "titular": false,
+    "dorsal": "20",
+    "nombre": "PARRA RIVERA, ADRIAN",
+    "seg": 1402,
+    "pt": 12,
+    "t2": {
+     "a": 5,
+     "i": 9
+    },
+    "t3": {
+     "a": 5,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 0,
+    "rt": 2,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 2,
+    "tco": 3,
+    "fc": 3,
+    "fr": 13,
+    "va": -15,
+    "pm": 0
+   },
+   {
+    "idJugador": "2840106",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "KALLE, SEKOU SADA",
+    "seg": 741,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": -2,
+    "va": -19,
+    "pm": 0
+   },
+   {
+    "idJugador": "2032886",
+    "titular": false,
+    "dorsal": "31",
+    "nombre": "GALIANO AVILA, SEBASTIAN",
+    "seg": 1331,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 1,
+    "fr": 3,
+    "va": -6,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 24,
+    "visitante": 21
+   },
+   {
+    "periodo": "2º C",
+    "local": 33,
+    "visitante": 22
+   },
+   {
+    "periodo": "3º C",
+    "local": 18,
+    "visitante": 10
+   },
+   {
+    "periodo": "4º C",
+    "local": 22,
+    "visitante": 17
+   }
+  ]
+ }
+}

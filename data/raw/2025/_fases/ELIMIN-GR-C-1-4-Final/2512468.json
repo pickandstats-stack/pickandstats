@@ -1,0 +1,713 @@
+{
+ "id": "2512468",
+ "fase": "ELIMIN. GR \"C\" 1/4 Final",
+ "jornada": "Jornada 1(10/05/2026)",
+ "temporada": "2025",
+ "celdas": [
+  "C.B. VIC - UNIVERSITAT DE VIC -\n\t\t\t\t\t\t\tTIBU-RON CASTELLDEFELS",
+  "101-87",
+  "09/05/2026",
+  "20:15"
+ ],
+ "resultado": "101-87",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2076072",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "RIERA PERETÓ, ÀLEX",
+    "seg": 903,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 8,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "1950104",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "PALLARES ARUMI, FERRAN",
+    "seg": 1563,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 11,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1894916",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "VIDAL AGRA, CRISTIAN",
+    "seg": 788,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 0,
+    "as": 3,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 2,
+    "fr": 0,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1569128",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "VIDAL TEIXIDOR, DAVID",
+    "seg": 1356,
+    "pt": 5,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 9,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2159101",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "DEL VAL GARCIA, NAHUEL",
+    "seg": 1054,
+    "pt": 11,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 17,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "1571719",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "SABATÉS SALA, GUILLEM",
+    "seg": 1234,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 3,
+    "fr": 10,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1922408",
+    "titular": false,
+    "dorsal": "19",
+    "nombre": "CRUZ URBANEJA, MARC",
+    "seg": 1374,
+    "pt": 13,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 5,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 2,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 1,
+    "fr": 6,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1917160",
+    "titular": false,
+    "dorsal": "21",
+    "nombre": "CANAL FERRER, JOFRE",
+    "seg": 900,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 3,
+    "fr": 3,
+    "va": 18,
+    "pm": 0
+   },
+   {
+    "idJugador": "1967605",
+    "titular": true,
+    "dorsal": "24",
+    "nombre": "SIMS SERRA, EDDY",
+    "seg": 1611,
+    "pt": 29,
+    "t2": {
+     "a": 8,
+     "i": 10
+    },
+    "t3": {
+     "a": 10,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 3,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 5,
+    "fr": 30,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2815844",
+    "titular": true,
+    "dorsal": "32",
+    "nombre": "LAJAY BOBEPARI, ALI",
+    "seg": 1075,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 3,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 1,
+    "tco": 3,
+    "fc": 4,
+    "fr": 5,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2355417",
+    "titular": false,
+    "dorsal": "84",
+    "nombre": "SOY BASSOLS, MARTI",
+    "seg": 142,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 0,
+    "fr": 1,
+    "va": -5,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2049367",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "SAIZ FUENTES, POL",
+    "seg": 1276,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": -6,
+    "va": -18,
+    "pm": 0
+   },
+   {
+    "idJugador": "1483199",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "TUGORES SOTO, DANIEL",
+    "seg": 1450,
+    "pt": 9,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 1,
+    "as": 4,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 3,
+    "fr": 6,
+    "va": -14,
+    "pm": 0
+   },
+   {
+    "idJugador": "1539646",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "SERRATACO SANCHEZ, SANTIAGO",
+    "seg": 672,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 3,
+    "fr": 1,
+    "va": -12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1947084",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "MULIO CAMPOS, POL",
+    "seg": 1058,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 2,
+    "fr": 7,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1910966",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "ARNAL DIAZ, JAUME",
+    "seg": 1664,
+    "pt": 21,
+    "t2": {
+     "a": 7,
+     "i": 8
+    },
+    "t3": {
+     "a": 9,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 22,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1961398",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "VICENTE SABARIEGO, ,ALBERTO",
+    "seg": 621,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 1,
+    "fr": 1,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1922407",
+    "titular": true,
+    "dorsal": "19",
+    "nombre": "CRUZ URBANEJA, ALEX",
+    "seg": 1433,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 4,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1068988",
+    "titular": false,
+    "dorsal": "20",
+    "nombre": "MAÑES CARRETERO, MARC IVAN",
+    "seg": 1587,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 6,
+    "fr": 12,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1065612",
+    "titular": true,
+    "dorsal": "29",
+    "nombre": "MAÑES CARRETERO, ERIC",
+    "seg": 2096,
+    "pt": 27,
+    "t2": {
+     "a": 8,
+     "i": 8
+    },
+    "t3": {
+     "a": 8,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 3,
+    "rt": 2,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 13,
+    "fr": 41,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2151257",
+    "titular": false,
+    "dorsal": "94",
+    "nombre": "LOZANO MASSANET, GUILLEM",
+    "seg": 143,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -2,
+    "va": -4,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 26,
+    "visitante": 13
+   },
+   {
+    "periodo": "2º C",
+    "local": 26,
+    "visitante": 23
+   },
+   {
+    "periodo": "3º C",
+    "local": 21,
+    "visitante": 32
+   },
+   {
+    "periodo": "4º C",
+    "local": 28,
+    "visitante": 19
+   }
+  ]
+ }
+}

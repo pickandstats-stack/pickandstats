@@ -1,0 +1,745 @@
+{
+ "id": "2512461",
+ "fase": "ELIMIN. GR \"A\" 1/4 Final",
+ "jornada": "Jornada 1(10/05/2026)",
+ "temporada": "2025",
+ "celdas": [
+  "BASKONIA -\n\t\t\t\t\t\t\tPERFUMERIAS AVENIDA XOBORG",
+  "92-71",
+  "10/05/2026",
+  "11:00"
+ ],
+ "resultado": "92-71",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2614863",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "FERRANDEZ FERNANDEZ, JOSEBA",
+    "seg": 224,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2345667",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "PEREZ PEREZ, ASIER",
+    "seg": 973,
+    "pt": 7,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 6,
+    "va": 24,
+    "pm": 0
+   },
+   {
+    "idJugador": "2643232",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "JOKSIMOVIC, STEFAN",
+    "seg": 1965,
+    "pt": 17,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 6,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 11,
+    "rd": 7,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 5,
+    "fr": 30,
+    "va": 23,
+    "pm": 0
+   },
+   {
+    "idJugador": "1882400",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "IBARROLA ITURRIA, OIER",
+    "seg": 910,
+    "pt": 10,
+    "t2": {
+     "a": 0,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 7,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2557064",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "BOL MEEN, JUOM MAKER",
+    "seg": 1523,
+    "pt": 11,
+    "t2": {
+     "a": 4,
+     "i": 9
+    },
+    "t3": {
+     "a": 5,
+     "i": 13
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 4,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 2,
+    "fr": 17,
+    "va": 7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2787459",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "ALVES DE SOUZA SILVA, THIERRY HENRY",
+    "seg": 224,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 3,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1684030",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "SAINSBURY GARCIA, DAVID JOHN",
+    "seg": 1297,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 3,
+    "rt": 0,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 7,
+    "va": 23,
+    "pm": 0
+   },
+   {
+    "idJugador": "2557069",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "RUA ALVAREZ, UNAI",
+    "seg": 376,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2557066",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "KHATIASHVILI, MATE",
+    "seg": 1720,
+    "pt": 17,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 1,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 13,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "2557086",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "BONILLA HERNANDEZ, ENDIKA",
+    "seg": 225,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2614861",
+    "titular": true,
+    "dorsal": "17",
+    "nombre": "DIALLO TOURE, CHIEK TIDIANE",
+    "seg": 1448,
+    "pt": 24,
+    "t2": {
+     "a": 11,
+     "i": 14
+    },
+    "t3": {
+     "a": 11,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 0,
+    "rt": 1,
+    "as": 4,
+    "br": 1,
+    "bp": 0,
+    "tf": 4,
+    "tco": 3,
+    "fc": 6,
+    "fr": 29,
+    "va": 14,
+    "pm": 0
+   },
+   {
+    "idJugador": "2366622",
+    "titular": false,
+    "dorsal": "20",
+    "nombre": "PEREZ ABELLEIRA, DARIO",
+    "seg": 1115,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -2,
+    "va": 4,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "1930720",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "GARRIDO RODRIGUEZ, ALBERT",
+    "seg": 2211,
+    "pt": 21,
+    "t2": {
+     "a": 3,
+     "i": 13
+    },
+    "t3": {
+     "a": 6,
+     "i": 20
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 4,
+    "fc": 6,
+    "fr": 10,
+    "va": -18,
+    "pm": 0
+   },
+   {
+    "idJugador": "1933382",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "GRANJA I BERNAD, IAN",
+    "seg": 1781,
+    "pt": 8,
+    "t2": {
+     "a": 4,
+     "i": 12
+    },
+    "t3": {
+     "a": 4,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 2,
+    "tf": 1,
+    "tco": 0,
+    "fc": 1,
+    "fr": 2,
+    "va": -20,
+    "pm": 0
+   },
+   {
+    "idJugador": "2535385",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "JIMENEZ EL MERZOUG, ISMAEL",
+    "seg": 1635,
+    "pt": 17,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 6,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 1,
+    "tf": 1,
+    "tco": 3,
+    "fc": 3,
+    "fr": 18,
+    "va": -15,
+    "pm": 0
+   },
+   {
+    "idJugador": "2065789",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "CASADO MANCERAS, ANDER",
+    "seg": 675,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": -2,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2405740",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "ROA RODRIGUEZ, ADRIAN",
+    "seg": 1039,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": -1,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2185274",
+    "titular": false,
+    "dorsal": "20",
+    "nombre": "OLALQUIAGA BAZO, IGNACIO",
+    "seg": 304,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2558299",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "MC-CARTHY SANTOS, LANG-ACOYDAN",
+    "seg": 163,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -2,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2868261",
+    "titular": true,
+    "dorsal": "26",
+    "nombre": "NGUFOR, JULIAN NKIMBOUA",
+    "seg": 1888,
+    "pt": 20,
+    "t2": {
+     "a": 8,
+     "i": 12
+    },
+    "t3": {
+     "a": 8,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 1,
+    "rt": 2,
+    "as": 3,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 3,
+    "fc": 6,
+    "fr": 22,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2185923",
+    "titular": false,
+    "dorsal": "31",
+    "nombre": "MELGAR ZORITA, MIGUEL",
+    "seg": 1043,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 4,
+    "va": -17,
+    "pm": 0
+   },
+   {
+    "idJugador": "2111155",
+    "titular": true,
+    "dorsal": "34",
+    "nombre": "CHOITHRAMANI BLANCO, RODRIGO",
+    "seg": 1261,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 5
+    },
+    "t3": {
+     "a": 1,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -5,
+    "va": -13,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 16,
+    "visitante": 12
+   },
+   {
+    "periodo": "2º C",
+    "local": 32,
+    "visitante": 16
+   },
+   {
+    "periodo": "3º C",
+    "local": 22,
+    "visitante": 16
+   },
+   {
+    "periodo": "4º C",
+    "local": 22,
+    "visitante": 27
+   }
+  ]
+ }
+}

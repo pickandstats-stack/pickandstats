@@ -1,0 +1,777 @@
+{
+ "id": "2512478",
+ "fase": "ELIMIN. GR \"E\" 1/4 Final",
+ "jornada": "Jornada 1(10/05/2026)",
+ "temporada": "2025",
+ "celdas": [
+  "CMG HIDRÁULICA NB TORRENT -\n\t\t\t\t\t\t\tSOCAGE JOVENS L’ELIANA",
+  "79-63",
+  "09/05/2026",
+  "19:00"
+ ],
+ "resultado": "79-63",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2089434",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "ALONSO ARNEDO, MIGUEL ALEJANDRO",
+    "seg": 69,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1645437",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "MERENCIO MORENO, JOSE VICENTE",
+    "seg": 1453,
+    "pt": 10,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 1,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 3,
+    "fr": 8,
+    "va": 17,
+    "pm": 0
+   },
+   {
+    "idJugador": "2449346",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "VALERO CHICA, JUAN JOSE",
+    "seg": 273,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 4,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1901880",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "LOPEZ DOMINGUEZ, PABLO",
+    "seg": 988,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 6,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1986085",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "SAEZ CALABUIG, ANDREU",
+    "seg": 1029,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 7,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1996322",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "CAMPILLOS ALONSO, CARLOS",
+    "seg": 1526,
+    "pt": 14,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 5,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 12,
+    "va": 20,
+    "pm": 0
+   },
+   {
+    "idJugador": "2090295",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "LLACER SIMLAT, EMILIO",
+    "seg": 990,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 8
+    },
+    "t3": {
+     "a": 2,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 4,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2165978",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "BEDIA FERRER, JOSE ANTONIO",
+    "seg": 1170,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 3,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 15,
+    "va": 29,
+    "pm": 0
+   },
+   {
+    "idJugador": "1882177",
+    "titular": true,
+    "dorsal": "24",
+    "nombre": "GOMEZ CARBONELL, FRANCESC",
+    "seg": 1145,
+    "pt": 14,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 20,
+    "va": 17,
+    "pm": 0
+   },
+   {
+    "idJugador": "1619904",
+    "titular": true,
+    "dorsal": "55",
+    "nombre": "BLASCO NAVARRO, LUCAS",
+    "seg": 1032,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 0,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 8,
+    "va": -10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1889292",
+    "titular": true,
+    "dorsal": "87",
+    "nombre": "TERRADES DAROQUI, ALEJANDRO",
+    "seg": 1461,
+    "pt": 11,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 5,
+    "fr": 8,
+    "va": 21,
+    "pm": 0
+   },
+   {
+    "idJugador": "1645436",
+    "titular": false,
+    "dorsal": "95",
+    "nombre": "CALERO BAUTISTA, DAVID",
+    "seg": 864,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 1,
+    "va": -14,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2159436",
+    "titular": false,
+    "dorsal": "0",
+    "nombre": "BALLESTER FERRANDIS, JOSEP",
+    "seg": 689,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 3,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1995171",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "ROCATI ALEGRE, PAU",
+    "seg": 960,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 11,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2161988",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "MONTAÑO LINARES, KELVYN ALEXANDER",
+    "seg": 1808,
+    "pt": 15,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 5,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 0,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": 11,
+    "va": -17,
+    "pm": 0
+   },
+   {
+    "idJugador": "2361218",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "AZNAR MARTINEZ, ADRIAN",
+    "seg": 1200,
+    "pt": 7,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 2,
+    "rt": 1,
+    "as": 5,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 5,
+    "fr": 0,
+    "va": -10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1361531",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "TOKAEV TOKAEV, DENIS",
+    "seg": 1063,
+    "pt": 10,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 4,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 3,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": 11,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1851037",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "PAÑOS HUERTAS, MARIO",
+    "seg": 1412,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 9
+    },
+    "t3": {
+     "a": 3,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": -2,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2262917",
+    "titular": false,
+    "dorsal": "19",
+    "nombre": "MAINER SAEZ, LUIS",
+    "seg": 8,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2024048",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "MARTIN MARGARIT, ALVARO",
+    "seg": 951,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": 3,
+    "va": -10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1760049",
+    "titular": true,
+    "dorsal": "24",
+    "nombre": "MONDRAGON VIDAL, BERNAT",
+    "seg": 1463,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 2,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "2027316",
+    "titular": true,
+    "dorsal": "33",
+    "nombre": "MATE SEBASTIA, JOSE IGNACIO",
+    "seg": 1578,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 9
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 7,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2740913",
+    "titular": false,
+    "dorsal": "88",
+    "nombre": "CAPOUE, ETIENNE RENE",
+    "seg": 868,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 3,
+    "va": -15,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 11,
+    "visitante": 16
+   },
+   {
+    "periodo": "2º C",
+    "local": 20,
+    "visitante": 11
+   },
+   {
+    "periodo": "3º C",
+    "local": 33,
+    "visitante": 15
+   },
+   {
+    "periodo": "4º C",
+    "local": 15,
+    "visitante": 21
+   }
+  ]
+ }
+}

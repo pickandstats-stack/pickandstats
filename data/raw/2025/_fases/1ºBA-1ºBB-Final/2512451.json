@@ -1,0 +1,745 @@
+{
+ "id": "2512451",
+ "fase": "1ºBA-1ºBB Final",
+ "jornada": "Jornada 2(10/05/2026)",
+ "temporada": "2025",
+ "celdas": [
+  "C.B. TRES CANTOS -\n\t\t\t\t\t\t\tFUNDACION GLOBALCAJA LA RODA",
+  "68-74",
+  "09/05/2026",
+  "20:00"
+ ],
+ "resultado": "68-74",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2445687",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "MAIGA, NOUHOU MAHAMANE",
+    "seg": 1735,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 11,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2139861",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "FERNANDEZ CAÑAS, DIEGO",
+    "seg": 585,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 0,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1678459",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "DOMINGUEZ LARRE, JORGE",
+    "seg": 1563,
+    "pt": 19,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 7,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 14,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1757193",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "SIMON DEL CORRAL, ALVARO",
+    "seg": 5,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1589434",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "LARDIES GUILLEN, RODRIGO",
+    "seg": 323,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -3,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1675464",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "GOMEZ DE ENTERRIA LOPEZ, FIDEL",
+    "seg": 301,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1675452",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "ATIENZA PEREA, JAIME",
+    "seg": 1664,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": -3,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1990221",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "DIAZ MONTERO, GONZALO",
+    "seg": 1740,
+    "pt": 26,
+    "t2": {
+     "a": 4,
+     "i": 10
+    },
+    "t3": {
+     "a": 8,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 6,
+    "fr": 27,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1761475",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "SANCHO PEREZ, ALEJANDRO",
+    "seg": 1158,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 3,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1589432",
+    "titular": false,
+    "dorsal": "25",
+    "nombre": "LARDIES GUILLEN, GONZALO",
+    "seg": 733,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 5,
+    "fc": 0,
+    "fr": 2,
+    "va": 19,
+    "pm": 0
+   },
+   {
+    "idJugador": "1755852",
+    "titular": true,
+    "dorsal": "32",
+    "nombre": "GONZALEZ  LONGARELA, DANIEL",
+    "seg": 1459,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": -3,
+    "va": -22,
+    "pm": 0
+   },
+   {
+    "idJugador": "2029778",
+    "titular": false,
+    "dorsal": "55",
+    "nombre": "PEREZ SANCHEZ, HUGO",
+    "seg": 734,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 1,
+    "va": 1,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2641237",
+    "titular": false,
+    "dorsal": "0",
+    "nombre": "BOONYASITH, JACOB ISAIAH",
+    "seg": 1065,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 1,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1875656",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "VAQUERO PASCUAL, JUAN MANUEL",
+    "seg": 1295,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 0,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1948717",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "OLIVA I CAMPABADAL, MIQUEL",
+    "seg": 1318,
+    "pt": 12,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 4,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 3,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 4,
+    "fr": 15,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2736568",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "KELLIER, JORDAN JEAN PIERRE",
+    "seg": 2008,
+    "pt": 14,
+    "t2": {
+     "a": 7,
+     "i": 11
+    },
+    "t3": {
+     "a": 7,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 3,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": 18,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2325400",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "KASA, JAKUB",
+    "seg": 1234,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -3,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2218175",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "CEBRIAN HERNANDEZ, NIKOLAS",
+    "seg": 1122,
+    "pt": 12,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 2,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 4,
+    "fr": 16,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2138342",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "CASTELANOS POLA, ANTONIO",
+    "seg": 918,
+    "pt": 8,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 13,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1707037",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "LOPEZ USO, PEDRO",
+    "seg": 1542,
+    "pt": 12,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": 13,
+    "va": 20,
+    "pm": 0
+   },
+   {
+    "idJugador": "1663997",
+    "titular": false,
+    "dorsal": "20",
+    "nombre": "SOLA ARGEMI, JOAN",
+    "seg": 900,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 3,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2817789",
+    "titular": false,
+    "dorsal": "25",
+    "nombre": "MUKENDI KABANGA, GULLIT",
+    "seg": 598,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": -1,
+    "va": -7,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 10,
+    "visitante": 20
+   },
+   {
+    "periodo": "2º C",
+    "local": 19,
+    "visitante": 18
+   },
+   {
+    "periodo": "3º C",
+    "local": 16,
+    "visitante": 11
+   },
+   {
+    "periodo": "4º C",
+    "local": 23,
+    "visitante": 25
+   }
+  ]
+ }
+}

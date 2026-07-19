@@ -1,0 +1,686 @@
+{
+ "id": "2513301",
+ "fase": "ELIMIN. GR \"A\" 1/2 Final",
+ "jornada": "Jornada 1(17/05/2026)",
+ "temporada": "2025",
+ "celdas": [
+  "BASKONIA -\n\t\t\t\t\t\t\tULACIA ZKE",
+  "78-79",
+  "17/05/2026",
+  "12:00"
+ ],
+ "resultado": "78-79",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2345667",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "PEREZ PEREZ, ASIER",
+    "seg": 1116,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 0,
+    "va": 8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2643232",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "JOKSIMOVIC, STEFAN",
+    "seg": 2448,
+    "pt": 26,
+    "t2": {
+     "a": 5,
+     "i": 12
+    },
+    "t3": {
+     "a": 8,
+     "i": 22
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 3,
+    "rt": 3,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 8,
+    "fr": 26,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1882400",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "IBARROLA ITURRIA, OIER",
+    "seg": 1434,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 2,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2557064",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "BOL MEEN, JUOM MAKER",
+    "seg": 2384,
+    "pt": 15,
+    "t2": {
+     "a": 6,
+     "i": 13
+    },
+    "t3": {
+     "a": 7,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 1,
+    "rt": 2,
+    "as": 5,
+    "br": 2,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "fc": 2,
+    "fr": 18,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1684030",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "SAINSBURY GARCIA, DAVID JOHN",
+    "seg": 1091,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 2,
+    "fr": 7,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2557069",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "RUA ALVAREZ, UNAI",
+    "seg": 180,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2557066",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "KHATIASHVILI, MATE",
+    "seg": 2372,
+    "pt": 15,
+    "t2": {
+     "a": 5,
+     "i": 8
+    },
+    "t3": {
+     "a": 6,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 5,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 20,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2614861",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "DIALLO TOURE, CHIEK TIDIANE",
+    "seg": 1925,
+    "pt": 9,
+    "t2": {
+     "a": 4,
+     "i": 11
+    },
+    "t3": {
+     "a": 4,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 2,
+    "fr": 5,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2366622",
+    "titular": false,
+    "dorsal": "20",
+    "nombre": "PEREZ ABELLEIRA, DARIO",
+    "seg": 550,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 1,
+    "va": 3,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2275384",
+    "titular": true,
+    "dorsal": "5",
+    "nombre": "ARTECHE URRUZOLA, IMANOL",
+    "seg": 2070,
+    "pt": 9,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 16,
+    "rd": 2,
+    "rt": 4,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 1,
+    "tco": 3,
+    "fc": 2,
+    "fr": 26,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2303399",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "MARTINEZ CENDON, ENEKO",
+    "seg": 2280,
+    "pt": 19,
+    "t2": {
+     "a": 4,
+     "i": 13
+    },
+    "t3": {
+     "a": 7,
+     "i": 23
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 6,
+    "rt": 0,
+    "as": 5,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 6,
+    "fr": 11,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1314145",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "ANDRES CAMPOS, ESTANISLAO",
+    "seg": 1826,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 3,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1870164",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "EGAA AYERZA, JULEN",
+    "seg": 1554,
+    "pt": 17,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 5,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 14,
+    "va": 8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2415756",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "BOZAL GOMEZ, ALVARO",
+    "seg": 1291,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 0,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1678802",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "ZABALETA LASA, ANDRES",
+    "seg": 1763,
+    "pt": 15,
+    "t2": {
+     "a": 5,
+     "i": 8
+    },
+    "t3": {
+     "a": 6,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 13,
+    "rd": 2,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 21,
+    "va": -16,
+    "pm": 0
+   },
+   {
+    "idJugador": "1232367",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "EGUSKITZA AGINALDE, AITZOL",
+    "seg": 680,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": -2,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1815584",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "LARRAÑAGA ORMAZABAL, MIKEL",
+    "seg": 409,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -1,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2405441",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "ZUBIZARRETA ALBIZU, MIKEL",
+    "seg": 740,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 2,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 0,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2439971",
+    "titular": false,
+    "dorsal": "32",
+    "nombre": "SAGASTI ARGOTE, INAR",
+    "seg": 264,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 2,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2362808",
+    "titular": false,
+    "dorsal": "77",
+    "nombre": "ELOLA AGUIRREZABALA, PABLO",
+    "seg": 623,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 3,
+    "va": 3,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 23,
+    "visitante": 20
+   },
+   {
+    "periodo": "2º C",
+    "local": 14,
+    "visitante": 18
+   },
+   {
+    "periodo": "3º C",
+    "local": 20,
+    "visitante": 15
+   },
+   {
+    "periodo": "4º C",
+    "local": 11,
+    "visitante": 15
+   },
+   {
+    "periodo": "Pro. 1",
+    "local": 10,
+    "visitante": 11
+   }
+  ]
+ }
+}

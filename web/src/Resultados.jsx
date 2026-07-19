@@ -1,10 +1,21 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import FasesAscenso from './FasesAscenso';
 
 const numJornada = j => parseInt((String(j).match(/\d+/) || [0])[0], 10);
 const etiquetaJornada = j => (String(j).match(/Jornada\s*\d+\s*\([^)]*\)/) || [j])[0];
 
-export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onVerPartido }) {
+export default function Resultados({ partidos, equipos, grupos, temporada, onVerEquipo, onVerPartido }) {
+  const [seccion, setSeccion] = useState('liga');
   const [grupo, setGrupo] = useState('E-A');
+  const [fases, setFases] = useState(null);
+
+  useEffect(() => {
+    setFases(null);
+    fetch(`data/${temporada}/fases.json`)
+      .then(r => r.ok ? r.json() : [])
+      .then(setFases)
+      .catch(() => setFases([]));
+  }, [temporada]);
 
   const porJornada = useMemo(() => {
     const m = new Map();
@@ -20,11 +31,9 @@ export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onV
   const ultimaJornada = jornadasDisponibles[jornadasDisponibles.length - 1] || 1;
   const [jornadaSel, setJornadaSel] = useState(null);
   const jornadaActiva = jornadaSel ?? ultimaJornada;
-
   const jornadaData = porJornada.find(([n]) => n === jornadaActiva);
 
   const clasificacion = useMemo(() => {
-    // Partidos válidos (disputados) del grupo hasta la jornada activa
     const jugados = partidos
       .filter(p => p.grupo === grupo && numJornada(p.jornada) <= jornadaActiva)
       .map(p => {
@@ -33,7 +42,6 @@ export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onV
       })
       .filter(({ gl, gv }) => !isNaN(gl) && !isNaN(gv));
 
-    // Totales generales por equipo
     const tab = {};
     const nombreEq = {};
     for (const { p, gl, gv } of jugados) {
@@ -50,9 +58,6 @@ export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onV
 
     const equiposArr = Object.values(tab).map(e => ({ ...e, nombre: nombreEq[e.id], dif: e.pf - e.pc }));
 
-    // --- Average particular ---
-    // Dada una lista de ids empatados, calcula su mini-clasificación
-    // usando SOLO los partidos entre ellos. Devuelve un mapa id -> {pg, dif, pf}
     const calcularParticular = (ids) => {
       const set = new Set(ids);
       const mini = {};
@@ -68,36 +73,25 @@ export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onV
       return mini;
     };
 
-    // Ordena un conjunto de equipos empatados a victorias aplicando el average
-    // particular de forma iterativa (resuelve empates de 2, 3 o más).
     const ordenarEmpatados = (grupoEmpatado) => {
       if (grupoEmpatado.length === 1) return grupoEmpatado;
       const ids = grupoEmpatado.map(e => e.id);
       const mini = calcularParticular(ids);
-
-      // ordenar por: victorias particulares, luego dif particular, luego dif general, luego pf general
       const ordenados = [...grupoEmpatado].sort((a, b) => {
         const ma = mini[a.id], mb = mini[b.id];
         return mb.pg - ma.pg || mb.dif - ma.dif || b.dif - a.dif || b.pf - a.pf;
       });
-
-      // detectar si el average particular ha dejado subgrupos aún empatados
-      // (mismos pg y dif particulares) para re-resolverlos recursivamente
       const resultado = [];
       let i = 0;
       while (i < ordenados.length) {
         let j = i + 1;
         while (j < ordenados.length &&
                mini[ordenados[j].id].pg === mini[ordenados[i].id].pg &&
-               mini[ordenados[j].id].dif === mini[ordenados[i].id].dif) {
-          j++;
-        }
+               mini[ordenados[j].id].dif === mini[ordenados[i].id].dif) j++;
         const subgrupo = ordenados.slice(i, j);
         if (subgrupo.length > 1 && subgrupo.length < grupoEmpatado.length) {
-          // el empate se rompió parcialmente: re-resolver el subgrupo desde cero
           resultado.push(...ordenarEmpatados(subgrupo));
         } else {
-          // subgrupo irreducible (o igual al grupo entero): dejar como está
           resultado.push(...subgrupo);
         }
         i = j;
@@ -105,7 +99,6 @@ export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onV
       return resultado;
     };
 
-    // Ordenar: primero por victorias; los empatados a victorias, por average particular
     const porVictorias = [...equiposArr].sort((a, b) => b.pg - a.pg);
     const final = [];
     let i = 0;
@@ -121,78 +114,111 @@ export default function Resultados({ partidos, equipos, grupos, onVerEquipo, onV
 
   const buscarEquipo = id => equipos.find(e => e.id === id);
   const clicEquipo = id => { const e = buscarEquipo(id); if (e) onVerEquipo(e); };
+  const clicEquipoNombre = nombre => {
+    const e = equipos.find(x => x.nombre === nombre);
+    if (e) onVerEquipo(e);
+  };
+
+  const hayFases = Array.isArray(fases) && fases.length > 0;
 
   return (
     <>
       <div className="grupos">
-        {grupos.map(g => (
-          <button key={g} className={`boton-grupo ${g === grupo ? 'activo' : ''}`}
-            onClick={() => { setGrupo(g); setJornadaSel(null); }}>{g}</button>
-        ))}
+        <button className={`boton-grupo ${seccion === 'liga' ? 'activo' : ''}`}
+          onClick={() => setSeccion('liga')}>Liga regular</button>
+        <button className={`boton-grupo ${seccion === 'fases' ? 'activo' : ''}`}
+          onClick={() => setSeccion('fases')}
+          disabled={!hayFases}
+          title={hayFases ? '' : 'Sin fases descargadas para esta temporada'}>
+          Fases de ascenso
+        </button>
       </div>
 
-      <div className="filtros">
-        <label>
-          Jornada{' '}
-          <select value={jornadaActiva} onChange={e => setJornadaSel(+e.target.value)}>
-            {porJornada.map(([n, d]) => (
-              <option key={n} value={n}>{etiquetaJornada(d.etiqueta)}</option>
+      {seccion === 'liga' ? (
+        <>
+          <div className="grupos">
+            {grupos.map(g => (
+              <button key={g} className={`boton-grupo ${g === grupo ? 'activo' : ''}`}
+                onClick={() => { setGrupo(g); setJornadaSel(null); }}>{g}</button>
             ))}
-          </select>
-        </label>
-      </div>
-
-      <div className="inicio-dos-col">
-        <div>
-          <h3 className="seccion">Resultados · jornada {jornadaActiva}</h3>
-          <div className="resultados-jornada">
-            {jornadaData && jornadaData[1].lista.map(p => {
-              const [gl, gv] = p.resultado.split('-').map(Number);
-              const jugado = !isNaN(gl) && !isNaN(gv);
-              return (
-                <div className="resultado-card enlace-card" key={p.id}
-                  onClick={() => jugado && onVerPartido(p.id)}>
-                  <div className={`resultado-linea ${jugado && gl > gv ? 'gana' : ''}`}>
-                    <span>{p.local.nombre}</span>
-                    <span className="resultado-marca">{jugado ? gl : '-'}</span>
-                  </div>
-                  <div className={`resultado-linea ${jugado && gv > gl ? 'gana' : ''}`}>
-                    <span>{p.visitante.nombre}</span>
-                    <span className="resultado-marca">{jugado ? gv : '-'}</span>
-                  </div>
-                </div>
-              );
-            })}
           </div>
-        </div>
 
-        <div>
-          <h3 className="seccion">Clasificación tras jornada {jornadaActiva}</h3>
-          <div className="tabla-scroll">
-            <table>
-              <thead>
-                <tr><th>#</th><th className="izq">Equipo</th><th>PJ</th><th>PG</th><th>PP</th><th>PF</th><th>PC</th><th>Dif</th></tr>
-              </thead>
-              <tbody>
-                {clasificacion.map((e, i) => (
-                  <tr key={e.id}>
-                    <td>{i + 1}</td>
-                    <td className="izq"><span className="enlace" onClick={() => clicEquipo(e.id)}>{e.nombre}</span></td>
-                    <td>{e.pj}</td><td>{e.pg}</td><td>{e.pp}</td>
-                    <td>{e.pf}</td><td>{e.pc}</td>
-                    <td className={e.dif > 0 ? 'net-pos' : 'net-neg'}>{e.dif > 0 ? '+' : ''}{e.dif}</td>
-                  </tr>
+          <div className="filtros">
+            <label>
+              Jornada{' '}
+              <select value={jornadaActiva} onChange={e => setJornadaSel(+e.target.value)}>
+                {porJornada.map(([n, d]) => (
+                  <option key={n} value={n}>{etiquetaJornada(d.etiqueta)}</option>
                 ))}
-              </tbody>
-            </table>
+              </select>
+            </label>
           </div>
-          <p className="pie" style={{ marginTop: 4 }}>
-            Clasificación con desempate por average particular entre los equipos igualados
-            a victorias (enfrentamientos directos). En empates aún irresueltos se aplica
-            diferencia de puntos general.
+
+          <div className="inicio-dos-col">
+            <div>
+              <h3 className="seccion">Resultados · jornada {jornadaActiva}</h3>
+              <div className="resultados-jornada">
+                {jornadaData && jornadaData[1].lista.map(p => {
+                  const [gl, gv] = p.resultado.split('-').map(Number);
+                  const jugado = !isNaN(gl) && !isNaN(gv);
+                  return (
+                    <div className="resultado-card enlace-card" key={p.id}
+                      onClick={() => jugado && onVerPartido(p.id)}>
+                      <div className={`resultado-linea ${jugado && gl > gv ? 'gana' : ''}`}>
+                        <span>{p.local.nombre}</span>
+                        <span className="resultado-marca">{jugado ? gl : '-'}</span>
+                      </div>
+                      <div className={`resultado-linea ${jugado && gv > gl ? 'gana' : ''}`}>
+                        <span>{p.visitante.nombre}</span>
+                        <span className="resultado-marca">{jugado ? gv : '-'}</span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="seccion">Clasificación tras jornada {jornadaActiva}</h3>
+              <div className="tabla-scroll">
+                <table>
+                  <thead>
+                    <tr><th>#</th><th className="izq">Equipo</th><th>PJ</th><th>PG</th><th>PP</th><th>PF</th><th>PC</th><th>Dif</th></tr>
+                  </thead>
+                  <tbody>
+                    {clasificacion.map((e, i) => (
+                      <tr key={e.id}>
+                        <td>{i + 1}</td>
+                        <td className="izq"><span className="enlace" onClick={() => clicEquipo(e.id)}>{e.nombre}</span></td>
+                        <td>{e.pj}</td><td>{e.pg}</td><td>{e.pp}</td>
+                        <td>{e.pf}</td><td>{e.pc}</td>
+                        <td className={e.dif > 0 ? 'net-pos' : 'net-neg'}>{e.dif > 0 ? '+' : ''}{e.dif}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="pie" style={{ marginTop: 4 }}>
+                Clasificación con desempate por average particular entre los equipos igualados
+                a victorias (enfrentamientos directos). En empates aún irresueltos se aplica
+                diferencia de puntos general.
+              </p>
+            </div>
+          </div>
+        </>
+      ) : (
+        <>
+          <h3 className="seccion">Fases de ascenso · {`${temporada}/${(+temporada + 1).toString().slice(2)}`}</h3>
+          {fases === null ? (
+            <p className="cargando">Cargando fases…</p>
+          ) : (
+            <FasesAscenso fases={fases} onVerEquipoNombre={clicEquipoNombre} onVerPartido={onVerPartido} />
+          )}
+          <p className="pie" style={{ marginTop: 8 }}>
+            Los partidos de fases no computan en las estadísticas de temporada regular.
           </p>
-        </div>
-      </div>
+        </>
+      )}
     </>
   );
 }

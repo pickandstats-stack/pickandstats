@@ -1,0 +1,681 @@
+{
+ "id": "2513661",
+ "fase": "FASE FINAL-B FFB3",
+ "jornada": "Jornada 2(29/05/2026)",
+ "temporada": "2025",
+ "celdas": [
+  "OPOSITA MARÍN ENCE PEIXEGALEGO -\n\t\t\t\t\t\t\tDAMEX CB ALGECIRAS",
+  "69-76",
+  "29/05/2026",
+  "11:00"
+ ],
+ "resultado": "69-76",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1749082",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "PAZ CACHEIRO, MIGUEL",
+    "seg": 914,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -3,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1195889",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "DOMINGUEZ FRAIZ, JAVIER",
+    "seg": 915,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 9,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1772711",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "SOUTO PARRADO, MIGUEL",
+    "seg": 2023,
+    "pt": 17,
+    "t2": {
+     "a": 7,
+     "i": 9
+    },
+    "t3": {
+     "a": 7,
+     "i": 13
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 3,
+    "rt": 3,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 10,
+    "fr": 23,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1597674",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "FILGUEIRA BUCETA, ALVARO",
+    "seg": 1243,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 0,
+    "fr": 5,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1440768",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "CARDITO MARTIN, ANDRES JAVIER",
+    "seg": 327,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 0,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2437328",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "HOGAN, DARMELL WILLIAM",
+    "seg": 934,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": -2,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2433310",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "VAN WIJK, KEVIN",
+    "seg": 1423,
+    "pt": 10,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 1,
+    "rt": 0,
+    "as": 3,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 6,
+    "fr": 15,
+    "va": -21,
+    "pm": 0
+   },
+   {
+    "idJugador": "2790587",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "OLOWOKERE, MASAI OLATUNDE",
+    "seg": 1581,
+    "pt": 11,
+    "t2": {
+     "a": 4,
+     "i": 8
+    },
+    "t3": {
+     "a": 5,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 0,
+    "as": 3,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": 1,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "1848317",
+    "titular": true,
+    "dorsal": "29",
+    "nombre": "REY PEREZ, HUGO",
+    "seg": 637,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 2,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1440545",
+    "titular": true,
+    "dorsal": "40",
+    "nombre": "BOUZAN CUMPLIDO, ANTON",
+    "seg": 2003,
+    "pt": 16,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 6,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 17,
+    "va": -10,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2737134",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "SANCHES CARDOSO MENDES, ROESLEY DIEGO",
+    "seg": 836,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": -1,
+    "va": -12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2172887",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "HETOR MENSAH, MARK",
+    "seg": 1560,
+    "pt": 14,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 5,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 4,
+    "fr": 18,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1527342",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "ARTILES AGUILAR, ALBERTO",
+    "seg": 1595,
+    "pt": 14,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 4,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 13,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1597130",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "DIAZ ROLLANO, ANDRES",
+    "seg": 1277,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": 4,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "1762423",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "EDOKPAYI MANCERA, BERNARD",
+    "seg": 1322,
+    "pt": 10,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 3,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 7,
+    "fr": 11,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2824420",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "REID, ROMAR ANTHONY",
+    "seg": 1452,
+    "pt": 17,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 6,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 3,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 12,
+    "va": 17,
+    "pm": 0
+   },
+   {
+    "idJugador": "2711878",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "ILINCIC, DEJAN",
+    "seg": 1037,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 12,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 8,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2044537",
+    "titular": false,
+    "dorsal": "21",
+    "nombre": "EGEA SOLER, EUGENIO",
+    "seg": 1823,
+    "pt": 10,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 5,
+    "fr": 14,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1286407",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "GARCIA ALVAREZ, BERNARDO",
+    "seg": 1087,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -1,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1504448",
+    "titular": false,
+    "dorsal": "30",
+    "nombre": "PAÑOS HUERTAS, LUIS",
+    "seg": 11,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 24,
+    "visitante": 12
+   },
+   {
+    "periodo": "2º C",
+    "local": 15,
+    "visitante": 17
+   },
+   {
+    "periodo": "3º C",
+    "local": 20,
+    "visitante": 20
+   },
+   {
+    "periodo": "4º C",
+    "local": 10,
+    "visitante": 27
+   }
+  ]
+ }
+}

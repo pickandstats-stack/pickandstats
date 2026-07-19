@@ -1,0 +1,777 @@
+{
+ "id": "2513305",
+ "fase": "ELIMIN. GR \"E\" 1/2 Final",
+ "jornada": "Jornada 1(17/05/2026)",
+ "temporada": "2025",
+ "celdas": [
+  "VELABASKET CB SUECA -\n\t\t\t\t\t\t\tFUNDACIÓ CAIXA RURAL VILA-REAL",
+  "85-80",
+  "16/05/2026",
+  "19:00"
+ ],
+ "resultado": "85-80",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2814954",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "MORATA, ETHAN",
+    "seg": 1101,
+    "pt": 14,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 6,
+    "fr": 18,
+    "va": -12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2183928",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "CASTRILLON RODRIGUEZ, OSCAR",
+    "seg": 17,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1504969",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "SANTAMATILDE PERIS, VICENT",
+    "seg": 579,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -1,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2016714",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "LÓPEZ ÁLVAREZ-TIRADOR, ALEJANDRO",
+    "seg": 1127,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 0,
+    "va": -21,
+    "pm": 0
+   },
+   {
+    "idJugador": "1853272",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "MARCO CLIMENT, FRANCISCO",
+    "seg": 2031,
+    "pt": 23,
+    "t2": {
+     "a": 10,
+     "i": 13
+    },
+    "t3": {
+     "a": 10,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 2,
+    "rt": 0,
+    "as": 3,
+    "br": 2,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 6,
+    "fr": 29,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2451920",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "CERVANTES GUERRA, LUIS MANUEL",
+    "seg": 1494,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 3,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 15,
+    "va": 19,
+    "pm": 0
+   },
+   {
+    "idJugador": "1851070",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "LUENGO MATEO, PABLO",
+    "seg": 1975,
+    "pt": 9,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 4,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 2,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2034658",
+    "titular": false,
+    "dorsal": "20",
+    "nombre": "FONT FENOLLAR, ARNAU",
+    "seg": 1609,
+    "pt": 12,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 4,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 8,
+    "va": 21,
+    "pm": 0
+   },
+   {
+    "idJugador": "2033012",
+    "titular": false,
+    "dorsal": "50",
+    "nombre": "ANTICH MINGUEZ, POL",
+    "seg": 1177,
+    "pt": 15,
+    "t2": {
+     "a": 5,
+     "i": 9
+    },
+    "t3": {
+     "a": 6,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 6,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 14,
+    "va": 24,
+    "pm": 0
+   },
+   {
+    "idJugador": "2163057",
+    "titular": false,
+    "dorsal": "67",
+    "nombre": "MARTÍNEZ JURADO, DIEGO",
+    "seg": 319,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2275089",
+    "titular": true,
+    "dorsal": "99",
+    "nombre": "FAYE, PAPE BOUCAR",
+    "seg": 571,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 0,
+    "fr": 2,
+    "va": -15,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "1815956",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "MORAGAS AZNAR, MIGUEL",
+    "seg": 1957,
+    "pt": 24,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 8,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 5,
+    "fr": 26,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1632584",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "VILLAR SOLER, JAUME",
+    "seg": 658,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 3,
+    "va": -14,
+    "pm": 0
+   },
+   {
+    "idJugador": "1679499",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "LE BERRE CASTILLO, JAVIER",
+    "seg": 1565,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 3,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 7,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1601688",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "CEJUDO GALÁN, ADRIÁN",
+    "seg": 1200,
+    "pt": 10,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 5,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 13,
+    "va": 8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1840042",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "GARCIA ROYO, DAVID",
+    "seg": 827,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": -6,
+    "va": -16,
+    "pm": 0
+   },
+   {
+    "idJugador": "1687760",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "SABATE PRATS, JOEL",
+    "seg": 1141,
+    "pt": 4,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 8,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 6,
+    "va": -12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2215801",
+    "titular": true,
+    "dorsal": "17",
+    "nombre": "IGBINS DAVID, ANTHONY",
+    "seg": 533,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 6,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2103192",
+    "titular": false,
+    "dorsal": "20",
+    "nombre": "PEREZ RIPOLL, ALEJANDRO",
+    "seg": 443,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 3,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1706867",
+    "titular": false,
+    "dorsal": "23",
+    "nombre": "MORTE MONTAÑES, PAU",
+    "seg": 778,
+    "pt": 7,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 8,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1769434",
+    "titular": true,
+    "dorsal": "24",
+    "nombre": "CAMPOS DE BENGOA, JAIME",
+    "seg": 1404,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 3,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 4,
+    "fr": 12,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1840859",
+    "titular": false,
+    "dorsal": "30",
+    "nombre": "RODRIGUEZ GIL, VICTOR",
+    "seg": 1040,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 1,
+    "rt": 0,
+    "as": 5,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 3,
+    "fr": 5,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2528182",
+    "titular": true,
+    "dorsal": "92",
+    "nombre": "MARIA VENTURA, MARIO",
+    "seg": 454,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": 15,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 16,
+    "visitante": 25
+   },
+   {
+    "periodo": "2º C",
+    "local": 21,
+    "visitante": 28
+   },
+   {
+    "periodo": "3º C",
+    "local": 30,
+    "visitante": 20
+   },
+   {
+    "periodo": "4º C",
+    "local": 18,
+    "visitante": 7
+   }
+  ]
+ }
+}

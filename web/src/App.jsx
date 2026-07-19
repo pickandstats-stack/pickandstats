@@ -174,7 +174,7 @@ export default function App() {
         <Inicio equipos={equipos} jugadores={jugadores} partidos={partidos}
           temporada={temporada} onVerEquipo={verEquipo} onVerJugador={verJugador} onVerPartido={verPartido} />
       ) : vista === 'resultados' ? (
-        <Resultados partidos={partidos} equipos={equipos} grupos={GRUPOS}
+        <Resultados partidos={partidos} equipos={equipos} grupos={GRUPOS} temporada={temporada}
           onVerEquipo={verEquipo} onVerPartido={verPartido} />
       ) : vista === 'equipos' ? (
         <Equipos equipos={equipos} grupos={GRUPOS} onVerEquipo={verEquipo} />
