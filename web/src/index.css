@@ -463,6 +463,27 @@ th.col-a { color: #ffd9c4; }
 .pastilla-temporada.activa {
   background: var(--acento); color: #fff; border-color: var(--acento);
 }
+
+/* ---- selector de competición (mismo lenguaje visual que temporadas) ---- */
+.barra-competiciones {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  margin: 16px 0 2px;
+}
+.pastilla-competicion {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px; font-weight: 600;
+  padding: 6px 16px;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--tinta);
+  cursor: pointer;
+  transition: all .15s;
+}
+.pastilla-competicion:hover { border-color: var(--acento); }
+.pastilla-competicion.activa {
+  background: var(--acento); color: #fff; border-color: var(--acento);
+}
 @media (max-width: 680px) {
   .cabecera-buscador { flex-basis: 100%; max-width: 100%; }
 }
