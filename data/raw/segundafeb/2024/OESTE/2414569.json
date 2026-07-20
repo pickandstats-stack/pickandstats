@@ -1,0 +1,823 @@
+{
+ "id": "2414569",
+ "temporada": "2024",
+ "competicion": "segundafeb",
+ "grupo": "OESTE",
+ "jornada": "Jornada 9(07/12/2024)",
+ "equipoLocal": {
+  "id": "950652",
+  "nombre": "BIELE ISB"
+ },
+ "equipoVisitante": {
+  "id": "951356",
+  "nombre": "BUENO ARENAS ALBACETE BASKET"
+ },
+ "resultado": "82-70",
+ "disputado": true,
+ "descargado": "2026-07-20T18:17:21.342Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2451495",
+    "titular": true,
+    "dorsal": "0",
+    "nombre": "KNOWLES, DANRAD",
+    "seg": 1428,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 1,
+     "i": 3
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 4,
+    "as": 0,
+    "br": 1,
+    "bp": 1,
+    "tf": 2,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 3,
+    "va": 8,
+    "pm": 17
+   },
+   {
+    "idJugador": "2767761",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "GODWIN, KEVON LAMAR",
+    "seg": 1609,
+    "pt": 15,
+    "t2": {
+     "a": 5,
+     "i": 6
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 6,
+     "i": 9
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 3,
+    "va": 20,
+    "pm": 7
+   },
+   {
+    "idJugador": "2352358",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "RAMON FERNANDEZ DE ARROYABE, ALEX",
+    "seg": 288,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": 4,
+    "pm": -10
+   },
+   {
+    "idJugador": "2082635",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "AIZPITARTE ARANZA, IERAI",
+    "seg": 2171,
+    "pt": 20,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 5,
+     "i": 12
+    },
+    "tc": {
+     "a": 7,
+     "i": 17
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 4,
+    "rt": 5,
+    "as": 3,
+    "br": 0,
+    "bp": 4,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 3,
+    "va": 13,
+    "pm": 13
+   },
+   {
+    "idJugador": "2082636",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "ROYO ARGOTE, IÑIGO",
+    "seg": 1257,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 3,
+     "i": 4
+    },
+    "ro": 3,
+    "rd": 7,
+    "rt": 10,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 5,
+    "va": 17,
+    "pm": 6
+   },
+   {
+    "idJugador": "2137835",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "OLAIZOLA GARIN, MIKEL",
+    "seg": 265,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": -7
+   },
+   {
+    "idJugador": "2815310",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "NIANG, WALY",
+    "seg": 386,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 2,
+    "pm": -5
+   },
+   {
+    "idJugador": "2276120",
+    "titular": false,
+    "dorsal": "30",
+    "nombre": "MIRANDA GARCIA, IÑIGO",
+    "seg": 17,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": 1
+   },
+   {
+    "idJugador": "2749219",
+    "titular": false,
+    "dorsal": "31",
+    "nombre": "HERASME, MATTHEW",
+    "seg": 1858,
+    "pt": 17,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tc": {
+     "a": 7,
+     "i": 12
+    },
+    "tl": {
+     "a": 1,
+     "i": 1
+    },
+    "ro": 0,
+    "rd": 3,
+    "rt": 3,
+    "as": 0,
+    "br": 3,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 14,
+    "pm": 16
+   },
+   {
+    "idJugador": "2734904",
+    "titular": true,
+    "dorsal": "33",
+    "nombre": "STULIC, JOVAN",
+    "seg": 889,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": 0,
+    "pm": 6
+   },
+   {
+    "idJugador": "2093087",
+    "titular": false,
+    "dorsal": "42",
+    "nombre": "ACHA CORTABARRIA, ANDONI",
+    "seg": 1441,
+    "pt": 5,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 2,
+    "rd": 4,
+    "rt": 6,
+    "as": 2,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 2,
+    "va": 10,
+    "pm": 16
+   },
+   {
+    "idJugador": "2415762",
+    "titular": false,
+    "dorsal": "50",
+    "nombre": "INDA HERNANDEZ, OIER",
+    "seg": 391,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2364397",
+    "titular": true,
+    "dorsal": "0",
+    "nombre": "HARRIS II, ROBERT MICHAEL",
+    "seg": 1443,
+    "pt": 9,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tc": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 3,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 4,
+    "va": 9,
+    "pm": -4
+   },
+   {
+    "idJugador": "2772828",
+    "titular": false,
+    "dorsal": "2",
+    "nombre": "ANDRADE AMIEL, FRANCISCO",
+    "seg": 968,
+    "pt": 8,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 2
+    },
+    "tc": {
+     "a": 3,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 0,
+    "va": 8,
+    "pm": -3
+   },
+   {
+    "idJugador": "1086474",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "MARIN ORTEGA, ALEJANDRO",
+    "seg": 1245,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tc": {
+     "a": 1,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 6,
+    "rt": 7,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": 5,
+    "pm": -4
+   },
+   {
+    "idJugador": "1872402",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "DE BLAS MORCILLO, DIEGO",
+    "seg": 1171,
+    "pt": 17,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tc": {
+     "a": 5,
+     "i": 9
+    },
+    "tl": {
+     "a": 5,
+     "i": 6
+    },
+    "ro": 2,
+    "rd": 5,
+    "rt": 7,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 3,
+    "va": 19,
+    "pm": 12
+   },
+   {
+    "idJugador": "2167998",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "STEVANIC, VUK",
+    "seg": 772,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 1,
+    "va": -1,
+    "pm": -13
+   },
+   {
+    "idJugador": "1888039",
+    "titular": true,
+    "dorsal": "16",
+    "nombre": "SANCHEZ INFANTES, PABLO",
+    "seg": 1910,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 7
+    },
+    "tc": {
+     "a": 3,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 3,
+    "bp": 3,
+    "tf": 0,
+    "tco": 2,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 3,
+    "pm": -17
+   },
+   {
+    "idJugador": "2659576",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "FALL, CHEIKH AHMADOU BAMBA",
+    "seg": 809,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 0,
+    "va": 4,
+    "pm": -4
+   },
+   {
+    "idJugador": "2042568",
+    "titular": false,
+    "dorsal": "27",
+    "nombre": "BURGOS CABALLERO, ANTONIO",
+    "seg": 1727,
+    "pt": 14,
+    "t2": {
+     "a": 4,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tc": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 8,
+    "pm": -7
+   },
+   {
+    "idJugador": "1627889",
+    "titular": true,
+    "dorsal": "67",
+    "nombre": "TAMAYO LESMES, ALEX",
+    "seg": 1955,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 7
+    },
+    "tc": {
+     "a": 3,
+     "i": 13
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 5,
+    "rt": 6,
+    "as": 3,
+    "br": 0,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 4,
+    "pm": -20
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 19,
+    "visitante": 9
+   },
+   {
+    "periodo": "2º C",
+    "local": 16,
+    "visitante": 29
+   },
+   {
+    "periodo": "3º C",
+    "local": 22,
+    "visitante": 19
+   },
+   {
+    "periodo": "4º C",
+    "local": 25,
+    "visitante": 13
+   }
+  ]
+ }
+}

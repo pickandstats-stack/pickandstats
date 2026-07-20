@@ -1,0 +1,786 @@
+{
+ "id": "2412117",
+ "temporada": "2024",
+ "competicion": "primerafeb",
+ "grupo": "UNICO",
+ "jornada": "Jornada 33(02/05/2025)",
+ "equipoLocal": {
+  "id": "952158",
+  "nombre": "C.B. NATURAVIA MORÓN"
+ },
+ "equipoVisitante": {
+  "id": "950779",
+  "nombre": "HLA ALICANTE"
+ },
+ "resultado": "72-65",
+ "disputado": true,
+ "descargado": "2026-07-20T18:05:25.613Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2733682",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "M'MADI, MATHIAS",
+    "seg": 1085,
+    "pt": 12,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tc": {
+     "a": 4,
+     "i": 10
+    },
+    "tl": {
+     "a": 4,
+     "i": 5
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 3,
+    "va": 11,
+    "pm": 21
+   },
+   {
+    "idJugador": "1356913",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "MARIN ORTEGA, JAVIER",
+    "seg": 1287,
+    "pt": 7,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 3,
+    "va": 3,
+    "pm": 1
+   },
+   {
+    "idJugador": "1447521",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "JIMÉNEZ GONZÁLEZ, JOSE ALBERTO",
+    "seg": 1979,
+    "pt": 13,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tc": {
+     "a": 5,
+     "i": 12
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 8,
+    "rt": 9,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": 16,
+    "pm": 17
+   },
+   {
+    "idJugador": "1374871",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "SANTANA ROSALES, FABIO DAVID",
+    "seg": 718,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tc": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 2,
+    "pm": -10
+   },
+   {
+    "idJugador": "1997161",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "TAMBA VILLEN, ISMAEL",
+    "seg": 873,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 1,
+    "fr": 0,
+    "va": 0,
+    "pm": -15
+   },
+   {
+    "idJugador": "2293254",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "DA SILVA, VINICIUS LUCIO",
+    "seg": 1350,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 8,
+    "rt": 9,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 3,
+    "fr": 1,
+    "va": 9,
+    "pm": 20
+   },
+   {
+    "idJugador": "2481791",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "NORRIS JR, ANDRE LAZAR",
+    "seg": 2056,
+    "pt": 15,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tc": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 5,
+     "i": 5
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 4,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 5,
+    "va": 22,
+    "pm": 8
+   },
+   {
+    "idJugador": "2042568",
+    "titular": false,
+    "dorsal": "27",
+    "nombre": "BURGOS CABALLERO, ANTONIO",
+    "seg": 764,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 6,
+     "i": 6
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 2,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 3,
+    "va": 9,
+    "pm": -4
+   },
+   {
+    "idJugador": "718637",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "PAREJO CAMACHO, LUIS MARIA",
+    "seg": 775,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 0,
+    "va": 0,
+    "pm": -9
+   },
+   {
+    "idJugador": "1825944",
+    "titular": true,
+    "dorsal": "99",
+    "nombre": "GARCIA SALAME, RAFAEL",
+    "seg": 1113,
+    "pt": 8,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tc": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 2,
+     "i": 4
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 4,
+    "as": 0,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 3,
+    "va": 5,
+    "pm": 6
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2734617",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "KING, JORDAN JAMES",
+    "seg": 1896,
+    "pt": 17,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tc": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 1,
+    "va": 11,
+    "pm": -13
+   },
+   {
+    "idJugador": "2787126",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "CECCARDI, SEBASTIAN ARIS",
+    "seg": 1061,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 4,
+     "i": 4
+    },
+    "ro": 2,
+    "rd": 4,
+    "rt": 6,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 3,
+    "va": 9,
+    "pm": -1
+   },
+   {
+    "idJugador": "2734619",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "MWEMA, JEAN MARC",
+    "seg": 923,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tc": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 4,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 0,
+    "va": -4,
+    "pm": -2
+   },
+   {
+    "idJugador": "2734637",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "MOUTE A BIDIAS, ROGER DUCLOS BERTIN",
+    "seg": 1077,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tc": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 0,
+    "va": -5,
+    "pm": 5
+   },
+   {
+    "idJugador": "1869762",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "BRESSAN, GONZALO",
+    "seg": 690,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 1,
+    "pm": 10
+   },
+   {
+    "idJugador": "1957913",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "RODRIGUEZ JUAN, ADRIA",
+    "seg": 1245,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 3,
+    "rt": 7,
+    "as": 4,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "mt": 1,
+    "fc": 3,
+    "fr": 2,
+    "va": 10,
+    "pm": -6
+   },
+   {
+    "idJugador": "1535344",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "ROSA POMPIDO, IGNACIO",
+    "seg": 282,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 0,
+    "va": 2,
+    "pm": 1
+   },
+   {
+    "idJugador": "2433482",
+    "titular": true,
+    "dorsal": "21",
+    "nombre": "LARSEN, KEVIN RICKI",
+    "seg": 1710,
+    "pt": 14,
+    "t2": {
+     "a": 4,
+     "i": 13
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tc": {
+     "a": 6,
+     "i": 17
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 7,
+    "as": 0,
+    "br": 2,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "mt": 1,
+    "fc": 0,
+    "fr": 2,
+    "va": 13,
+    "pm": -17
+   },
+   {
+    "idJugador": "2371555",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "KACINAS, MINDAUGAS",
+    "seg": 2017,
+    "pt": 15,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 4,
+     "i": 9
+    },
+    "tc": {
+     "a": 5,
+     "i": 13
+    },
+    "tl": {
+     "a": 1,
+     "i": 1
+    },
+    "ro": 1,
+    "rd": 8,
+    "rt": 9,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": 20,
+    "pm": -8
+   },
+   {
+    "idJugador": "1124596",
+    "titular": false,
+    "dorsal": "25",
+    "nombre": "LOPEZ LAZ, ALEJANDRO",
+    "seg": 1099,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tc": {
+     "a": 1,
+     "i": 7
+    },
+    "tl": {
+     "a": 3,
+     "i": 4
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 0,
+    "pm": -4
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 11,
+    "visitante": 19
+   },
+   {
+    "periodo": "2º C",
+    "local": 15,
+    "visitante": 20
+   },
+   {
+    "periodo": "3º C",
+    "local": 22,
+    "visitante": 14
+   },
+   {
+    "periodo": "4º C",
+    "local": 24,
+    "visitante": 12
+   }
+  ]
+ }
+}

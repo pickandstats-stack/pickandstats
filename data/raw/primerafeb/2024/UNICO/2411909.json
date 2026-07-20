@@ -1,0 +1,749 @@
+{
+ "id": "2411909",
+ "temporada": "2024",
+ "competicion": "primerafeb",
+ "grupo": "UNICO",
+ "jornada": "Jornada 10(06/12/2024)",
+ "equipoLocal": {
+  "id": "950871",
+  "nombre": "GRUPO ALEGA CANTABRIA"
+ },
+ "equipoVisitante": {
+  "id": "951321",
+  "nombre": "FLEXICAR FUENLABRADA"
+ },
+ "resultado": "67-75",
+ "disputado": true,
+ "descargado": "2026-07-20T17:59:51.545Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1979461",
+    "titular": false,
+    "dorsal": "2",
+    "nombre": "SANCHEZ BARQUIN, JUAN",
+    "seg": 51,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 2,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": 2
+   },
+   {
+    "idJugador": "2650877",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "VOYTSO, VLADYSLAV",
+    "seg": 713,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 0,
+    "va": 3,
+    "pm": -8
+   },
+   {
+    "idJugador": "2650859",
+    "titular": true,
+    "dorsal": "5",
+    "nombre": "LITTLESON, SPENCER PHILLIP",
+    "seg": 1705,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 7
+    },
+    "tc": {
+     "a": 1,
+     "i": 11
+    },
+    "tl": {
+     "a": 4,
+     "i": 4
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 2,
+    "br": 3,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 5,
+    "fr": 2,
+    "va": 0,
+    "pm": 1
+   },
+   {
+    "idJugador": "2158313",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "BULIC, MIRZA",
+    "seg": 1569,
+    "pt": 20,
+    "t2": {
+     "a": 6,
+     "i": 10
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tc": {
+     "a": 7,
+     "i": 11
+    },
+    "tl": {
+     "a": 5,
+     "i": 7
+    },
+    "ro": 3,
+    "rd": 5,
+    "rt": 8,
+    "as": 4,
+    "br": 1,
+    "bp": 5,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 6,
+    "va": 25,
+    "pm": -9
+   },
+   {
+    "idJugador": "1821694",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "MARTINEZ DIAZ, GERMAN",
+    "seg": 1912,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 10
+    },
+    "tc": {
+     "a": 3,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 5,
+    "rt": 6,
+    "as": 3,
+    "br": 1,
+    "bp": 4,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 2,
+    "va": 2,
+    "pm": -7
+   },
+   {
+    "idJugador": "1007257",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "VEGA MERAYO, JAVIER",
+    "seg": 1293,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 2,
+    "va": 8,
+    "pm": -15
+   },
+   {
+    "idJugador": "2334896",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "BERCY, KEVIN RICHARD",
+    "seg": 781,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": -4,
+    "pm": 3
+   },
+   {
+    "idJugador": "2734677",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "HUNDT, BENNET",
+    "seg": 669,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2446696",
+    "titular": true,
+    "dorsal": "34",
+    "nombre": "KANDE KIELI, GARMINE",
+    "seg": 1503,
+    "pt": 14,
+    "t2": {
+     "a": 7,
+     "i": 11
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 7,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 7,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "mt": 5,
+    "fc": 2,
+    "fr": 1,
+    "va": 16,
+    "pm": -2
+   },
+   {
+    "idJugador": "2820728",
+    "titular": true,
+    "dorsal": "35",
+    "nombre": "BELEMENE-DZABATOU, JUDICAËL ROMARIC",
+    "seg": 1804,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tc": {
+     "a": 2,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 5,
+    "rt": 8,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 5,
+    "va": 7,
+    "pm": -5
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2027826",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "MATULIONIS, OSVALDAS",
+    "seg": 1701,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tc": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 3,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 7,
+    "pm": -4
+   },
+   {
+    "idJugador": "2371535",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "JORGENSEN, PAUL ANDERS",
+    "seg": 1048,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tc": {
+     "a": 1,
+     "i": 8
+    },
+    "tl": {
+     "a": 3,
+     "i": 4
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 1,
+    "br": 3,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 4,
+    "fr": 3,
+    "va": 0,
+    "pm": 21
+   },
+   {
+    "idJugador": "2446720",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "ZURBRIGGEN, FERNANDO",
+    "seg": 1627,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 3,
+     "i": 5
+    },
+    "ro": 0,
+    "rd": 10,
+    "rt": 10,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 2,
+    "fr": 5,
+    "va": 17,
+    "pm": 7
+   },
+   {
+    "idJugador": "1680859",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "BILBAO TORRONTEGUI, JORGE ALAIN",
+    "seg": 1114,
+    "pt": 12,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tc": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 2,
+    "rd": 4,
+    "rt": 6,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 1,
+    "va": 13,
+    "pm": 11
+   },
+   {
+    "idJugador": "2378856",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "NZOSA MANZILA, YANNICK",
+    "seg": 1400,
+    "pt": 9,
+    "t2": {
+     "a": 4,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 4,
+     "i": 4
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 7,
+    "as": 1,
+    "br": 0,
+    "bp": 2,
+    "tf": 2,
+    "tco": 0,
+    "mt": 1,
+    "fc": 1,
+    "fr": 2,
+    "va": 17,
+    "pm": 14
+   },
+   {
+    "idJugador": "1285645",
+    "titular": true,
+    "dorsal": "16",
+    "nombre": "DURAN RUIZ, EDUARDO",
+    "seg": 1204,
+    "pt": 8,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tc": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 3,
+    "pm": 9
+   },
+   {
+    "idJugador": "2648543",
+    "titular": true,
+    "dorsal": "24",
+    "nombre": "NWOGBO, LOTANNA AFAM",
+    "seg": 1000,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 1,
+    "br": 1,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 4,
+    "va": 5,
+    "pm": -6
+   },
+   {
+    "idJugador": "1382710",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "CRUZ UCEDA, IVAN",
+    "seg": 1292,
+    "pt": 10,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 4,
+    "as": 0,
+    "br": 2,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": 11,
+    "pm": -5
+   },
+   {
+    "idJugador": "2436780",
+    "titular": true,
+    "dorsal": "99",
+    "nombre": "WESTERMANN, LEO JOSEPH PAUL",
+    "seg": 1614,
+    "pt": 11,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 8
+    },
+    "tc": {
+     "a": 3,
+     "i": 13
+    },
+    "tl": {
+     "a": 3,
+     "i": 3
+    },
+    "ro": 0,
+    "rd": 3,
+    "rt": 3,
+    "as": 4,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 2,
+    "fr": 5,
+    "va": 11,
+    "pm": -7
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 21,
+    "visitante": 16
+   },
+   {
+    "periodo": "2º C",
+    "local": 24,
+    "visitante": 17
+   },
+   {
+    "periodo": "3º C",
+    "local": 13,
+    "visitante": 21
+   },
+   {
+    "periodo": "4º C",
+    "local": 9,
+    "visitante": 21
+   }
+  ]
+ }
+}

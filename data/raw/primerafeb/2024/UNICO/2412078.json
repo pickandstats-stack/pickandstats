@@ -1,0 +1,860 @@
+{
+ "id": "2412078",
+ "temporada": "2024",
+ "competicion": "primerafeb",
+ "grupo": "UNICO",
+ "jornada": "Jornada 29(11/04/2025)",
+ "equipoLocal": {
+  "id": "951078",
+  "nombre": "ODILO FC CARTAGENA CB"
+ },
+ "equipoVisitante": {
+  "id": "950951",
+  "nombre": "REAL BETIS BALONCESTO"
+ },
+ "resultado": "72-85",
+ "disputado": true,
+ "descargado": "2026-07-20T18:04:32.659Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2094445",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "GONZÁLEZ PÉREZ, ASIER",
+    "seg": 1077,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 5
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 3,
+    "as": 2,
+    "br": 1,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 2,
+    "va": 0,
+    "pm": -7
+   },
+   {
+    "idJugador": "2159336",
+    "titular": false,
+    "dorsal": "2",
+    "nombre": "GARUBA ALARI, AB SEDIQ",
+    "seg": 1412,
+    "pt": 7,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tc": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 2,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 3,
+    "fr": 1,
+    "va": 0,
+    "pm": 3
+   },
+   {
+    "idJugador": "1394852",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "BLAT BAEZA, GERARD",
+    "seg": 789,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tc": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 0,
+    "va": -1,
+    "pm": -8
+   },
+   {
+    "idJugador": "1384223",
+    "titular": true,
+    "dorsal": "5",
+    "nombre": "MARTIN MARIN, ALBERTO",
+    "seg": 804,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 1
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 2,
+    "va": 4,
+    "pm": -13
+   },
+   {
+    "idJugador": "2616999",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "VAN EICK, DYLAN LUCIÉN",
+    "seg": 1763,
+    "pt": 17,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tc": {
+     "a": 6,
+     "i": 12
+    },
+    "tl": {
+     "a": 3,
+     "i": 4
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 4,
+    "as": 6,
+    "br": 1,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 3,
+    "fc": 3,
+    "fr": 5,
+    "va": 21,
+    "pm": -8
+   },
+   {
+    "idJugador": "1808439",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "GIL GARCIA, GABRIEL",
+    "seg": 1008,
+    "pt": 9,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 3,
+     "i": 4
+    },
+    "tc": {
+     "a": 3,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 0,
+    "va": 10,
+    "pm": -3
+   },
+   {
+    "idJugador": "1210759",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "ROGERS GARCIA, JORDAN ALEXANDER",
+    "seg": 877,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 4,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 6,
+    "pm": -7
+   },
+   {
+    "idJugador": "1676991",
+    "titular": true,
+    "dorsal": "21",
+    "nombre": "JORDA RODRIGUEZ, ALEJANDRO",
+    "seg": 687,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": -4,
+    "pm": -11
+   },
+   {
+    "idJugador": "2560959",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "BALASTEGUI MARTINEZ, JAVIER",
+    "seg": 807,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tc": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 0,
+    "va": 4,
+    "pm": 8
+   },
+   {
+    "idJugador": "2735658",
+    "titular": true,
+    "dorsal": "24",
+    "nombre": "HERMANSON, CALVIN ALEXANDER RODEN",
+    "seg": 1453,
+    "pt": 14,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tc": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 1,
+     "i": 4
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 4,
+    "va": 12,
+    "pm": -13
+   },
+   {
+    "idJugador": "2738742",
+    "titular": false,
+    "dorsal": "31",
+    "nombre": "UGOCHUKWU, STEPHEN CHUKWUEMEKA",
+    "seg": 1323,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 5,
+     "i": 6
+    },
+    "ro": 1,
+    "rd": 6,
+    "rt": 7,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 4,
+    "va": 11,
+    "pm": -6
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2433147",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "HUGHES, MARK ANTHONY",
+    "seg": 1332,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 1,
+     "i": 1
+    },
+    "ro": 0,
+    "rd": 7,
+    "rt": 7,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 1,
+    "va": 7,
+    "pm": 17
+   },
+   {
+    "idJugador": "2734562",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "CVETKOVIC, ALEKSANDAR",
+    "seg": 1099,
+    "pt": 5,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 8,
+    "pm": -5
+   },
+   {
+    "idJugador": "2157874",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "ALVES BENITE, VITOR",
+    "seg": 1038,
+    "pt": 20,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 5,
+     "i": 6
+    },
+    "tc": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 5,
+     "i": 5
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 2,
+    "va": 17,
+    "pm": 3
+   },
+   {
+    "idJugador": "2820727",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "KASIBABU SHILALA, JONATHAN",
+    "seg": 1072,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 2
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 4,
+    "as": 0,
+    "br": 0,
+    "bp": 5,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": -1,
+    "pm": -13
+   },
+   {
+    "idJugador": "1873981",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "LOPEZ DE LA TORRE SANCHEZ, RUBEN",
+    "seg": 291,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": -1,
+    "pm": -6
+   },
+   {
+    "idJugador": "2703151",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "DE BISSCHOP, BROOKS LOURDEAUX",
+    "seg": 1328,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 3,
+     "i": 3
+    },
+    "tl": {
+     "a": 2,
+     "i": 4
+    },
+    "ro": 1,
+    "rd": 6,
+    "rt": 7,
+    "as": 5,
+    "br": 1,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 3,
+    "fr": 4,
+    "va": 17,
+    "pm": 26
+   },
+   {
+    "idJugador": "1594835",
+    "titular": true,
+    "dorsal": "25",
+    "nombre": "JELINEK, DAVID",
+    "seg": 1315,
+    "pt": 23,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 6,
+     "i": 8
+    },
+    "tc": {
+     "a": 8,
+     "i": 13
+    },
+    "tl": {
+     "a": 1,
+     "i": 1
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 1,
+    "bp": 2,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 1,
+    "fr": 3,
+    "va": 22,
+    "pm": 10
+   },
+   {
+    "idJugador": "2236015",
+    "titular": true,
+    "dorsal": "32",
+    "nombre": "RENFROE, GREGORY ALEXANDER",
+    "seg": 1636,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 4,
+     "i": 5
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 5,
+    "br": 2,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 3,
+    "va": 15,
+    "pm": 18
+   },
+   {
+    "idJugador": "2797792",
+    "titular": false,
+    "dorsal": "77",
+    "nombre": "DALLO, BORIS OMER",
+    "seg": 780,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": 0,
+    "pm": -4
+   },
+   {
+    "idJugador": "2843861",
+    "titular": false,
+    "dorsal": "88",
+    "nombre": "RADONCIC, DINO",
+    "seg": 1417,
+    "pt": 6,
+    "t2": {
+     "a": 2,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 2,
+     "i": 8
+    },
+    "tl": {
+     "a": 2,
+     "i": 4
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 5,
+    "as": 5,
+    "br": 2,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 9,
+    "pm": -4
+   },
+   {
+    "idJugador": "1322114",
+    "titular": true,
+    "dorsal": "93",
+    "nombre": "SUÁREZ CASTRO, ALEJANDRO",
+    "seg": 692,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 5,
+    "rt": 6,
+    "as": 0,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 0,
+    "va": 5,
+    "pm": 23
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 19,
+    "visitante": 34
+   },
+   {
+    "periodo": "2º C",
+    "local": 15,
+    "visitante": 11
+   },
+   {
+    "periodo": "3º C",
+    "local": 14,
+    "visitante": 21
+   },
+   {
+    "periodo": "4º C",
+    "local": 24,
+    "visitante": 19
+   }
+  ]
+ }
+}

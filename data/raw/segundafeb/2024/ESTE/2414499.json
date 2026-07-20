@@ -1,0 +1,712 @@
+{
+ "id": "2414499",
+ "temporada": "2024",
+ "competicion": "segundafeb",
+ "grupo": "ESTE",
+ "jornada": "Jornada 25(12/04/2025)",
+ "equipoLocal": {
+  "id": "950692",
+  "nombre": "C.B. PRAT"
+ },
+ "equipoVisitante": {
+  "id": "950868",
+  "nombre": "C B SANTFELIUENC"
+ },
+ "resultado": "88-60",
+ "disputado": true,
+ "descargado": "2026-07-20T18:15:21.644Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1951408",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "PEÑARROYA CASTILLA, MARC",
+    "seg": 1090,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 5,
+    "br": 0,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": 5,
+    "pm": 20
+   },
+   {
+    "idJugador": "216888",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "COSTA I VÁZQUEZ, SERGI",
+    "seg": 888,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": -2,
+    "pm": 4
+   },
+   {
+    "idJugador": "2151354",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "ISAAC ONUETU, VICTORY ODIEKA",
+    "seg": 1308,
+    "pt": 30,
+    "t2": {
+     "a": 13,
+     "i": 17
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 14,
+     "i": 19
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 4,
+    "rd": 11,
+    "rt": 15,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 4,
+    "fc": 1,
+    "fr": 2,
+    "va": 39,
+    "pm": 21
+   },
+   {
+    "idJugador": "1300334",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "SALVANS HIDALGO, QUIM",
+    "seg": 1407,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 4,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": 2,
+    "pm": 25
+   },
+   {
+    "idJugador": "1564172",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "SESE FRASNEDO, MARC",
+    "seg": 1177,
+    "pt": 10,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tc": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 2,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 0,
+    "va": 7,
+    "pm": 9
+   },
+   {
+    "idJugador": "1941515",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "MARTÍ FONTANALS, ROGER",
+    "seg": 867,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 5,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 2,
+    "va": 5,
+    "pm": 11
+   },
+   {
+    "idJugador": "1990894",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "ORDOÑEZ OCHOA, IÑAKI",
+    "seg": 1527,
+    "pt": 8,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 1
+    },
+    "ro": 5,
+    "rd": 3,
+    "rt": 8,
+    "as": 8,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": 19,
+    "pm": 11
+   },
+   {
+    "idJugador": "1660664",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "NOGUES JARNE, JOSE IGNACIO",
+    "seg": 1366,
+    "pt": 10,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 3,
+     "i": 3
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 3,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 0,
+    "fr": 3,
+    "va": 15,
+    "pm": 23
+   },
+   {
+    "idJugador": "2737137",
+    "titular": false,
+    "dorsal": "24",
+    "nombre": "SUERO VERAS, EUSEBIO",
+    "seg": 1278,
+    "pt": 19,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 4,
+     "i": 7
+    },
+    "tc": {
+     "a": 6,
+     "i": 13
+    },
+    "tl": {
+     "a": 3,
+     "i": 3
+    },
+    "ro": 2,
+    "rd": 8,
+    "rt": 10,
+    "as": 0,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "mt": 0,
+    "fc": 3,
+    "fr": 2,
+    "va": 21,
+    "pm": 9
+   },
+   {
+    "idJugador": "2819069",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "SMALLWOOD, THOMAS BRIAN MAX",
+    "seg": 1092,
+    "pt": 6,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tc": {
+     "a": 2,
+     "i": 8
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 5,
+    "pm": 7
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2157558",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "RIPOLL BARTOMEU, GUILLEM",
+    "seg": 544,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": -1
+   },
+   {
+    "idJugador": "1927864",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "FONT RODRIGUEZ, DAVID",
+    "seg": 1868,
+    "pt": 9,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 6
+    },
+    "tc": {
+     "a": 2,
+     "i": 12
+    },
+    "tl": {
+     "a": 5,
+     "i": 5
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 5,
+    "va": 6,
+    "pm": -28
+   },
+   {
+    "idJugador": "1942837",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "MARTINEZ RIVERA, GERARD",
+    "seg": 1691,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 10
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tc": {
+     "a": 4,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 1
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 7,
+    "as": 0,
+    "br": 1,
+    "bp": 4,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 4,
+    "va": 8,
+    "pm": -21
+   },
+   {
+    "idJugador": "2559900",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "CRESPO RAMIREZ, JOSEP ALESSANDRO",
+    "seg": 1470,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 5,
+    "rt": 5,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 0,
+    "pm": -23
+   },
+   {
+    "idJugador": "2053988",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "DOMINGUEZ ESPELT, ADRIÀ",
+    "seg": 1438,
+    "pt": 11,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tc": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 3,
+    "as": 4,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 0,
+    "va": 10,
+    "pm": -17
+   },
+   {
+    "idJugador": "2145811",
+    "titular": false,
+    "dorsal": "30",
+    "nombre": "DIALLO TAVARES, SAÏKOU OUMAR",
+    "seg": 1659,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tc": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 3,
+    "rt": 3,
+    "as": 1,
+    "br": 2,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 3,
+    "va": 8,
+    "pm": -17
+   },
+   {
+    "idJugador": "1659850",
+    "titular": true,
+    "dorsal": "90",
+    "nombre": "PRIOR RUIZ, ALBERT",
+    "seg": 1598,
+    "pt": 14,
+    "t2": {
+     "a": 5,
+     "i": 11
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 6,
+     "i": 13
+    },
+    "tl": {
+     "a": 1,
+     "i": 1
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 3,
+    "as": 1,
+    "br": 3,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "mt": 1,
+    "fc": 2,
+    "fr": 1,
+    "va": 12,
+    "pm": -24
+   },
+   {
+    "idJugador": "2752020",
+    "titular": true,
+    "dorsal": "98",
+    "nombre": "MEDINA ROA, ENRIQUE ARTURO",
+    "seg": 1732,
+    "pt": 10,
+    "t2": {
+     "a": 4,
+     "i": 8
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 4,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 4,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 1,
+    "va": 12,
+    "pm": -9
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 19,
+    "visitante": 23
+   },
+   {
+    "periodo": "2º C",
+    "local": 21,
+    "visitante": 12
+   },
+   {
+    "periodo": "3º C",
+    "local": 22,
+    "visitante": 9
+   },
+   {
+    "periodo": "4º C",
+    "local": 26,
+    "visitante": 16
+   }
+  ]
+ }
+}

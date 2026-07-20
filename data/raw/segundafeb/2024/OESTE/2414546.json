@@ -1,0 +1,823 @@
+{
+ "id": "2414546",
+ "temporada": "2024",
+ "competicion": "segundafeb",
+ "grupo": "OESTE",
+ "jornada": "Jornada 5(02/11/2024)",
+ "equipoLocal": {
+  "id": "950942",
+  "nombre": "CIUDAD DE HUELVA EMERITA RESOURCES"
+ },
+ "equipoVisitante": {
+  "id": "950666",
+  "nombre": "CLÍNICA PONFERRADA SDP"
+ },
+ "resultado": "77-68",
+ "disputado": true,
+ "descargado": "2026-07-20T18:16:34.930Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2335524",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "ORTIZ MENDIETA, ALFONSO DAVID",
+    "seg": 1137,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 3,
+    "va": 6,
+    "pm": 9
+   },
+   {
+    "idJugador": "1825944",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "GARCIA SALAME, RAFAEL",
+    "seg": 808,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 2,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 2,
+    "va": 3,
+    "pm": 5
+   },
+   {
+    "idJugador": "2047768",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "FERNANDEZ DIAZ, GONZALO",
+    "seg": 360,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 3,
+    "pm": -3
+   },
+   {
+    "idJugador": "1822814",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "MAIZA APECECHEA, GAIZKA",
+    "seg": 1771,
+    "pt": 12,
+    "t2": {
+     "a": 0,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 4
+    },
+    "tc": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 3,
+     "i": 5
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 2,
+    "br": 1,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 4,
+    "va": 9,
+    "pm": 9
+   },
+   {
+    "idJugador": "2816401",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "DIENE, PA MOR",
+    "seg": 1510,
+    "pt": 8,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 5,
+    "rt": 5,
+    "as": 1,
+    "br": 2,
+    "bp": 3,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 2,
+    "va": 10,
+    "pm": 7
+   },
+   {
+    "idJugador": "2121808",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "NIANG NDONGO, MOHAMED",
+    "seg": 1014,
+    "pt": 15,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 5,
+     "i": 8
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 4,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 5,
+    "fr": 4,
+    "va": 13,
+    "pm": 2
+   },
+   {
+    "idJugador": "2534599",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "CHABI YO, SOULEMANE",
+    "seg": 1824,
+    "pt": 15,
+    "t2": {
+     "a": 6,
+     "i": 11
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 3,
+     "i": 3
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 4,
+    "as": 0,
+    "br": 0,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 5,
+    "va": 14,
+    "pm": 7
+   },
+   {
+    "idJugador": "2452011",
+    "titular": false,
+    "dorsal": "35",
+    "nombre": "SOW, PAPE AMADOU",
+    "seg": 261,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 1,
+    "pm": -2
+   },
+   {
+    "idJugador": "2734365",
+    "titular": false,
+    "dorsal": "40",
+    "nombre": "MAYS JR, MICHAEL LEE",
+    "seg": 1355,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 1,
+     "i": 7
+    },
+    "tc": {
+     "a": 4,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 2,
+    "va": 2,
+    "pm": 5
+   },
+   {
+    "idJugador": "2061399",
+    "titular": true,
+    "dorsal": "55",
+    "nombre": "TREVIÑO QUINTILLÁ, PAU",
+    "seg": 1960,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 3,
+     "i": 6
+    },
+    "ro": 4,
+    "rd": 4,
+    "rt": 8,
+    "as": 1,
+    "br": 1,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 7,
+    "va": 8,
+    "pm": 6
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "1950415",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "PARADEDA VIDAL, ERIC",
+    "seg": 133,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2432412",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "HIERREZUELO SERER, JUAN SANTIAGO",
+    "seg": 1043,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 1,
+    "va": -1,
+    "pm": -6
+   },
+   {
+    "idJugador": "1945582",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "MONCANUT MORE, ADRIA",
+    "seg": 1392,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 4,
+     "i": 7
+    },
+    "ro": 0,
+    "rd": 5,
+    "rt": 5,
+    "as": 4,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 4,
+    "va": 5,
+    "pm": -7
+   },
+   {
+    "idJugador": "2647147",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "BLAK MOLLER, RASMUS",
+    "seg": 1434,
+    "pt": 9,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tc": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 3,
+     "i": 5
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 4,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": 10,
+    "pm": -3
+   },
+   {
+    "idJugador": "2432962",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "MERLO, SILVANO",
+    "seg": 827,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 3,
+    "as": 2,
+    "br": 1,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 3,
+    "pm": 2
+   },
+   {
+    "idJugador": "2816661",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "MUKENDI MUKENDI, MIKE",
+    "seg": 841,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 3,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 1,
+    "va": -2,
+    "pm": -1
+   },
+   {
+    "idJugador": "1997544",
+    "titular": true,
+    "dorsal": "17",
+    "nombre": "HARGUINDEY MANEIRO, ALEJANDRO",
+    "seg": 1947,
+    "pt": 9,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 5
+    },
+    "tc": {
+     "a": 4,
+     "i": 11
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 4,
+    "as": 2,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 3,
+    "va": 5,
+    "pm": -12
+   },
+   {
+    "idJugador": "1634709",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "ROMERO SANCHEZ, SERGIO",
+    "seg": 483,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1702333",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "HERRERA SAURET, EZEQUIEL",
+    "seg": 910,
+    "pt": 8,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tc": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 5,
+     "i": 7
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 3,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 3,
+    "fr": 4,
+    "va": 4,
+    "pm": -1
+   },
+   {
+    "idJugador": "2400719",
+    "titular": false,
+    "dorsal": "26",
+    "nombre": "SAMAR, MATIJA",
+    "seg": 1784,
+    "pt": 21,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 10
+    },
+    "tc": {
+     "a": 5,
+     "i": 15
+    },
+    "tl": {
+     "a": 9,
+     "i": 10
+    },
+    "ro": 0,
+    "rd": 5,
+    "rt": 5,
+    "as": 2,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 6,
+    "va": 20,
+    "pm": -10
+   },
+   {
+    "idJugador": "1438515",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "MORALES ROS, ANTONIO JOSE",
+    "seg": 1206,
+    "pt": 10,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tc": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 5,
+     "i": 8
+    },
+    "ro": 0,
+    "rd": 3,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 6,
+    "va": 10,
+    "pm": -7
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 20,
+    "visitante": 23
+   },
+   {
+    "periodo": "2º C",
+    "local": 14,
+    "visitante": 15
+   },
+   {
+    "periodo": "3º C",
+    "local": 23,
+    "visitante": 13
+   },
+   {
+    "periodo": "4º C",
+    "local": 20,
+    "visitante": 17
+   }
+  ]
+ }
+}

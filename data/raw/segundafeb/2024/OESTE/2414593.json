@@ -1,0 +1,823 @@
+{
+ "id": "2414593",
+ "temporada": "2024",
+ "competicion": "segundafeb",
+ "grupo": "OESTE",
+ "jornada": "Jornada 12(21/12/2024)",
+ "equipoLocal": {
+  "id": "950809",
+  "nombre": "CULTURAL Y DEPORTIVA LEONESA"
+ },
+ "equipoVisitante": {
+  "id": "952045",
+  "nombre": "LA SALUD ARCHENA"
+ },
+ "resultado": "102-79",
+ "disputado": true,
+ "descargado": "2026-07-20T18:17:55.970Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2340126",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "A NONGO BERTHOLD, ELUKU",
+    "seg": 669,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 4,
+    "rt": 5,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 5,
+    "fr": 1,
+    "va": 1,
+    "pm": 5
+   },
+   {
+    "idJugador": "2862128",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "OKAFOR, OBIAJULUM UGOMEZUEM",
+    "seg": 1690,
+    "pt": 15,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 5,
+     "i": 10
+    },
+    "tl": {
+     "a": 4,
+     "i": 5
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 4,
+    "as": 3,
+    "br": 3,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "mt": 3,
+    "fc": 1,
+    "fr": 3,
+    "va": 22,
+    "pm": 36
+   },
+   {
+    "idJugador": "2149001",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "FABREGA URPINA, ROGER",
+    "seg": 979,
+    "pt": 14,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 3
+    },
+    "tc": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 5,
+     "i": 6
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 5,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 2,
+    "fr": 5,
+    "va": 23,
+    "pm": 22
+   },
+   {
+    "idJugador": "2171684",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "IGLESIAS MENDEZ, YAGO JOSE",
+    "seg": 416,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 1,
+    "va": -4,
+    "pm": -18
+   },
+   {
+    "idJugador": "1664877",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "ISERN MAZA, PAU",
+    "seg": 1430,
+    "pt": 8,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 4,
+     "i": 6
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 6,
+    "br": 2,
+    "bp": 2,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 1,
+    "fr": 5,
+    "va": 13,
+    "pm": 16
+   },
+   {
+    "idJugador": "1833453",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "BULTO CASTILLO, DIEGO",
+    "seg": 862,
+    "pt": 11,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 2
+    },
+    "tc": {
+     "a": 4,
+     "i": 5
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": 14,
+    "pm": 10
+   },
+   {
+    "idJugador": "1778999",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "VAZQUEZ PEREZ, ISAAC",
+    "seg": 1154,
+    "pt": 10,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tc": {
+     "a": 4,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": 11,
+    "pm": 17
+   },
+   {
+    "idJugador": "2747426",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "STAIN, FRANK MICHAEL",
+    "seg": 1679,
+    "pt": 12,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 4,
+     "i": 5
+    },
+    "tc": {
+     "a": 4,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 4,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 14,
+    "pm": 14
+   },
+   {
+    "idJugador": "2736568",
+    "titular": false,
+    "dorsal": "24",
+    "nombre": "KELLIER, JORDAN JEAN PIERRE",
+    "seg": 1086,
+    "pt": 13,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tc": {
+     "a": 5,
+     "i": 11
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 2,
+    "tf": 2,
+    "tco": 1,
+    "mt": 0,
+    "fc": 4,
+    "fr": 2,
+    "va": 7,
+    "pm": -13
+   },
+   {
+    "idJugador": "1780585",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "LLAMAS MARTINEZ, RODRIGO",
+    "seg": 1011,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 2,
+    "va": -4,
+    "pm": -8
+   },
+   {
+    "idJugador": "2814863",
+    "titular": true,
+    "dorsal": "99",
+    "nombre": "OCHI, MOHAMED FARES",
+    "seg": 1024,
+    "pt": 16,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 4
+    },
+    "tc": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 3,
+     "i": 4
+    },
+    "ro": 0,
+    "rd": 7,
+    "rt": 7,
+    "as": 1,
+    "br": 1,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 4,
+    "va": 23,
+    "pm": 34
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "1835869",
+    "titular": true,
+    "dorsal": "0",
+    "nombre": "TENDERO PONOMAREVA, ALEJANDRO",
+    "seg": 1045,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 2,
+     "i": 4
+    },
+    "ro": 7,
+    "rd": 1,
+    "rt": 8,
+    "as": 1,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 3,
+    "fr": 4,
+    "va": 5,
+    "pm": -36
+   },
+   {
+    "idJugador": "2749164",
+    "titular": true,
+    "dorsal": "5",
+    "nombre": "MONTERO, YEIKSON JOSÉ",
+    "seg": 1498,
+    "pt": 20,
+    "t2": {
+     "a": 5,
+     "i": 8
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tc": {
+     "a": 8,
+     "i": 16
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 2,
+    "bp": 4,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 2,
+    "fr": 1,
+    "va": 10,
+    "pm": -4
+   },
+   {
+    "idJugador": "1837816",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "HURTADO CERVANTES, CARLOS",
+    "seg": 871,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 1,
+    "va": -3,
+    "pm": -16
+   },
+   {
+    "idJugador": "1494619",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "LAFUENTE SISO, ALBERT",
+    "seg": 1864,
+    "pt": 15,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tc": {
+     "a": 4,
+     "i": 11
+    },
+    "tl": {
+     "a": 6,
+     "i": 7
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 4,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 5,
+    "va": 16,
+    "pm": -18
+   },
+   {
+    "idJugador": "2375942",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "FERRAGUT SEBASTIA, ANTONI",
+    "seg": 773,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 0,
+    "va": -3,
+    "pm": -9
+   },
+   {
+    "idJugador": "1677592",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "MENDIOLA DIEZ, SERGIO",
+    "seg": 1444,
+    "pt": 12,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 2,
+     "i": 4
+    },
+    "ro": 1,
+    "rd": 6,
+    "rt": 7,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 4,
+    "va": 15,
+    "pm": -7
+   },
+   {
+    "idJugador": "2198471",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "FLORES MORENO, FABIAN",
+    "seg": 956,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 5,
+    "as": 1,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": 3,
+    "pm": -16
+   },
+   {
+    "idJugador": "2816313",
+    "titular": false,
+    "dorsal": "21",
+    "nombre": "STRIKKER, MATTEO MILES",
+    "seg": 1355,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 4,
+    "as": 1,
+    "br": 2,
+    "bp": 2,
+    "tf": 1,
+    "tco": 1,
+    "mt": 0,
+    "fc": 4,
+    "fr": 2,
+    "va": 6,
+    "pm": 13
+   },
+   {
+    "idJugador": "2042118",
+    "titular": false,
+    "dorsal": "25",
+    "nombre": "HERNANDEZ MARTINEZ, FRANCISCO",
+    "seg": 567,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": 0,
+    "pm": -8
+   },
+   {
+    "idJugador": "1439463",
+    "titular": true,
+    "dorsal": "37",
+    "nombre": "TOLEDO ZAMORA, CARLOS",
+    "seg": 1627,
+    "pt": 12,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 4,
+     "i": 5
+    },
+    "ro": 3,
+    "rd": 5,
+    "rt": 8,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 3,
+    "va": 17,
+    "pm": -14
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 32,
+    "visitante": 16
+   },
+   {
+    "periodo": "2º C",
+    "local": 18,
+    "visitante": 12
+   },
+   {
+    "periodo": "3º C",
+    "local": 33,
+    "visitante": 17
+   },
+   {
+    "periodo": "4º C",
+    "local": 19,
+    "visitante": 34
+   }
+  ]
+ }
+}

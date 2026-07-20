@@ -1,0 +1,823 @@
+{
+ "id": "2414331",
+ "temporada": "2024",
+ "competicion": "segundafeb",
+ "grupo": "ESTE",
+ "jornada": "Jornada 1(05/10/2024)",
+ "equipoLocal": {
+  "id": "950868",
+  "nombre": "C B SANTFELIUENC"
+ },
+ "equipoVisitante": {
+  "id": "950776",
+  "nombre": "CB L´HORTA GODELLA"
+ },
+ "resultado": "76-74",
+ "disputado": true,
+ "descargado": "2026-07-20T18:10:41.978Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2734302",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "HENRY, TYLER JAIRUS",
+    "seg": 1624,
+    "pt": 15,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 6,
+     "i": 6
+    },
+    "ro": 0,
+    "rd": 5,
+    "rt": 5,
+    "as": 1,
+    "br": 2,
+    "bp": 2,
+    "tf": 1,
+    "tco": 1,
+    "mt": 0,
+    "fc": 2,
+    "fr": 3,
+    "va": 20,
+    "pm": -10
+   },
+   {
+    "idJugador": "1927864",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "FONT RODRIGUEZ, DAVID",
+    "seg": 1297,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 6
+    },
+    "t3": {
+     "a": 1,
+     "i": 7
+    },
+    "tc": {
+     "a": 2,
+     "i": 13
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 5,
+    "rt": 5,
+    "as": 2,
+    "br": 3,
+    "bp": 2,
+    "tf": 0,
+    "tco": 3,
+    "mt": 0,
+    "fc": 3,
+    "fr": 4,
+    "va": 5,
+    "pm": 10
+   },
+   {
+    "idJugador": "1942837",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "MARTINEZ RIVERA, GERARD",
+    "seg": 1810,
+    "pt": 23,
+    "t2": {
+     "a": 10,
+     "i": 15
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 10,
+     "i": 17
+    },
+    "tl": {
+     "a": 3,
+     "i": 5
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 2,
+    "bp": 4,
+    "tf": 0,
+    "tco": 1,
+    "mt": 2,
+    "fc": 2,
+    "fr": 4,
+    "va": 18,
+    "pm": 10
+   },
+   {
+    "idJugador": "2824420",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "REID, ROMAR ANTHONY",
+    "seg": 860,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": -2,
+    "pm": 15
+   },
+   {
+    "idJugador": "2053988",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "DOMINGUEZ ESPELT, ADRIÀ",
+    "seg": 1888,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 3,
+     "i": 4
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 4,
+    "as": 1,
+    "br": 1,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 3,
+    "va": 3,
+    "pm": 3
+   },
+   {
+    "idJugador": "1938528",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "LLORENS LLAURADO, FERRAN",
+    "seg": 959,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": 8,
+    "pm": -1
+   },
+   {
+    "idJugador": "2060590",
+    "titular": false,
+    "dorsal": "19",
+    "nombre": "SERRATO BALLETBO, SERGI",
+    "seg": 197,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -1,
+    "pm": -5
+   },
+   {
+    "idJugador": "1953175",
+    "titular": true,
+    "dorsal": "21",
+    "nombre": "PLANELL IGLESIAS, ALBERT",
+    "seg": 1726,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 6
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 3,
+    "rd": 8,
+    "rt": 11,
+    "as": 2,
+    "br": 1,
+    "bp": 1,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 2,
+    "va": 7,
+    "pm": -7
+   },
+   {
+    "idJugador": "1783700",
+    "titular": true,
+    "dorsal": "25",
+    "nombre": "ESTEBAN CALVO, MÀXIM",
+    "seg": 1639,
+    "pt": 12,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 2
+    },
+    "tc": {
+     "a": 3,
+     "i": 4
+    },
+    "tl": {
+     "a": 4,
+     "i": 5
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 4,
+    "fr": 4,
+    "va": 11,
+    "pm": -5
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2736228",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "CLARKE, GARVIN RICHARD",
+    "seg": 1301,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tc": {
+     "a": 2,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 5,
+    "as": 1,
+    "br": 5,
+    "bp": 1,
+    "tf": 1,
+    "tco": 1,
+    "mt": 0,
+    "fc": 3,
+    "fr": 1,
+    "va": 6,
+    "pm": -10
+   },
+   {
+    "idJugador": "2712998",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "DZEPINA, NIKOLA",
+    "seg": 1151,
+    "pt": 18,
+    "t2": {
+     "a": 4,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tc": {
+     "a": 7,
+     "i": 10
+    },
+    "tl": {
+     "a": 1,
+     "i": 3
+    },
+    "ro": 3,
+    "rd": 3,
+    "rt": 6,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 3,
+    "va": 20,
+    "pm": 14
+   },
+   {
+    "idJugador": "1884298",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "VILA BONANY, RAFAEL",
+    "seg": 1322,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tc": {
+     "a": 0,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 5,
+    "as": 2,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 2,
+    "fr": 0,
+    "va": -4,
+    "pm": -13
+   },
+   {
+    "idJugador": "2024478",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "BLANCO CARDONA, ALEX",
+    "seg": 763,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 2,
+    "va": 3,
+    "pm": 14
+   },
+   {
+    "idJugador": "2144461",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "CAROT HERNANDEZ, JORGE",
+    "seg": 1102,
+    "pt": 6,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 5,
+    "fr": 2,
+    "va": 2,
+    "pm": -6
+   },
+   {
+    "idJugador": "2736231",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "DJERY, JEAN-BAPTISTE",
+    "seg": 523,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 4,
+    "as": 0,
+    "br": 1,
+    "bp": 2,
+    "tf": 2,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": 3,
+    "pm": -4
+   },
+   {
+    "idJugador": "1558447",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "OLAIZOLA GONZALEZ, JULEN IMANOL",
+    "seg": 1061,
+    "pt": 9,
+    "t2": {
+     "a": 4,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 4,
+     "i": 5
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 5,
+    "as": 1,
+    "br": 0,
+    "bp": 3,
+    "tf": 0,
+    "tco": 1,
+    "mt": 1,
+    "fc": 1,
+    "fr": 1,
+    "va": 10,
+    "pm": 3
+   },
+   {
+    "idJugador": "1766040",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "ORTEGA IBAÑEZ, ALEJANDRO",
+    "seg": 462,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2822577",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "COPES, FEDERICO",
+    "seg": 1881,
+    "pt": 19,
+    "t2": {
+     "a": 6,
+     "i": 10
+    },
+    "t3": {
+     "a": 0,
+     "i": 6
+    },
+    "tc": {
+     "a": 6,
+     "i": 16
+    },
+    "tl": {
+     "a": 7,
+     "i": 9
+    },
+    "ro": 4,
+    "rd": 6,
+    "rt": 10,
+    "as": 1,
+    "br": 0,
+    "bp": 2,
+    "tf": 2,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 6,
+    "va": 23,
+    "pm": -1
+   },
+   {
+    "idJugador": "1901822",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "MARI TARDIO, LUCAS",
+    "seg": 1876,
+    "pt": 11,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tc": {
+     "a": 5,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 3,
+    "rt": 3,
+    "as": 4,
+    "br": 2,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 0,
+    "fr": 3,
+    "va": 14,
+    "pm": -2
+   },
+   {
+    "idJugador": "1851026",
+    "titular": false,
+    "dorsal": "24",
+    "nombre": "BELLVER VALIENTE, ALEJANDRO",
+    "seg": 275,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": 0,
+    "pm": -6
+   },
+   {
+    "idJugador": "2222436",
+    "titular": false,
+    "dorsal": "30",
+    "nombre": "GALLEGO MOGRO, SALVADOR",
+    "seg": 283,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 0,
+    "va": 0,
+    "pm": 1
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 25,
+    "visitante": 12
+   },
+   {
+    "periodo": "2º C",
+    "local": 18,
+    "visitante": 14
+   },
+   {
+    "periodo": "3º C",
+    "local": 16,
+    "visitante": 24
+   },
+   {
+    "periodo": "4º C",
+    "local": 17,
+    "visitante": 24
+   }
+  ]
+ }
+}

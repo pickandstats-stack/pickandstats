@@ -1,0 +1,786 @@
+{
+ "id": "2412107",
+ "temporada": "2024",
+ "competicion": "primerafeb",
+ "grupo": "UNICO",
+ "jornada": "Jornada 32(27/04/2025)",
+ "equipoLocal": {
+  "id": "950871",
+  "nombre": "GRUPO ALEGA CANTABRIA"
+ },
+ "equipoVisitante": {
+  "id": "952321",
+  "nombre": "AIRCARGOBOOKING OURENSE"
+ },
+ "resultado": "86-77",
+ "disputado": true,
+ "descargado": "2026-07-20T18:05:08.465Z",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2533643",
+    "titular": false,
+    "dorsal": "0",
+    "nombre": "ATENCIA SUAREZ, HANSEL GIOVANNY",
+    "seg": 1098,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 0,
+    "va": 3,
+    "pm": 3
+   },
+   {
+    "idJugador": "2650877",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "VOYTSO, VLADYSLAV",
+    "seg": 1201,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 3,
+    "fr": 1,
+    "va": 6,
+    "pm": 21
+   },
+   {
+    "idJugador": "2797651",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "BEDIAKO, JADEN AKWESI",
+    "seg": 875,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 2
+    },
+    "ro": 2,
+    "rd": 5,
+    "rt": 7,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 1,
+    "fr": 2,
+    "va": 8,
+    "pm": 5
+   },
+   {
+    "idJugador": "2650859",
+    "titular": true,
+    "dorsal": "5",
+    "nombre": "LITTLESON, SPENCER PHILLIP",
+    "seg": 1477,
+    "pt": 17,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tc": {
+     "a": 5,
+     "i": 10
+    },
+    "tl": {
+     "a": 4,
+     "i": 4
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 3,
+    "va": 13,
+    "pm": -3
+   },
+   {
+    "idJugador": "2158313",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "BULIC, MIRZA",
+    "seg": 2041,
+    "pt": 20,
+    "t2": {
+     "a": 8,
+     "i": 14
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 8,
+     "i": 15
+    },
+    "tl": {
+     "a": 4,
+     "i": 4
+    },
+    "ro": 2,
+    "rd": 6,
+    "rt": 8,
+    "as": 7,
+    "br": 4,
+    "bp": 2,
+    "tf": 1,
+    "tco": 2,
+    "mt": 1,
+    "fc": 1,
+    "fr": 5,
+    "va": 35,
+    "pm": 6
+   },
+   {
+    "idJugador": "1821694",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "MARTINEZ DIAZ, GERMAN",
+    "seg": 1546,
+    "pt": 15,
+    "t2": {
+     "a": 3,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tc": {
+     "a": 5,
+     "i": 6
+    },
+    "tl": {
+     "a": 3,
+     "i": 3
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 4,
+    "va": 17,
+    "pm": 15
+   },
+   {
+    "idJugador": "1007257",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "VEGA MERAYO, JAVIER",
+    "seg": 256,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 0,
+    "va": -2,
+    "pm": 1
+   },
+   {
+    "idJugador": "2274998",
+    "titular": true,
+    "dorsal": "32",
+    "nombre": "JOHNSON JR, REGINALD",
+    "seg": 1400,
+    "pt": 14,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tc": {
+     "a": 5,
+     "i": 10
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 2,
+    "fr": 5,
+    "va": 13,
+    "pm": 0
+   },
+   {
+    "idJugador": "2446696",
+    "titular": false,
+    "dorsal": "34",
+    "nombre": "KANDE KIELI, GARMINE",
+    "seg": 1307,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 3,
+     "i": 3
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 7,
+    "as": 1,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 2,
+    "va": 9,
+    "pm": 3
+   },
+   {
+    "idJugador": "2820728",
+    "titular": true,
+    "dorsal": "35",
+    "nombre": "BELEMENE-DZABATOU, JUDICAËL ROMARIC",
+    "seg": 799,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tc": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 1,
+    "va": -2,
+    "pm": -6
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2528063",
+    "titular": true,
+    "dorsal": "0",
+    "nombre": "DE SOUSA ANJO BRITO, DIOGO EMANUEL",
+    "seg": 1996,
+    "pt": 6,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 5
+    },
+    "tc": {
+     "a": 2,
+     "i": 10
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 4,
+    "as": 1,
+    "br": 0,
+    "bp": 3,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 1,
+    "va": -2,
+    "pm": -6
+   },
+   {
+    "idJugador": "1869378",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "MENDICOTE RUBIO, UNAI",
+    "seg": 723,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tc": {
+     "a": 0,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "mt": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": -5,
+    "pm": -15
+   },
+   {
+    "idJugador": "1373532",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "RODRIGUEZ FEBLES, SERGIO",
+    "seg": 1554,
+    "pt": 13,
+    "t2": {
+     "a": 4,
+     "i": 8
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tc": {
+     "a": 5,
+     "i": 10
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 4,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 4,
+    "va": 13,
+    "pm": 2
+   },
+   {
+    "idJugador": "2451497",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "BARTON, CHARLES WILLIAM",
+    "seg": 1425,
+    "pt": 21,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tc": {
+     "a": 7,
+     "i": 12
+    },
+    "tl": {
+     "a": 4,
+     "i": 5
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 4,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 3,
+    "fr": 5,
+    "va": 22,
+    "pm": -6
+   },
+   {
+    "idJugador": "841966",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "RODRÍGUEZ RAMOS, SAMUEL",
+    "seg": 1372,
+    "pt": 4,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tc": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 4,
+     "i": 4
+    },
+    "ro": 2,
+    "rd": 6,
+    "rt": 8,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 1,
+    "fr": 3,
+    "va": 13,
+    "pm": -14
+   },
+   {
+    "idJugador": "1886852",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "FERNANDEZ CARBALLO, MARTÍN",
+    "seg": 892,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 2,
+     "i": 2
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": 6,
+    "pm": -2
+   },
+   {
+    "idJugador": "1834527",
+    "titular": false,
+    "dorsal": "19",
+    "nombre": "PAZ VAZQUEZ, SANTIAGO",
+    "seg": 607,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 2,
+    "pm": 4
+   },
+   {
+    "idJugador": "2734737",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "KRIKKE, BENJAMIN NATHANIEL",
+    "seg": 1366,
+    "pt": 13,
+    "t2": {
+     "a": 6,
+     "i": 8
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 6,
+     "i": 8
+    },
+    "tl": {
+     "a": 1,
+     "i": 2
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 5,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "mt": 1,
+    "fc": 4,
+    "fr": 2,
+    "va": 15,
+    "pm": 1
+   },
+   {
+    "idJugador": "2650871",
+    "titular": true,
+    "dorsal": "30",
+    "nombre": "DIAS MARQUES LISBOA SANTOS, RAFAEL",
+    "seg": 1274,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 7
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tc": {
+     "a": 2,
+     "i": 10
+    },
+    "tl": {
+     "a": 1,
+     "i": 3
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 3,
+    "va": -3,
+    "pm": -13
+   },
+   {
+    "idJugador": "2654188",
+    "titular": false,
+    "dorsal": "35",
+    "nombre": "GILL, ROMARO JILORNEY",
+    "seg": 791,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tc": {
+     "a": 2,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 5,
+    "as": 0,
+    "br": 1,
+    "bp": 1,
+    "tf": 2,
+    "tco": 0,
+    "mt": 0,
+    "fc": 4,
+    "fr": 1,
+    "va": 8,
+    "pm": 4
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 15,
+    "visitante": 18
+   },
+   {
+    "periodo": "2º C",
+    "local": 24,
+    "visitante": 12
+   },
+   {
+    "periodo": "3º C",
+    "local": 25,
+    "visitante": 19
+   },
+   {
+    "periodo": "4º C",
+    "local": 22,
+    "visitante": 28
+   }
+  ]
+ }
+}
