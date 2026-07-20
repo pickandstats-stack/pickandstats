@@ -1,21 +1,35 @@
-// Genera el índice histórico cruzando todas las temporadas ya calculadas.
-// Lee data/processed/<temp>/jugadores.json y agrega por licencia (idJugador).
-// Salida: data/processed/historico.json
-// Uso: node scraper/historico.js
+// Genera el índice histórico cruzando todas las temporadas de una competición.
+// Lee data/processed/<competicion>/<temp>/jugadores.json y agrega por licencia.
+// Salida: data/processed/<competicion>/historico.json
+// Uso: node scraper/historico.js [--competicion 3]
 const fs = require('fs');
 const path = require('path');
+const CFG = require('./config');
 
-const BASE = path.join('data', 'processed');
+const args = process.argv.slice(2);
+const leerArg = flag => { const i = args.indexOf(flag); return i >= 0 ? args[i + 1] : null; };
+const COMPETICION = leerArg('--competicion') || String(CFG.COMPETICION.id);
+const COMP_NOMBRE = CFG.COMPETICIONES[COMPETICION];
+if (!COMP_NOMBRE) {
+  console.error(`Competición '${COMPETICION}' desconocida. Válidas: ${Object.keys(CFG.COMPETICIONES).join(', ')}`);
+  process.exit(1);
+}
+
+const BASE = path.join('data', 'processed', COMP_NOMBRE);
 const r2 = x => Math.round(x * 100) / 100;
+
+if (!fs.existsSync(BASE)) {
+  console.error(`No hay datos procesados en ${BASE}.`);
+  process.exit(1);
+}
 
 const temporadas = fs.readdirSync(BASE)
   .filter(d => /^\d{4}$/.test(d) &&
     fs.existsSync(path.join(BASE, d, 'jugadores.json')))
   .sort();
 
-console.log(`Temporadas encontradas: ${temporadas.join(', ')}`);
+console.log(`${COMP_NOMBRE} — Temporadas encontradas: ${temporadas.join(', ')}`);
 
-// hist[id] = { idJugador, nombre, temporadas: {}, _bruto: {acumulado de todas} }
 const hist = {};
 
 for (const temp of temporadas) {
@@ -55,7 +69,6 @@ for (const temp of temporadas) {
   }
 }
 
-// Construye una línea de estadística por-partido desde un objeto de totales
 function lineaDesde(c, etapas) {
   const pj = c.pj;
   const pp = v => pj ? r2(v / pj) : 0;
@@ -102,6 +115,3 @@ fs.writeFileSync(path.join(BASE, 'historico.json'), JSON.stringify(salida, null,
 
 const multi = salida.filter(h => h.nTemporadas > 1);
 console.log(`Licencias totales: ${salida.length} | En más de una temporada: ${multi.length}`);
-console.log('\n=== Muestra de carreras agregadas ===');
-multi.slice(0, 8).forEach(h =>
-  console.log(`  ${h.nombre}: ${h.carrera.pj} PJ · ${h.carrera.ptPorPartido} pts · ${h.carrera.vaPorPartido} val (${h.nTemporadas} temps)`));

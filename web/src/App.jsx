@@ -39,17 +39,17 @@ export default function App() {
   const [legalVisible, setLegalVisible] = useState(false);
   const [cargando, setCargando] = useState(false);
 
-  // temporadas e histórico (globales por ahora)
+  // temporadas e histórico, por competición
   useEffect(() => {
-    fetch('data/temporadas.json')
+    fetch(`data/${competicion}/temporadas.json`)
       .then(r => r.json())
       .then(ts => { setTemporadas(ts); setTemporada(ts[0]); })
       .catch(err => console.error('Error cargando temporadas:', err));
-    fetch('data/historico.json')
+    fetch(`data/${competicion}/historico.json`)
       .then(r => r.json())
       .then(setHistorico)
       .catch(err => console.error('Error cargando histórico:', err));
-  }, []);
+  }, [competicion]);
 
   // datos de la competición + temporada activas
   useEffect(() => {
