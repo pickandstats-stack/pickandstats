@@ -1,18 +1,133 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const guias = (await getCollection('guias'))
+  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
+  .slice(0, 3);
 ---
 
-<Base title="Pick&Stats · Estadísticas de ligas menores del baloncesto español">
-  <h1>Pick<span class="acento">&amp;</span>Stats</h1>
-  <p>
-    Estadísticas avanzadas, análisis y guías de las ligas menores del baloncesto
-    español. Un proyecto para entender mejor competiciones como la Tercera FEB.
-  </p>
-  <p>
-    <a href="/guias">Ver las guías →</a>
-  </p>
+<Base title="Pick&Stats · Estadísticas de las ligas menores del baloncesto español">
+  <section class="hero">
+    <h1>Pick<span class="acento">&amp;</span>Stats</h1>
+    <p class="hero-lema">
+      Estadísticas avanzadas, análisis y guías de las ligas menores del baloncesto
+      español. Datos que hasta ahora nadie contaba, explicados para que cualquiera
+      los entienda.
+    </p>
+    <div class="hero-acciones">
+      <a class="boton boton-primario" href="https://pickandstats.es/app">Ver estadísticas</a>
+      <a class="boton boton-secundario" href="/guias">Leer las guías</a>
+    </div>
+  </section>
+
+  <section class="que-hacemos">
+    <h2>Qué hacemos</h2>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <h3>Estadística avanzada</h3>
+        <p>
+          Ratings ofensivo y defensivo, Four Factors, ritmo, eficiencia real de tiro,
+          percentiles… las métricas que de verdad explican un partido, calculadas a
+          partir de las actas oficiales.
+        </p>
+      </div>
+      <div class="tarjeta">
+        <h3>Análisis de equipos y jugadores</h3>
+        <p>
+          Perfiles automáticos que traducen los números en lenguaje claro: fortalezas,
+          debilidades y claves para preparar un partido. Scouting al alcance de cualquiera.
+        </p>
+      </div>
+      <div class="tarjeta">
+        <h3>Fases de ascenso</h3>
+        <p>
+          El desenlace de cada temporada, contado como se merece: eliminatorias, liguillas
+          y el camino de cada equipo hacia el ascenso, con el histórico de varias temporadas.
+        </p>
+      </div>
+      <div class="tarjeta">
+        <h3>Guías que resuelven dudas</h3>
+        <p>
+          Cómo funcionan los ascensos, los descensos, el reglamento… las preguntas que se
+          repiten cada año, explicadas con claridad y sin letra pequeña.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ligas">
+    <h2>Empezamos por la Tercera FEB</h2>
+    <p>
+      El baloncesto de las categorías nacionales mueve a miles de jugadores y aficionados,
+      pero apenas nadie le dedica datos serios. Pick&amp;Stats nace para cambiarlo, y arranca
+      con la <strong>Tercera FEB</strong>. La ambición es crecer y cubrir también otras
+      competiciones, para ser la referencia estadística de las ligas menores del baloncesto
+      español.
+    </p>
+  </section>
+
+  {guias.length > 0 && (
+    <section class="ultimas-guias">
+      <h2>Últimas guías</h2>
+      <ul class="lista-guias">
+        {guias.map(guia => (
+          <li>
+            <a href={`/guias/${guia.id}`}>{guia.data.titulo}</a>
+            <p>{guia.data.descripcion}</p>
+          </li>
+        ))}
+      </ul>
+      <p><a href="/guias">Ver todas las guías →</a></p>
+    </section>
+  )}
 
   <style>
-    h1 .acento { color: var(--acento); }
+    .hero { text-align: center; padding: 24px 0 12px; }
+    .hero h1 { font-size: 56px; margin-bottom: 12px; }
+    .hero h1 .acento { color: var(--acento); }
+    .hero-lema {
+      font-size: 19px; color: var(--tinta-suave);
+      max-width: 620px; margin: 0 auto 24px;
+    }
+    .hero-acciones { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .boton {
+      font-family: 'Barlow Condensed', sans-serif; font-size: 17px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: .3px;
+      padding: 11px 26px; border-radius: var(--radio); text-decoration: none;
+      display: inline-block;
+    }
+    .boton-primario { background: var(--acento); color: #fff; }
+    .boton-secundario { background: transparent; color: var(--tinta); border: 1px solid var(--linea); }
+    .boton-primario:hover { opacity: .9; }
+    .boton-secundario:hover { border-color: var(--acento); color: var(--acento); }
+
+    .que-hacemos { margin-top: 48px; }
+    .tarjetas {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px; margin-top: 8px;
+    }
+    .tarjeta {
+      background: var(--panel); border: 1px solid var(--linea);
+      border-radius: var(--radio); padding: 20px;
+    }
+    .tarjeta h3 { margin-top: 0; }
+    .tarjeta p { color: var(--tinta-suave); font-size: 15px; margin-bottom: 0; }
+
+    .ligas { margin-top: 48px; }
+    .ligas p { font-size: 17px; }
+
+    .ultimas-guias { margin-top: 48px; }
+    .lista-guias { list-style: none; padding: 0; }
+    .lista-guias li {
+      border: 1px solid var(--linea); border-radius: var(--radio);
+      padding: 16px 18px; margin-bottom: 12px; background: var(--panel);
+    }
+    .lista-guias a {
+      font-family: 'Barlow Condensed', sans-serif; font-size: 20px;
+      font-weight: 600; text-decoration: none; color: var(--tinta);
+    }
+    .lista-guias a:hover { color: var(--acento); }
+    .lista-guias p { margin: 6px 0 0; color: var(--tinta-suave); font-size: 14px; }
   </style>
 </Base>
