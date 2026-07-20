@@ -1,14 +1,26 @@
 // Cálculo de estadísticas (básicas + avanzadas) desde data/raw -> data/processed
-// Agrega jugadores por licencia FEB (idJugador). Uso: node scraper/calcular.js [--temporada 2025]
+// Agrega jugadores por licencia FEB (idJugador).
+// Uso: node scraper/calcular.js [--competicion 3] [--temporada 2025]
 const fs = require('fs');
 const path = require('path');
+const CFG = require('./config');
 
 const args = process.argv.slice(2);
-const iT = args.indexOf('--temporada');
-const TEMPORADA = iT >= 0 ? args[iT + 1] : '2025';
+const leerArg = flag => { const i = args.indexOf(flag); return i >= 0 ? args[i + 1] : null; };
+const TEMPORADA = leerArg('--temporada') || CFG.TEMPORADA_DEFECTO;
+const COMPETICION = leerArg('--competicion') || String(CFG.COMPETICION.id);
+const COMP_NOMBRE = CFG.COMPETICIONES[COMPETICION];
+if (!COMP_NOMBRE) {
+  console.error(`Competición '${COMPETICION}' desconocida. Válidas: ${Object.keys(CFG.COMPETICIONES).join(', ')}`);
+  process.exit(1);
+}
 
-const DIR_RAW = path.join('data', 'raw', TEMPORADA);
-const DIR_OUT = path.join('data', 'processed', TEMPORADA);
+const DIR_RAW = path.join('data', 'raw', COMP_NOMBRE, TEMPORADA);
+const DIR_OUT = path.join('data', 'processed', COMP_NOMBRE, TEMPORADA);
+if (!fs.existsSync(DIR_RAW)) {
+  console.error(`No hay datos crudos en ${DIR_RAW}. ¿Has ejecutado el scraper para esta competición/temporada?`);
+  process.exit(1);
+}
 fs.mkdirSync(DIR_OUT, { recursive: true });
 
 // ---------- carga ----------
@@ -31,7 +43,7 @@ for (const grupo of fs.readdirSync(DIR_RAW)) {
     partidos.push(p);
   }
 }
-console.log(`Partidos cargados: ${partidos.length} | Excluidos (no disputados): ${excluidos.length}`);
+console.log(`${COMP_NOMBRE} ${TEMPORADA} — Partidos cargados: ${partidos.length} | Excluidos: ${excluidos.length}`);
 
 // ---------- utilidades ----------
 const sum = (arr, fn) => arr.reduce((a, x) => a + fn(x), 0);
@@ -57,7 +69,7 @@ const posesiones = t => tci(t) - t.ro + t.bp + 0.44 * t.tli;
 
 // ---------- agregación ----------
 const equipos = {};
-const jugadores = {};   // clave: idJugador|equipoId (etapa)
+const jugadores = {};
 const rivalesDe = {};
 
 function initEquipo(id, nombre, grupo) {
@@ -184,7 +196,7 @@ const salidaEquipos = Object.values(equipos).map(e => {
   };
 }).sort((a, b) => a.grupo.localeCompare(b.grupo) || b.netrtg - a.netrtg);
 
-// ---------- salida jugadores (una fila por etapa jugador-equipo) ----------
+// ---------- salida jugadores ----------
 function filaJugador(J) {
   const min = J.seg / 60;
   const tciJ = J.t2i + J.t3i;
@@ -198,11 +210,9 @@ function filaJugador(J) {
     idJugador: J.idJugador,
     nombre: J.nombre, dorsal: J.dorsal, equipo: J.equipo, equipoId: J.equipoId, grupo: J.grupo,
     pj: J.pj, titular: J.titular, minTotales: r2(min), minPorPartido: r2(min / J.pj),
-    // totales en bruto (para agregar carreras)
     pt: J.pt, ro: J.ro, rd: J.rd, rt: J.rt, as: J.as, br: J.br, bp: J.bp,
     tfTot: J.tf, tcoTot: J.tco, fcTot: J.fc, frTot: J.fr, va: J.va, pm: J.pm,
     t2a: J.t2a, t2i: J.t2i, t3a: J.t3a, t3i: J.t3i, tla: J.tla, tli: J.tli,
-    // básica por partido
     ptPorPartido: porPartido(J.pt),
     roPorPartido: porPartido(J.ro),
     rdPorPartido: porPartido(J.rd),
@@ -215,14 +225,12 @@ function filaJugador(J) {
     fcPorPartido: porPartido(J.fc),
     frPorPartido: porPartido(J.fr),
     vaPorPartido: porPartido(J.va),
-    // tiro clásico
     t2: `${J.t2a}/${J.t2i}`,
     t3: `${J.t3a}/${J.t3i}`,
     tl: `${J.tla}/${J.tli}`,
     t2Pct: J.t2i > 0 ? r2(100 * J.t2a / J.t2i) : 0,
     t3Pct: J.t3i > 0 ? r2(100 * J.t3a / J.t3i) : 0,
     tlPct: J.tli > 0 ? r2(100 * J.tla / J.tli) : 0,
-    // avanzada
     ts: tciJ + 0.44 * J.tli > 0 ? r2(100 * J.pt / (2 * (tciJ + 0.44 * J.tli))) : 0,
     efg: tciJ > 0 ? r2(100 * (tcaJ + 0.5 * J.t3a) / tciJ) : 0,
     usg: r2(usg),
@@ -237,7 +245,6 @@ const salidaJugadores = Object.values(jugadores).map(filaJugador)
 const MIN_PJ_PCT = 12;
 const METRICAS_PCT = ['ptPorPartido','rtPorPartido','asPorPartido','brPorPartido','vaPorPartido','ts','efg','t3Pct'];
 
-// percentil de un valor dentro de un array ordenado ascendente: % de valores <= v
 function percentilEn(valoresOrdenados, v) {
   if (!valoresOrdenados.length) return null;
   let n = 0;
@@ -245,10 +252,9 @@ function percentilEn(valoresOrdenados, v) {
   return Math.round(100 * n / valoresOrdenados.length);
 }
 
-// conjuntos elegibles: nacional y por grupo (solo >= MIN_PJ_PCT)
 const elegiblesPct = salidaJugadores.filter(j => j.pj >= MIN_PJ_PCT);
 const ordNacional = {};
-const ordGrupo = {};   // grupo -> metrica -> array ordenado
+const ordGrupo = {};
 for (const m of METRICAS_PCT) {
   ordNacional[m] = elegiblesPct.map(j => j[m]).sort((a, b) => a - b);
 }
@@ -262,7 +268,6 @@ for (const g of Object.keys(ordGrupo)) {
   }
 }
 
-// adjuntar a cada jugador elegible sus percentiles
 for (const j of salidaJugadores) {
   if (j.pj < MIN_PJ_PCT) { j.percentiles = null; continue; }
   const pct = {};
@@ -275,8 +280,7 @@ for (const j of salidaJugadores) {
   j.percentiles = pct;
 }
 
-
-// ---------- carreras: una entrada por licencia, con básica completa ----------
+// ---------- carreras ----------
 const porLicencia = {};
 for (const fila of salidaJugadores) {
   const id = fila.idJugador;
@@ -343,5 +347,3 @@ fs.writeFileSync(path.join(DIR_OUT, 'excluidos.json'), JSON.stringify(excluidos,
 const sinId = salidaJugadores.filter(j => String(j.idJugador).startsWith('sin-id:')).length;
 console.log(`Equipos: ${salidaEquipos.length} | Filas jugador-equipo: ${salidaJugadores.length} | Licencias únicas: ${carreras.length}`);
 console.log(`Jugadores con más de una etapa: ${traspasados.length} | Filas sin ID: ${sinId}`);
-console.log('\n=== Partidos excluidos ===');
-excluidos.forEach(e => console.log(`  ${e.grupo} ${e.jornada}: ${e.partido} (${e.resultado})`));

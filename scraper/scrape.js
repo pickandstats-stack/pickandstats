@@ -1,9 +1,10 @@
-// Scraper Tercera FEB: descubre grupos -> jornadas -> partidos -> boxscores
+// Scraper FEB: descubre grupos -> jornadas -> partidos -> boxscores
 // Uso:
-//   node scraper/scrape.js                                  (temporada 2025, 10 grupos)
-//   node scraper/scrape.js --grupo E-A                      (solo un grupo)
-//   node scraper/scrape.js --temporada 2024                 (otra temporada completa)
-//   node scraper/scrape.js --grupo E-A --max-jornadas 1     (prueba rápida)
+//   node scraper/scrape.js                                     (Tercera, temporada 2025)
+//   node scraper/scrape.js --competicion 2                     (Segunda FEB)
+//   node scraper/scrape.js --competicion 1 --max-jornadas 1    (Primera, prueba rápida)
+//   node scraper/scrape.js --grupo E-A                         (solo un grupo)
+//   node scraper/scrape.js --temporada 2024                    (otra temporada)
 const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
@@ -12,7 +13,6 @@ const CFG = require('./config');
 
 const pausa = ms => new Promise(r => setTimeout(r, ms));
 
-// ---------- utilidades de red ----------
 function extraerForm($) {
   const form = {};
   $('input[type="hidden"]').each((i, el) => {
@@ -21,8 +21,8 @@ function extraerForm($) {
   return form;
 }
 
-function crearSesion(temporada) {
-  const url = `${CFG.BASE}/resultados.aspx?g=${CFG.COMPETICION.id}&t=${temporada}`;
+function crearSesion(temporada, competicion) {
+  const url = `${CFG.BASE}/resultados.aspx?g=${competicion}&t=${temporada}`;
   return { url, cookies: '' };
 }
 
@@ -46,7 +46,6 @@ async function postback(sesion, form, target) {
   return cheerio.load(res.data);
 }
 
-// ---------- parseo ----------
 function parsearTiros(txt) {
   const m = (txt || '').match(/(\d+)\s*\/\s*(\d+)/);
   return m ? { a: +m[1], i: +m[2] } : { a: 0, i: 0 };
@@ -145,13 +144,18 @@ function parsearJornada($) {
 }
 
 function nombreCortoGrupo(nombreCompleto) {
-  // 'Liga Regular "E-A"' -> 'E-A'
   const m = nombreCompleto.match(/"([^"]+)"/);
   if (m) return m[1];
-  return nombreCompleto.replace(/[^a-zA-Z0-9\-]/g, '_');
+  // Sin comillas (p.ej. "Liga Regular Único" de Primera FEB): limpiar y normalizar acentos
+  const limpio = nombreCompleto
+    .replace(/liga regular/i, '')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')  // quita tildes: Único -> Unico
+    .trim()
+    .toUpperCase()
+    .replace(/[^A-Z0-9\-]/g, '');
+  return limpio || 'UNICO';
 }
 
-// ---------- flujo principal ----------
 async function seleccionarTemporada(sesion, temporada) {
   let $ = await cargarInicial(sesion);
   const form = extraerForm($);
@@ -172,19 +176,17 @@ function descubrirGrupos($) {
   return grupos;
 }
 
-async function scrapeGrupo(sesion, $, temporada, grupo, maxJornadas) {
-  console.log(`\n========== GRUPO ${grupo.corto} (${grupo.id}) | temporada ${temporada} ==========`);
-  const dirGrupo = path.join('data', 'raw', temporada, grupo.corto);
+async function scrapeGrupo(sesion, $, competicionNombre, temporada, grupo, maxJornadas) {
+  console.log(`\n========== ${competicionNombre} | GRUPO ${grupo.corto} (${grupo.id}) | temporada ${temporada} ==========`);
+  const dirGrupo = path.join('data', 'raw', competicionNombre, temporada, grupo.corto);
   fs.mkdirSync(dirGrupo, { recursive: true });
 
-  // seleccionar grupo
   let form = extraerForm($);
   form['_ctl0:MainContentPlaceHolderMaster:temporadasDropDownList'] = temporada;
   form['_ctl0:MainContentPlaceHolderMaster:gruposDropDownList'] = grupo.id;
   $ = await postback(sesion, form, '_ctl0:MainContentPlaceHolderMaster:gruposDropDownList');
   await pausa(CFG.PAUSA_MS);
 
-  // jornadas
   const jornadas = [];
   $('#_ctl0_MainContentPlaceHolderMaster_jornadasDropDownList option').each((i, opt) => {
     jornadas.push({ id: $(opt).attr('value'), nombre: $(opt).text().trim() });
@@ -218,13 +220,11 @@ async function scrapeGrupo(sesion, $, temporada, grupo, maxJornadas) {
       }
       try {
         const box = await scrapePartido(p.id);
-        // Partido disputado = ambos equipos tienen jugadores en el boxscore.
-        // Si no (incomparecencia/sanción, ej. 0-2), se guarda igualmente para
-        // la clasificación, pero marcado para excluirlo de las estadísticas.
         const disputado = box.local.length > 0 && box.visitante.length > 0;
         const datos = {
           id: p.id,
           temporada,
+          competicion: competicionNombre,
           grupo: grupo.corto,
           jornada: jornada.nombre,
           equipoLocal: p.local,
@@ -255,16 +255,22 @@ async function main() {
     return i >= 0 ? args[i + 1] : null;
   };
   const temporada = leerArg('--temporada') || CFG.TEMPORADA_DEFECTO;
+  const competicion = leerArg('--competicion') || String(CFG.COMPETICION.id);
+  const competicionNombre = CFG.COMPETICIONES[competicion];
+  if (!competicionNombre) {
+    console.error(`Competición '${competicion}' desconocida. Válidas: ${Object.keys(CFG.COMPETICIONES).join(', ')}`);
+    process.exit(1);
+  }
   const grupoElegido = leerArg('--grupo');
   const maxJornadas = leerArg('--max-jornadas') ? parseInt(leerArg('--max-jornadas'), 10) : null;
 
-  console.log(`Temporada: ${temporada}`);
-  const sesion = crearSesion(temporada);
+  console.log(`Competición: ${competicionNombre} (g=${competicion}) | Temporada: ${temporada}`);
+  const sesion = crearSesion(temporada, competicion);
   const $ = await seleccionarTemporada(sesion, temporada);
 
   let grupos = descubrirGrupos($);
   if (!grupos.length) {
-    console.error('No se encontraron grupos de liga regular para esa temporada.');
+    console.error('No se encontraron grupos de liga regular para esa temporada/competición.');
     process.exit(1);
   }
   console.log(`Grupos descubiertos: ${grupos.map(g => g.corto).join(', ')}`);
@@ -272,16 +278,15 @@ async function main() {
   if (grupoElegido) {
     grupos = grupos.filter(g => g.corto === grupoElegido);
     if (!grupos.length) {
-      console.error(`Grupo ${grupoElegido} no encontrado en la temporada ${temporada}.`);
+      console.error(`Grupo ${grupoElegido} no encontrado.`);
       process.exit(1);
     }
   }
 
   for (const grupo of grupos) {
-    // sesión fresca por grupo para evitar formularios viciados
-    const s = crearSesion(temporada);
+    const s = crearSesion(temporada, competicion);
     const $g = await seleccionarTemporada(s, temporada);
-    await scrapeGrupo(s, $g, temporada, grupo, maxJornadas);
+    await scrapeGrupo(s, $g, competicionNombre, temporada, grupo, maxJornadas);
   }
   console.log('\nScraping completado.');
 }
