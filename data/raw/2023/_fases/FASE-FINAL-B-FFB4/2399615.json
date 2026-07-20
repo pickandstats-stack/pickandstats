@@ -1,0 +1,745 @@
+{
+ "id": "2399615",
+ "fase": "FASE FINAL-B FFB4",
+ "jornada": "Jornada 3(11/05/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "SOL GIRONÈS BISBAL BÀSQUET -\n\t\t\t\t\t\t\tUCB CAMPER EUROGAZA",
+  "72-63",
+  "11/05/2024",
+  "17:00"
+ ],
+ "resultado": "72-63",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2049640",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "VIEJO ANDREU, FRANCESC XAVIER",
+    "seg": 677,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 3,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1923459",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "DIAZ CABANAS, FERRAN",
+    "seg": 685,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 1,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2036909",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "SOLE MORGADO, JAUME",
+    "seg": 1759,
+    "pt": 13,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 4,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 3,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 3,
+    "fr": 12,
+    "va": 11,
+    "pm": 0
+   },
+   {
+    "idJugador": "1136683",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "PLANAS VALL-LLOSERA, GUILLEM",
+    "seg": 494,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 2,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1227597",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "VALERA COROMINAS, ISAAC",
+    "seg": 1005,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 3,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 5,
+    "va": 20,
+    "pm": 0
+   },
+   {
+    "idJugador": "1943788",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "MATEU SERRA, MARC",
+    "seg": 341,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 0,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1925168",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "ESPINOSA VENTURA, ENRIC",
+    "seg": 1391,
+    "pt": 12,
+    "t2": {
+     "a": 4,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 3,
+    "tco": 1,
+    "fc": 5,
+    "fr": 12,
+    "va": -12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1577667",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "SERRA FERRAN, ROGER",
+    "seg": 111,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -4,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2333741",
+    "titular": true,
+    "dorsal": "17",
+    "nombre": "DIBBA, LAMIN",
+    "seg": 2160,
+    "pt": 9,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 12,
+    "rd": 1,
+    "rt": 0,
+    "as": 3,
+    "br": 4,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 9,
+    "fr": 24,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "2465344",
+    "titular": true,
+    "dorsal": "19",
+    "nombre": "ESPINOSA MELIAN, ANTONIO",
+    "seg": 1618,
+    "pt": 11,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 3,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 12,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1198592",
+    "titular": true,
+    "dorsal": "96",
+    "nombre": "TORRENT BAYÉ, XAVIER",
+    "seg": 1759,
+    "pt": 19,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 6,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 4,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": 18,
+    "va": 11,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "1368281",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "RUEDA SANTAELLA, LUIS",
+    "seg": 1799,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 4,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 8,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "1697846",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "RODRIGUEZ DOMINGUEZ, LUIS ANTONIO",
+    "seg": 635,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": -1,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "2643657",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "GUERRA ZAYAS, RAUDELIS",
+    "seg": 1905,
+    "pt": 22,
+    "t2": {
+     "a": 7,
+     "i": 9
+    },
+    "t3": {
+     "a": 9,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 3,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 2,
+    "tco": 1,
+    "fc": 6,
+    "fr": 27,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1600604",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "GUTIERREZ LUNA, JOSE MANUEL",
+    "seg": 1122,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": -2,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1533945",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "AGUILERA FRANCO, JAIME",
+    "seg": 761,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 2,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1518197",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "CANALES DOMINGUEZ, ANTONIO",
+    "seg": 536,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -2,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1822328",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "GONZALEZ MOTA, SDENRY MIGUEL",
+    "seg": 1649,
+    "pt": 15,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 14,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1791266",
+    "titular": true,
+    "dorsal": "18",
+    "nombre": "LATORRE SANCHEZ, ADRIAN",
+    "seg": 1099,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 0,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 1,
+    "fr": 2,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1978774",
+    "titular": true,
+    "dorsal": "20",
+    "nombre": "SALAS MERCHAN, RUBEN",
+    "seg": 1009,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 2,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2375756",
+    "titular": false,
+    "dorsal": "23",
+    "nombre": "BELEMENE DZABATOU, CEDRIC ALEXANDRE",
+    "seg": 1136,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 2,
+    "as": 4,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 4,
+    "va": -16,
+    "pm": 0
+   },
+   {
+    "idJugador": "1696684",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "MERINO LUQUE, ROBERTO",
+    "seg": 349,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 1,
+    "va": -6,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 23,
+    "visitante": 22
+   },
+   {
+    "periodo": "2º C",
+    "local": 18,
+    "visitante": 17
+   },
+   {
+    "periodo": "3º C",
+    "local": 13,
+    "visitante": 9
+   },
+   {
+    "periodo": "4º C",
+    "local": 18,
+    "visitante": 15
+   }
+  ]
+ }
+}

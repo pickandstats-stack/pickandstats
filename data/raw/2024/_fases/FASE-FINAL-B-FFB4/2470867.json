@@ -1,0 +1,617 @@
+{
+ "id": "2470867",
+ "fase": "FASE FINAL-B FFB4",
+ "jornada": "Jornada 2(23/05/2025)",
+ "temporada": "2024",
+ "celdas": [
+  "FUNDACION GLOBALCAJA LA RODA -\n\t\t\t\t\t\t\tAZULEJOS MONCAYO CBZ",
+  "66-73",
+  "23/05/2025",
+  "20:30"
+ ],
+ "resultado": "66-73",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1875656",
+    "titular": false,
+    "dorsal": "2",
+    "nombre": "VAQUERO PASCUAL, JUAN MANUEL",
+    "seg": 662,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 0,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "1948717",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "OLIVA I CAMPABADAL, MIQUEL",
+    "seg": 1772,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 3,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 2,
+    "fr": 13,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2434903",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "WRIGHT, KEDAR SALAM NKOSI",
+    "seg": 1526,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 5,
+    "fr": 7,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "2138342",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "CASTELANOS POLA, ANTONIO",
+    "seg": 1022,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 4,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2500822",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "VORONIN, MAKAR",
+    "seg": 2013,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 9
+    },
+    "t3": {
+     "a": 4,
+     "i": 13
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 3,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 4,
+    "fr": 12,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1707037",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "LOPEZ USO, PEDRO",
+    "seg": 1374,
+    "pt": 15,
+    "t2": {
+     "a": 3,
+     "i": 3
+    },
+    "t3": {
+     "a": 6,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 15,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2817541",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "BRAMBLE, OPONGO KWABENA JAFARU",
+    "seg": 1284,
+    "pt": 10,
+    "t2": {
+     "a": 2,
+     "i": 7
+    },
+    "t3": {
+     "a": 4,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 13,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2823810",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "PIETRAS, BARTOLOMEJ",
+    "seg": 1052,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": -1,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2248319",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "VLAHOVIC, STEFAN",
+    "seg": 175,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -5,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2182092",
+    "titular": true,
+    "dorsal": "18",
+    "nombre": "NIANG, MOR",
+    "seg": 1120,
+    "pt": 11,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 5,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 2,
+    "bp": 1,
+    "tf": 1,
+    "tco": 3,
+    "fc": 0,
+    "fr": 9,
+    "va": 5,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2817428",
+    "titular": true,
+    "dorsal": "0",
+    "nombre": "WILLIAMS, ZION JYAIR",
+    "seg": 2260,
+    "pt": 22,
+    "t2": {
+     "a": 7,
+     "i": 17
+    },
+    "t3": {
+     "a": 8,
+     "i": 21
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 3,
+    "rt": 5,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 1,
+    "tco": 1,
+    "fc": 7,
+    "fr": 25,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2759642",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "DIOP, CHEIKH TIDIANE",
+    "seg": 330,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": -1,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1798932",
+    "titular": true,
+    "dorsal": "5",
+    "nombre": "ARJOL LOPEZ, DANIEL",
+    "seg": 2076,
+    "pt": 11,
+    "t2": {
+     "a": 5,
+     "i": 10
+    },
+    "t3": {
+     "a": 5,
+     "i": 13
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 8,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 1,
+    "tco": 4,
+    "fc": 4,
+    "fr": 12,
+    "va": 13,
+    "pm": 0
+   },
+   {
+    "idJugador": "2433692",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "NDIAYE SOW, MOUHAMADOU SAKHIR",
+    "seg": 2070,
+    "pt": 13,
+    "t2": {
+     "a": 5,
+     "i": 9
+    },
+    "t3": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 11,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 5,
+    "bp": 0,
+    "tf": 2,
+    "tco": 2,
+    "fc": 2,
+    "fr": 23,
+    "va": 16,
+    "pm": 0
+   },
+   {
+    "idJugador": "2765759",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "VERLASEVIC, FARIS",
+    "seg": 1460,
+    "pt": 11,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 4,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 5,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2507347",
+    "titular": true,
+    "dorsal": "17",
+    "nombre": "MARTINEZ ALVAREZ, EDUARDO",
+    "seg": 1414,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 7,
+    "va": -10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1556128",
+    "titular": false,
+    "dorsal": "24",
+    "nombre": "COLOM BARRUFET, GUILLEM",
+    "seg": 1479,
+    "pt": 11,
+    "t2": {
+     "a": 4,
+     "i": 5
+    },
+    "t3": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 11,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2617459",
+    "titular": true,
+    "dorsal": "39",
+    "nombre": "IBAEZ ALDAZABAL, EDUARDO",
+    "seg": 911,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": -2,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 21,
+    "visitante": 13
+   },
+   {
+    "periodo": "2º C",
+    "local": 14,
+    "visitante": 25
+   },
+   {
+    "periodo": "3º C",
+    "local": 16,
+    "visitante": 20
+   },
+   {
+    "periodo": "4º C",
+    "local": 15,
+    "visitante": 15
+   }
+  ]
+ }
+}

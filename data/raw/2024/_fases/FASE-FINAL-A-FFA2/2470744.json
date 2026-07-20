@@ -1,0 +1,750 @@
+{
+ "id": "2470744",
+ "fase": "FASE FINAL-A FFA2",
+ "jornada": "Jornada 1(22/05/2025)",
+ "temporada": "2024",
+ "celdas": [
+  "RIGALLI ALGINET -\n\t\t\t\t\t\t\tJAEN PARAISO INTERIOR FS",
+  "102-103",
+  "22/05/2025",
+  "10:00"
+ ],
+ "resultado": "102-103",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2160246",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "MALLIK BOUNAD, RABAH DJIHAD",
+    "seg": 1658,
+    "pt": 13,
+    "t2": {
+     "a": 6,
+     "i": 10
+    },
+    "t3": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 1,
+    "rt": 2,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 3,
+    "fr": 15,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1868277",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "CUBERO SANTAFE, IVAN",
+    "seg": 645,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 0,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2451267",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "ZURBRIGGEN, ALEJANDRO",
+    "seg": 2216,
+    "pt": 24,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 6,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 2,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 8,
+    "fr": 24,
+    "va": -12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1986323",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "PELUFO LOZANO, VICTOR",
+    "seg": 1598,
+    "pt": 10,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 5,
+    "fr": 11,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2090295",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "LLACER SIMLAT, EMILIO",
+    "seg": 1131,
+    "pt": 10,
+    "t2": {
+     "a": 5,
+     "i": 13
+    },
+    "t3": {
+     "a": 5,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 4,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 1,
+    "fr": 6,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1618495",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "DALMAU ROIG, JAVIER",
+    "seg": 1617,
+    "pt": 12,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 1,
+    "fr": 9,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1605142",
+    "titular": true,
+    "dorsal": "21",
+    "nombre": "MARTINEZ HERNANDEZ, MIGUEL",
+    "seg": 2205,
+    "pt": 22,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 7,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 14,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2024048",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "MARTIN MARGARIT, ALVARO",
+    "seg": 411,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 2,
+    "fr": -1,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1807111",
+    "titular": false,
+    "dorsal": "23",
+    "nombre": "LERIN PEREZ, IVAN",
+    "seg": 495,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "228269",
+    "titular": true,
+    "dorsal": "74",
+    "nombre": "VERDEGUER FERRER, LUIS",
+    "seg": 1524,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 15,
+    "va": -1,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "1885616",
+    "titular": true,
+    "dorsal": "0",
+    "nombre": "OROZCO DOMINGUEZ, ALEJANDRO",
+    "seg": 1482,
+    "pt": 20,
+    "t2": {
+     "a": 3,
+     "i": 10
+    },
+    "t3": {
+     "a": 6,
+     "i": 21
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 11,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2815161",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "DELGADO YEBOAH, KWABENA ANIMA",
+    "seg": 1618,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": 6,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2737134",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "SANCHES CARDOSO MENDES, ROESLEY DIEGO",
+    "seg": 1095,
+    "pt": 6,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 9,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1964254",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "SALA VALLMAJO, PAU",
+    "seg": 917,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 3,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 4,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2867903",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "BAMADU, MIRACLE",
+    "seg": 968,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 3,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2027204",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "MELERO ZURITA, SERGIO",
+    "seg": 1475,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 10,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2027205",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "MELERO ZURITA, DAVID",
+    "seg": 1412,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 6,
+    "fr": 13,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2793213",
+    "titular": false,
+    "dorsal": "19",
+    "nombre": "SOW, PAPE ABLAYE",
+    "seg": 553,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 5,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1775312",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "ALEMAN ROMERA, ALBERTO",
+    "seg": 1345,
+    "pt": 18,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 3,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 5,
+    "fr": 22,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "2653517",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "SIGISMONTI RODRÍGUEZ, LUCAS NESTOR",
+    "seg": 1187,
+    "pt": 5,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 2,
+    "fr": 4,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2304342",
+    "titular": false,
+    "dorsal": "34",
+    "nombre": "NGOM, EL HADJI",
+    "seg": 778,
+    "pt": 10,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 7,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2643537",
+    "titular": false,
+    "dorsal": "88",
+    "nombre": "JUZBASIC, DUSAN",
+    "seg": 670,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 1,
+    "fr": 1,
+    "va": 10,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 23,
+    "visitante": 22
+   },
+   {
+    "periodo": "2º C",
+    "local": 19,
+    "visitante": 22
+   },
+   {
+    "periodo": "3º C",
+    "local": 24,
+    "visitante": 28
+   },
+   {
+    "periodo": "4º C",
+    "local": 27,
+    "visitante": 21
+   },
+   {
+    "periodo": "Pro. 1",
+    "local": 9,
+    "visitante": 10
+   }
+  ]
+ }
+}

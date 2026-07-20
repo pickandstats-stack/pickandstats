@@ -1,0 +1,681 @@
+{
+ "id": "2399606",
+ "fase": "FASE FINAL-B FFB3",
+ "jornada": "Jornada 2(10/05/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "ANAGÁN – EL OLIVAR -\n\t\t\t\t\t\t\tFUNDACIÓN BILBAO BASKET FUNDAZIOA",
+  "63-72",
+  "10/05/2024",
+  "13:15"
+ ],
+ "resultado": "63-72",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1802050",
+    "titular": true,
+    "dorsal": "0",
+    "nombre": "MUÑOZ SAMATAN, DANIEL",
+    "seg": 1170,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 8
+    },
+    "t3": {
+     "a": 2,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 1,
+    "tco": 3,
+    "fc": 1,
+    "fr": 2,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2340834",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "TRAORE, YOUSSOUF MAMBY",
+    "seg": 2214,
+    "pt": 19,
+    "t2": {
+     "a": 7,
+     "i": 11
+    },
+    "t3": {
+     "a": 7,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 16,
+    "rd": 0,
+    "rt": 3,
+    "as": 5,
+    "br": 0,
+    "bp": 0,
+    "tf": 2,
+    "tco": 4,
+    "fc": 8,
+    "fr": 27,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2008960",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "MORENO VALERO, ALEJANDRO",
+    "seg": 1723,
+    "pt": 13,
+    "t2": {
+     "a": 5,
+     "i": 16
+    },
+    "t3": {
+     "a": 6,
+     "i": 20
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 3,
+    "fr": 2,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2116811",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "RODRIGUEZ SOLER, GONZALO",
+    "seg": 1497,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 0,
+    "va": -12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2617177",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "MINZER, FELIPE",
+    "seg": 976,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 3,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 4,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1863379",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "URDIAIN ESPERANZA, JAVIER",
+    "seg": 970,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -2,
+    "va": -16,
+    "pm": 0
+   },
+   {
+    "idJugador": "1458817",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "ALIJARDE VICENTE, VICTOR",
+    "seg": 650,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 2,
+    "tco": 1,
+    "fc": 2,
+    "fr": 7,
+    "va": 8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2073295",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "VALERO LOPEZ, RUBEN",
+    "seg": 766,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 3,
+    "fr": 5,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2009804",
+    "titular": false,
+    "dorsal": "23",
+    "nombre": "SISTAC RODRIGUEZ, ALEJANDRO",
+    "seg": 970,
+    "pt": 11,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 7,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1521307",
+    "titular": false,
+    "dorsal": "45",
+    "nombre": "MARTINEZ YRANZO, LUIS",
+    "seg": 1064,
+    "pt": 8,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 4,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 10,
+    "va": 11,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2188903",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "MARTINS.OLUREMI WILSON, BRIGHT",
+    "seg": 115,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -3,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2266238",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "CHACON RODRIGUEZ, IKER",
+    "seg": 1919,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 4,
+    "rt": 0,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 9,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2108819",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "FERNANDEZ ORTEGA, ASIER",
+    "seg": 798,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 8,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2082687",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "PEDROSA BELLES, IÑIGO",
+    "seg": 1091,
+    "pt": 5,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 4,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2109216",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "SALINERO GARCIA, ENEKO",
+    "seg": 792,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 2,
+    "fr": 2,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2188466",
+    "titular": false,
+    "dorsal": "21",
+    "nombre": "RODRIGUEZ LAGUNA, JAVIER",
+    "seg": 287,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -3,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2106441",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "BARANDALLA LUQUE, UNAI",
+    "seg": 1843,
+    "pt": 13,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 5,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 3,
+    "rt": 2,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 5,
+    "fr": 19,
+    "va": 16,
+    "pm": 0
+   },
+   {
+    "idJugador": "2188463",
+    "titular": false,
+    "dorsal": "23",
+    "nombre": "DE CASTRO HURTADO, KEPA",
+    "seg": 1410,
+    "pt": 13,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 2,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 16,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2275950",
+    "titular": true,
+    "dorsal": "27",
+    "nombre": "UDE UDE, ELVIS SOLUCHUKWU",
+    "seg": 1758,
+    "pt": 8,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 2,
+    "tco": 3,
+    "fc": 2,
+    "fr": 9,
+    "va": 14,
+    "pm": 0
+   },
+   {
+    "idJugador": "1978816",
+    "titular": true,
+    "dorsal": "30",
+    "nombre": "BETOLAZA BELOKI, IÑIGO",
+    "seg": 1987,
+    "pt": 16,
+    "t2": {
+     "a": 3,
+     "i": 11
+    },
+    "t3": {
+     "a": 5,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 4,
+    "rt": 5,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 5,
+    "fr": 16,
+    "va": 11,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 10,
+    "visitante": 26
+   },
+   {
+    "periodo": "2º C",
+    "local": 28,
+    "visitante": 16
+   },
+   {
+    "periodo": "3º C",
+    "local": 15,
+    "visitante": 14
+   },
+   {
+    "periodo": "4º C",
+    "local": 10,
+    "visitante": 16
+   }
+  ]
+ }
+}

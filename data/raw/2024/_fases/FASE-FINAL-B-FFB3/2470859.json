@@ -1,0 +1,745 @@
+{
+ "id": "2470859",
+ "fase": "FASE FINAL-B FFB3",
+ "jornada": "Jornada 1(22/05/2025)",
+ "temporada": "2024",
+ "celdas": [
+  "C.B. GETAFE -\n\t\t\t\t\t\t\tCASTILLO DE GORRAIZ VALLE DE EGÜES",
+  "79-74",
+  "22/05/2025",
+  "12:30"
+ ],
+ "resultado": "79-74",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1223461",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "TEJERA TEJO, JORGE",
+    "seg": 1704,
+    "pt": 20,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 7,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 4,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 1,
+    "fc": 3,
+    "fr": 31,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1888109",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "LASUNCION MARIBLANCA, NESTOR",
+    "seg": 726,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -7,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1789964",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "ORTIZ TORRES, ENRIQUE",
+    "seg": 1038,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 3,
+    "rt": 5,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 8,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1515390",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "MARTOS INFANTES, CARLOS",
+    "seg": 480,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -2,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1405682",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "GAGO GÓMEZ, BRAIS",
+    "seg": 1120,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": -1,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1587611",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "IBAÑEZ ZAMALLOA, IAGO",
+    "seg": 1776,
+    "pt": 16,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 5,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 6,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 3,
+    "fr": 21,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2010199",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "ALARCON ORTIZ, MIGUEL",
+    "seg": 305,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1328788",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "ALVAREZ PUERTAS, MARIO",
+    "seg": 1409,
+    "pt": 9,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 3,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 15,
+    "va": 16,
+    "pm": 0
+   },
+   {
+    "idJugador": "2276238",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "MBANSOGO OBIANG, SEBASTIAN BACALE",
+    "seg": 577,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 1,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "1582089",
+    "titular": true,
+    "dorsal": "25",
+    "nombre": "PARRA BAEZ, JORGE",
+    "seg": 1694,
+    "pt": 17,
+    "t2": {
+     "a": 5,
+     "i": 6
+    },
+    "t3": {
+     "a": 7,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 15,
+    "va": 17,
+    "pm": 0
+   },
+   {
+    "idJugador": "826493",
+    "titular": true,
+    "dorsal": "57",
+    "nombre": "RODRIGO YANGUAS, PABLO",
+    "seg": 1171,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 4,
+    "fr": 14,
+    "va": -8,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2352358",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "RAMON FERNANDEZ DE ARROYABE, ALEX",
+    "seg": 1744,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 12,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 11,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "990480",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "URTASUN URIZ, ALEJANDRO",
+    "seg": 1356,
+    "pt": 11,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 5,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": 4,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2335190",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "CALVO TORRES, ALEXANDER",
+    "seg": 1740,
+    "pt": 16,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 6,
+     "i": 13
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 6,
+    "rt": 3,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 23,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2020444",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "ELSO GONZALEZ, PAU",
+    "seg": 180,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1583430",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "LACUNZA ABECIA, JAVIER",
+    "seg": 1261,
+    "pt": 13,
+    "t2": {
+     "a": 3,
+     "i": 9
+    },
+    "t3": {
+     "a": 5,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 1,
+    "fr": 7,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1265390",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "URIZ ANCIZU, NICOLAS",
+    "seg": 252,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1530932",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "YARNOZ LUMBRERAS, PABLO",
+    "seg": 1799,
+    "pt": 11,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 15,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1686541",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "PORTALEZ MUR, MARCOS",
+    "seg": 1490,
+    "pt": 8,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 4,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 0,
+    "as": 5,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 0,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1258079",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "SAVITSKI SAVITSKAIA, ANTON",
+    "seg": 777,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 7,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1989214",
+    "titular": false,
+    "dorsal": "47",
+    "nombre": "FERNANDEZ CHOCARRO, PABLO",
+    "seg": 1144,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 5,
+    "va": -16,
+    "pm": 0
+   },
+   {
+    "idJugador": "1950415",
+    "titular": false,
+    "dorsal": "55",
+    "nombre": "PARADEDA VIDAL, ERIC",
+    "seg": 257,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": -5,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 17,
+    "visitante": 20
+   },
+   {
+    "periodo": "2º C",
+    "local": 16,
+    "visitante": 23
+   },
+   {
+    "periodo": "3º C",
+    "local": 25,
+    "visitante": 18
+   },
+   {
+    "periodo": "4º C",
+    "local": 21,
+    "visitante": 13
+   }
+  ]
+ }
+}

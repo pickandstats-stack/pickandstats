@@ -1,0 +1,745 @@
+{
+ "id": "2470866",
+ "fase": "FASE FINAL-B FFB4",
+ "jornada": "Jornada 2(23/05/2025)",
+ "temporada": "2024",
+ "celdas": [
+  "NB TORRENT -\n\t\t\t\t\t\t\tATICA SEVILLA CB CORIA",
+  "57-67",
+  "23/05/2025",
+  "18:15"
+ ],
+ "resultado": "57-67",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1504770",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "HERNANDEZ BENACHES, SERGIO",
+    "seg": 962,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 1,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": -4,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1901880",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "LOPEZ DOMINGUEZ, PABLO",
+    "seg": 875,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 2,
+    "va": -20,
+    "pm": 0
+   },
+   {
+    "idJugador": "1860831",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "ALBEROLA GUILLOT, MARC",
+    "seg": 1696,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 2,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 5,
+    "fr": 8,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1986085",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "SAEZ CALABUIG, ANDREU",
+    "seg": 1362,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 8,
+    "va": 11,
+    "pm": 0
+   },
+   {
+    "idJugador": "1995172",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "MARCO LOPEZ, HECTOR",
+    "seg": 215,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -5,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1996322",
+    "titular": true,
+    "dorsal": "16",
+    "nombre": "CAMPILLOS ALONSO, CARLOS",
+    "seg": 1596,
+    "pt": 11,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 7,
+    "va": -14,
+    "pm": 0
+   },
+   {
+    "idJugador": "2165978",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "BEDIA FERRER, JOSE ANTONIO",
+    "seg": 1394,
+    "pt": 8,
+    "t2": {
+     "a": 4,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 10,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1619904",
+    "titular": false,
+    "dorsal": "55",
+    "nombre": "BLASCO NAVARRO, LUCAS",
+    "seg": 1062,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 6
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 3,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1889292",
+    "titular": true,
+    "dorsal": "87",
+    "nombre": "TERRADES DAROQUI, ALEJANDRO",
+    "seg": 1641,
+    "pt": 15,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 6,
+    "fr": 17,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1645436",
+    "titular": false,
+    "dorsal": "95",
+    "nombre": "CALERO BAUTISTA, DAVID",
+    "seg": 1197,
+    "pt": 7,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 8,
+    "va": -3,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2201252",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "TORRES VELEZ, JOSE LUIS",
+    "seg": 1453,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 2,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1883847",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "LAGHRIDAT, SAID",
+    "seg": 1105,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 0,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1781815",
+    "titular": true,
+    "dorsal": "5",
+    "nombre": "TEJADA CAMACHO, ANDRES",
+    "seg": 1552,
+    "pt": 11,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 2,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 7,
+    "va": 18,
+    "pm": 0
+   },
+   {
+    "idJugador": "2002092",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "RODRIGUEZ LOPEZ, ANTONIO JESUS",
+    "seg": 687,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 2,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1596142",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "ORTEGA CARO, MANUEL",
+    "seg": 578,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 0,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1881683",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "CAMPOS CAMPOS, JOSÉ MANUEL",
+    "seg": 668,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 4,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1724282",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "ROBLES ROSADO, JOSE MARIA",
+    "seg": 519,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 1,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1731675",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "CEBOLLA HERRERA, JUAN MANUEL",
+    "seg": 1183,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -6,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1242479",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "MORALES ZARCO, JOSE MARIA",
+    "seg": 1260,
+    "pt": 28,
+    "t2": {
+     "a": 12,
+     "i": 19
+    },
+    "t3": {
+     "a": 12,
+     "i": 19
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 1,
+    "fc": 6,
+    "fr": 29,
+    "va": 7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1973167",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "QUESADA PONS, PABLO",
+    "seg": 219,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 0,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1731705",
+    "titular": true,
+    "dorsal": "17",
+    "nombre": "CEBOLLA HERRERA, JOAQUIN",
+    "seg": 1878,
+    "pt": 14,
+    "t2": {
+     "a": 3,
+     "i": 9
+    },
+    "t3": {
+     "a": 4,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 2,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 5,
+    "fr": 11,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2004307",
+    "titular": false,
+    "dorsal": "66",
+    "nombre": "LOPEZ MACIAS, PABLO",
+    "seg": 898,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 3,
+    "va": 11,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 14,
+    "visitante": 19
+   },
+   {
+    "periodo": "2º C",
+    "local": 12,
+    "visitante": 17
+   },
+   {
+    "periodo": "3º C",
+    "local": 15,
+    "visitante": 17
+   },
+   {
+    "periodo": "4º C",
+    "local": 16,
+    "visitante": 14
+   }
+  ]
+ }
+}

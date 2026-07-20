@@ -1,0 +1,745 @@
+{
+ "id": "2395562",
+ "fase": "Eliminatoria 2º-2º 2º AA-2º AB",
+ "jornada": "Jornada 2(27/04/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "XOBORG LA ANTIGUA CBTORMES -\n\t\t\t\t\t\t\tLBC COCINAS.COM",
+  "72-65",
+  "27/04/2024",
+  "19:00"
+ ],
+ "resultado": "72-65",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2432407",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "FELIZOR, KESSLY DAVE",
+    "seg": 1401,
+    "pt": 13,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 3,
+    "rt": 2,
+    "as": 4,
+    "br": 0,
+    "bp": 1,
+    "tf": 1,
+    "tco": 1,
+    "fc": 5,
+    "fr": 18,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1845471",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "PANIAGUA QUINTANILLA, DAVID",
+    "seg": 915,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -4,
+    "va": 7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1930720",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "GARRIDO RODRIGUEZ, ALBERT",
+    "seg": 618,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": -1,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2646201",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "SALOMON, HANNIBAL GEORGE",
+    "seg": 1658,
+    "pt": 9,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 3,
+    "fr": 6,
+    "va": 8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2816390",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "AKINWOLE, AYODEJI ALEXANDER",
+    "seg": 1821,
+    "pt": 14,
+    "t2": {
+     "a": 4,
+     "i": 9
+    },
+    "t3": {
+     "a": 6,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 8,
+    "va": 13,
+    "pm": 0
+   },
+   {
+    "idJugador": "2351010",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "GALLOSO GALEA, JUAN",
+    "seg": 77,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 3,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2558299",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "MC-CARTHY SANTOS, LANG-ACOYDAN",
+    "seg": 1692,
+    "pt": 13,
+    "t2": {
+     "a": 4,
+     "i": 8
+    },
+    "t3": {
+     "a": 4,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 5,
+    "fr": 13,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2161639",
+    "titular": false,
+    "dorsal": "24",
+    "nombre": "SANCHEZ OLLERO, ALVARO",
+    "seg": 466,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": -2,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2515797",
+    "titular": true,
+    "dorsal": "32",
+    "nombre": "FALL, KHADIM",
+    "seg": 917,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 0,
+    "fr": 5,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2172887",
+    "titular": true,
+    "dorsal": "44",
+    "nombre": "HETOR MENSAH, MARK",
+    "seg": 2130,
+    "pt": 15,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 5,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 1,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 15,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2029762",
+    "titular": false,
+    "dorsal": "45",
+    "nombre": "KROHNERT MOTO, DIOSDADO",
+    "seg": 295,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 5,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2405740",
+    "titular": false,
+    "dorsal": "50",
+    "nombre": "ROA RODRIGUEZ, ADRIAN",
+    "seg": 10,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "1102434",
+    "titular": false,
+    "dorsal": "0",
+    "nombre": "GOMEZ BENITO, OSCAR",
+    "seg": 203,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -3,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1652229",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "RODRIGUEZ MONTON, ALEJANDRO",
+    "seg": 1746,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 7,
+    "va": -10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2557189",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "SANTAMARIA BATTAGLINI, JULIAN",
+    "seg": 587,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 2,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1252075",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "AREVALO SAENZ, BORJA NICOLAS",
+    "seg": 1813,
+    "pt": 9,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 4,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 5,
+    "fr": 20,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1107308",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "RUBIO CASTILLO, ISMAEL",
+    "seg": 516,
+    "pt": 7,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 2,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 8,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1530932",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "YARNOZ LUMBRERAS, PABLO",
+    "seg": 1290,
+    "pt": 10,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 7,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2510609",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "YAILO, ARTEM",
+    "seg": 1232,
+    "pt": 4,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 0,
+    "as": 4,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 5,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2071857",
+    "titular": true,
+    "dorsal": "17",
+    "nombre": "OBAJO BELTRAN, LAWRENCE",
+    "seg": 2052,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 6,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2703671",
+    "titular": true,
+    "dorsal": "30",
+    "nombre": "MILLS NALES, DOUGLAS ZABDIEL",
+    "seg": 1258,
+    "pt": 12,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 7,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 5,
+    "fr": 6,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1743328",
+    "titular": false,
+    "dorsal": "41",
+    "nombre": "MEJIA ECHEVERRY, JHAN POOL",
+    "seg": 1303,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": -1,
+    "va": -5,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 15,
+    "visitante": 12
+   },
+   {
+    "periodo": "2º C",
+    "local": 19,
+    "visitante": 26
+   },
+   {
+    "periodo": "3º C",
+    "local": 19,
+    "visitante": 13
+   },
+   {
+    "periodo": "4º C",
+    "local": 19,
+    "visitante": 14
+   }
+  ]
+ }
+}

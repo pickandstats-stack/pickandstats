@@ -1,0 +1,745 @@
+{
+ "id": "2395565",
+ "fase": "Eliminatoria 2º-2º 2º DA-2º DB",
+ "jornada": "Jornada 1(20/04/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "JAEN PARAÍSO INTERIOR CB -\n\t\t\t\t\t\t\tCOTO CÓRDOBA CB",
+  "66-70",
+  "20/04/2024",
+  "19:30"
+ ],
+ "resultado": "62-70",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2109456",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "ABRIL RAMIRO, JOSE AGUSTIN",
+    "seg": 1132,
+    "pt": 12,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 4,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 9,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1881959",
+    "titular": false,
+    "dorsal": "2",
+    "nombre": "LOPEZ JIMENEZ, FRANCISCO JOSE",
+    "seg": 1145,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 4,
+    "fr": 7,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1770601",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "CAÑETE PUENTENUEVA, ALBERTO",
+    "seg": 1173,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 5,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1824721",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "PULIDO LUNA, ALVARO",
+    "seg": 507,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 0,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1282462",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "CARVAJAL LIEVANA, PABLO",
+    "seg": 831,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 2,
+    "fr": -3,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1763885",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "SANTA BARBARA CARCELEN, JAVIER",
+    "seg": 1596,
+    "pt": 11,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 2,
+    "fr": 4,
+    "va": 7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1881948",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "MARTINEZ MEGIAS, JAVIER",
+    "seg": 1549,
+    "pt": 10,
+    "t2": {
+     "a": 5,
+     "i": 8
+    },
+    "t3": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 5,
+    "br": 1,
+    "bp": 0,
+    "tf": 4,
+    "tco": 2,
+    "fc": 9,
+    "fr": 8,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "1997802",
+    "titular": true,
+    "dorsal": "16",
+    "nombre": "CASAS GARRIDO, IVAN",
+    "seg": 1419,
+    "pt": 15,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 4,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 3,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 19,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2037465",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "MORENO POZA, JUAN MANUEL",
+    "seg": 681,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 1,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1884141",
+    "titular": true,
+    "dorsal": "24",
+    "nombre": "RUIZ ABSELAM, DANIEL",
+    "seg": 682,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": -1,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2449346",
+    "titular": false,
+    "dorsal": "25",
+    "nombre": "VALERO CHICA, JUAN JOSE",
+    "seg": 349,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 5,
+    "va": 3,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2679122",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "OGECHI, DERRICK MEKENYE",
+    "seg": 1599,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 13
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": -1,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2703779",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "AMOAFO, MAXWELL OKOAMPAH",
+    "seg": 916,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 2,
+    "fr": 4,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2641323",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "WILLIAMSON JR, CHRUNN MAURICE",
+    "seg": 2155,
+    "pt": 25,
+    "t2": {
+     "a": 8,
+     "i": 12
+    },
+    "t3": {
+     "a": 8,
+     "i": 17
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 3,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 2,
+    "tco": 4,
+    "fc": 9,
+    "fr": 21,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1994463",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "LUQUE GOMEZ, JAVIER",
+    "seg": 249,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": -1,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1885638",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "OROZCO DOMINGUEZ, GONZALO",
+    "seg": 992,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 4,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 5,
+    "fc": 0,
+    "fr": 2,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1697234",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "MUÑOZ LUCENA, LUCAS",
+    "seg": 1375,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 2,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1825506",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "VALOR LARA, ALEJANDRO",
+    "seg": 740,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 4,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1998389",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "BELLO MOURE, FERNANDO",
+    "seg": 1981,
+    "pt": 14,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 5,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 1,
+    "rt": 2,
+    "as": 4,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 7,
+    "fr": 22,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1757878",
+    "titular": false,
+    "dorsal": "25",
+    "nombre": "BIOQUE ROMERO, ANTONIO ALBERTO",
+    "seg": 439,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -1,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1840449",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "VARELA BARCIA, MANUEL",
+    "seg": 397,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2641325",
+    "titular": true,
+    "dorsal": "77",
+    "nombre": "ANDREATTA, MAXIMILIANO",
+    "seg": 1157,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "fc": 0,
+    "fr": 5,
+    "va": 11,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 19,
+    "visitante": 22
+   },
+   {
+    "periodo": "2º C",
+    "local": 23,
+    "visitante": 17
+   },
+   {
+    "periodo": "3º C",
+    "local": 13,
+    "visitante": 14
+   },
+   {
+    "periodo": "4º C",
+    "local": 11,
+    "visitante": 17
+   }
+  ]
+ }
+}

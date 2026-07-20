@@ -1,0 +1,777 @@
+{
+ "id": "2399593",
+ "fase": "FASE FINAL-A FFA1",
+ "jornada": "Jornada 1(09/05/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "PROINBENI UPB GANDIA -\n\t\t\t\t\t\t\tJAEN PARAISO INTERIOR FS",
+  "75-74",
+  "09/05/2024",
+  "19:15"
+ ],
+ "resultado": "75-74",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1645437",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "MERENCIO MORENO, JOSE VICENTE",
+    "seg": 658,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": -4,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1703384",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "HERNÁNDEZ CASTELLÁ, JOAN",
+    "seg": 1091,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 4,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1807174",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "REQUENA NAVARRO, ALEJANDRO",
+    "seg": 1232,
+    "pt": 7,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 1,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1889292",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "TERRADES DAROQUI, ALEJANDRO",
+    "seg": 1084,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 3,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 4,
+    "fr": 14,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1616642",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "MCGUIRK, LIAM",
+    "seg": 634,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 5,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2707771",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "OKEKUOYEN, VICTORY",
+    "seg": 772,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 0,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": 5,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2446581",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "VILLALBA BAULBYS, MARCO GABRIEL",
+    "seg": 255,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 7,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1696032",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "CRESPO GARCIA, JOAQUIN",
+    "seg": 1114,
+    "pt": 4,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 1,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1827011",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "SOLER CIRUJEDA, JAVIER",
+    "seg": 1310,
+    "pt": 11,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 1,
+    "rt": 5,
+    "as": 4,
+    "br": 1,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 5,
+    "fr": 13,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1874971",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "GOMEZ CARBONELL, JOAN",
+    "seg": 1061,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 5,
+    "rt": 0,
+    "as": 2,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 12,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1620768",
+    "titular": true,
+    "dorsal": "21",
+    "nombre": "VERA PEIRO, ALEJANDRO",
+    "seg": 1622,
+    "pt": 19,
+    "t2": {
+     "a": 9,
+     "i": 12
+    },
+    "t3": {
+     "a": 9,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": 18,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2032122",
+    "titular": false,
+    "dorsal": "88",
+    "nombre": "TAVELLI, JUAN IGNACIO",
+    "seg": 1167,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": -4,
+    "va": 3,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2815161",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "DELGADO YEBOAH, KWABENA ANIMA",
+    "seg": 1116,
+    "pt": 4,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 1,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2067502",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "PERERIRA, TOMAS",
+    "seg": 1475,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 3,
+    "fr": -1,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2451417",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "NOSA CASTILLO, ADRIAN OUBIOGIE",
+    "seg": 1329,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 6
+    },
+    "t3": {
+     "a": 1,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 5,
+    "fc": 6,
+    "fr": 0,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1818104",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "IDRIS IGENE, SHARIF",
+    "seg": 285,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2005726",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "RAMOS ARANDA, CARLOS",
+    "seg": 279,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 3,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1611180",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "EL OTMANI MOHAMED, WASIM",
+    "seg": 1562,
+    "pt": 19,
+    "t2": {
+     "a": 3,
+     "i": 8
+    },
+    "t3": {
+     "a": 7,
+     "i": 17
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 1,
+    "rt": 4,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 17,
+    "va": 8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2378347",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "MOLINA MARTINEZ, JUAN MIGUEL",
+    "seg": 1697,
+    "pt": 13,
+    "t2": {
+     "a": 5,
+     "i": 5
+    },
+    "t3": {
+     "a": 5,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 11,
+    "rd": 4,
+    "rt": 2,
+    "as": 7,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 6,
+    "fr": 18,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2027204",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "MELERO ZURITA, SERGIO",
+    "seg": 918,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": -2,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2027205",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "MELERO ZURITA, DAVID",
+    "seg": 1340,
+    "pt": 11,
+    "t2": {
+     "a": 4,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 17,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1888037",
+    "titular": false,
+    "dorsal": "18",
+    "nombre": "BARRIOS UREÑA, ANGEL",
+    "seg": 503,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 4,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1775312",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "ALEMAN ROMERA, ALBERTO",
+    "seg": 1496,
+    "pt": 10,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 4,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 9,
+    "va": -7,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 22,
+    "visitante": 14
+   },
+   {
+    "periodo": "2º C",
+    "local": 19,
+    "visitante": 11
+   },
+   {
+    "periodo": "3º C",
+    "local": 16,
+    "visitante": 22
+   },
+   {
+    "periodo": "4º C",
+    "local": 18,
+    "visitante": 27
+   }
+  ]
+ }
+}
