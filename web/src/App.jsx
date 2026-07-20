@@ -1,3 +1,4 @@
+import ConsentBanner from './ConsentBanner';
 import { useEffect, useState } from 'react';
 import Inicio from './Inicio';
 import Equipos from './Equipos';
@@ -191,6 +192,8 @@ export default function App() {
         {' · '}
         <span className="enlace" onClick={abrirLegal}>Aviso legal y privacidad</span>
       </p>
+
+      <ConsentBanner onAbrirLegal={abrirLegal} />
     </div>
   );
 }

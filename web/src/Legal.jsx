@@ -27,15 +27,41 @@ export default function Legal() {
       a la mayor brevedad.</p>
 
       <h3 className="seccion">Cookies y analítica</h3>
-      <p>Esta web no utiliza cookies de seguimiento ni perfila a sus visitantes.
-      [Ajustar esta sección si en el futuro se añade analítica.]</p>
+      <p>Esta web utiliza <strong>Google Analytics 4</strong>, un servicio de análisis
+      de audiencia de Google Ireland Ltd., con la finalidad de conocer de forma
+      agregada cómo se usa el sitio (páginas visitadas, número de visitantes, origen
+      del tráfico o tipo de dispositivo) y así poder mejorarlo. Esta información se
+      utiliza únicamente con fines estadísticos y de mejora del servicio.</p>
+
+      <p>Para ello, Google Analytics instala cookies en tu dispositivo. Las principales
+      son <code>_ga</code> y <code>_ga_&lt;id&gt;</code>, que sirven para distinguir
+      visitantes y mantener el estado de la sesión, con una duración de hasta dos años.
+      La dirección IP se trata de forma anonimizada.</p>
+
+      <p>La base jurídica de este tratamiento es tu <strong>consentimiento</strong>. Al
+      entrar en la web por primera vez se muestra un aviso donde puedes aceptar o
+      rechazar estas cookies; <strong>no se activan ni se envía ningún dato hasta que
+      las aceptas</strong>, y rechazarlas es tan sencillo como aceptarlas. Si las
+      rechazas, podrás seguir navegando con normalidad.</p>
+
+      <p>El uso de Google Analytics puede implicar la transferencia de datos a Google,
+      incluyendo servidores situados fuera del Espacio Económico Europeo, con las
+      garantías previstas en la normativa de protección de datos. Puedes consultar cómo
+      trata Google esta información en su política de privacidad
+      (policies.google.com/privacy) y en la información sobre el uso de datos de Google
+      Analytics.</p>
+
+      <p>Puedes <strong>retirar tu consentimiento</strong> en cualquier momento borrando
+      las cookies de este sitio en tu navegador, lo que hará que el aviso vuelva a
+      aparecer y puedas elegir de nuevo. Adicionalmente, Google ofrece un complemento de
+      inhabilitación para navegadores en tools.google.com/dlpage/gaoptout.</p>
 
       <h3 className="seccion">Propiedad intelectual y responsabilidad</h3>
       <p>Las marcas, nombres de clubes y logotipos pertenecen a sus respectivos
       titulares. Este sitio se ofrece "tal cual", sin garantía sobre la exactitud
       de los datos, y no se responsabiliza del uso que se haga de la información.</p>
 
-      <p className="pie">Última actualización: [fecha]. Contacto: pickandstats@gmail.com</p>
+      <p className="pie">Última actualización: julio de 2026. Contacto: pickandstats@gmail.com</p>
     </div>
   );
 }

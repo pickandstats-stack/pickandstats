@@ -627,3 +627,26 @@ th.col-a { color: #ffd9c4; }
 .ascendido-via {
   font-size: 12.5px; color: #b8c0cf; margin-top: 4px;
 }
+
+/* ---- banner de consentimiento ---- */
+.consent-banner {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
+  background: var(--tinta); color: #fff;
+  display: flex; align-items: center; gap: 20px;
+  padding: 16px 22px; flex-wrap: wrap;
+  box-shadow: 0 -4px 20px rgba(0,0,0,.2);
+}
+.consent-texto { flex: 1; min-width: 260px; font-size: 13.5px; line-height: 1.5; }
+.consent-texto a { color: var(--acento); cursor: pointer; }
+.consent-botones { display: flex; gap: 10px; }
+.consent-btn {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px; font-weight: 600; letter-spacing: .3px;
+  padding: 9px 22px; border-radius: 6px; cursor: pointer; border: none;
+}
+.consent-rechazar { background: transparent; color: #fff; border: 1px solid rgba(255,255,255,.4); }
+.consent-aceptar { background: var(--acento); color: #fff; }
+@media (max-width: 520px) {
+  .consent-botones { width: 100%; }
+  .consent-btn { flex: 1; }
+}
