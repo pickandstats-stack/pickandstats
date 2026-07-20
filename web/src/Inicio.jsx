@@ -1,18 +1,26 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 const MIN_PJ = 12;
-const GRUPOS = ['A-A','A-B','B-A','B-B','C-A','C-B','D-A','D-B','E-A','E-B'];
 
 const fecha = j => {
   const m = String(j).match(/\((\d{2})\/(\d{2})\/(\d{4})\)/);
   return m ? new Date(+m[3], +m[2] - 1, +m[1]) : new Date(0);
 };
 
-export default function Inicio({ equipos, jugadores, partidos, onVerEquipo, onVerJugador, onVerPartido, temporada }) {
+export default function Inicio({ equipos, jugadores, partidos, onVerEquipo, onVerJugador, onVerPartido, temporada, competicionNombre }) {
   const etiquetaTemp = `${temporada}/${(+temporada + 1).toString().slice(2)}`;
 
+  // Grupos disponibles, derivados de los equipos de la competición
+  const GRUPOS = useMemo(
+    () => [...new Set(equipos.map(e => e.grupo))].sort((a, b) => a.localeCompare(b, 'es')),
+    [equipos]
+  );
+
   // Grupos seleccionados (todos activos por defecto)
-  const [sel, setSel] = useState(() => new Set(GRUPOS));
+  const [sel, setSel] = useState(() => new Set());
+
+  // Al cargar/cambiar de competición, seleccionar todos los grupos disponibles
+  useEffect(() => { setSel(new Set(GRUPOS)); }, [GRUPOS]);
 
   const toggle = g => setSel(prev => {
     const n = new Set(prev);
@@ -63,8 +71,8 @@ export default function Inicio({ equipos, jugadores, partidos, onVerEquipo, onVe
   return (
     <div className="inicio">
       <div className="inicio-intro">
-        <p>La referencia de estadística avanzada de la Tercera FEB. Temporada {etiquetaTemp}
-          {' '}· {equipos.length} equipos · {jugadores.length} jugadores en 10 grupos.</p>
+        <p>La referencia de estadística avanzada de la {competicionNombre}. Temporada {etiquetaTemp}
+          {' '}· {equipos.length} equipos · {jugadores.length} jugadores en {GRUPOS.length} {GRUPOS.length === 1 ? "grupo" : "grupos"}.</p>
       </div>
 
       <div className="filtro-grupos">

@@ -6,8 +6,13 @@ const etiquetaJornada = j => (String(j).match(/Jornada\s*\d+\s*\([^)]*\)/) || [j
 
 export default function Resultados({ partidos, equipos, grupos, temporada, competicion, onVerEquipo, onVerPartido }) {
   const [seccion, setSeccion] = useState('liga');
-  const [grupo, setGrupo] = useState('E-A');
+  const [grupo, setGrupo] = useState(null);
   const [fases, setFases] = useState(null);
+
+  // Si el grupo activo no existe en la competición actual, usar el primero disponible
+  useEffect(() => {
+    if (grupos.length && !grupos.includes(grupo)) setGrupo(grupos[0]);
+  }, [grupos, grupo]);
 
   useEffect(() => {
     setFases(null);
@@ -15,7 +20,7 @@ export default function Resultados({ partidos, equipos, grupos, temporada, compe
       .then(r => r.ok ? r.json() : [])
       .then(setFases)
       .catch(() => setFases([]));
-  }, [temporada]);
+  }, [competicion, temporada]);
 
   const porJornada = useMemo(() => {
     const m = new Map();

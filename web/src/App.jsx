@@ -14,8 +14,8 @@ import Buscador from './Buscador';
 // Competiciones disponibles (con datos). Al bajar Primera/Segunda, se añaden aquí.
 const COMPETICIONES = [
   { id: 'tercerafeb', nombre: 'Tercera FEB' },
-  // { id: 'segundafeb', nombre: 'Segunda FEB' },
-  // { id: 'primerafeb', nombre: 'Primera FEB' },
+  { id: 'segundafeb', nombre: 'Segunda FEB' },
+  { id: 'primerafeb', nombre: 'Primera FEB' },
 ];
 
 const etiquetaTemporada = t => `${t}/${(+t + 1).toString().slice(2)}`;
@@ -204,6 +204,7 @@ export default function App() {
           onVolver={() => setPartidoSel(null)} onVerEquipo={verEquipo} onVerJugador={verJugador} />
       ) : jugadorSel ? (
         <Jugador carrera={jugadorSel} historico={histJugadorSel} equipos={equipos}
+          competicionNombre={compActual.nombre}
           onVolver={() => setJugadorSel(null)} onVerEquipo={verEquipo} />
       ) : equipoSel ? (
         <Equipo equipo={equipoSel} jugadores={jugadores} partidos={partidos}
@@ -211,7 +212,8 @@ export default function App() {
           onVerEquipo={verEquipo} onVerJugador={verJugador} onVerPartido={verPartido} />
       ) : vista === 'inicio' ? (
         <Inicio equipos={equipos} jugadores={jugadores} partidos={partidos}
-          temporada={temporada} onVerEquipo={verEquipo} onVerJugador={verJugador} onVerPartido={verPartido} />
+          temporada={temporada} competicionNombre={compActual.nombre}
+          onVerEquipo={verEquipo} onVerJugador={verJugador} onVerPartido={verPartido} />
       ) : vista === 'resultados' ? (
         <Resultados partidos={partidos} equipos={equipos} grupos={grupos} temporada={temporada}
           competicion={competicion}

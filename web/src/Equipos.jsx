@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 const BASICA = [
   { clave: 'nombre',    titulo: 'Equipo', izq: true },
@@ -41,7 +41,11 @@ const AVANZADA = [
 ];
 
 export default function Equipos({ equipos, grupos, onVerEquipo }) {
-  const [grupo, setGrupo] = useState('E-A');
+  const [grupo, setGrupo] = useState(null);
+
+  useEffect(() => {
+    if (grupos.length && !grupos.includes(grupo)) setGrupo(grupos[0]);
+  }, [grupos, grupo]);
   const [modo, setModo] = useState('basica');
   const [orden, setOrden] = useState({ clave: 'pg', desc: true });
 

@@ -5,7 +5,7 @@ export default function Legal() {
 
       <h3 className="seccion">Qué es PickAndStats</h3>
       <p>PickAndStats es un proyecto personal y sin ánimo de lucro que recopila y
-      presenta estadísticas de baloncesto de las competiciones de la Tercera FEB,
+      presenta estadísticas de baloncesto de competiciones de la FEB (Primera, Segunda y Tercera FEB),
       a partir de datos públicos publicados por la Federación Española de Baloncesto
       en baloncestoenvivo.feb.es. No es un sitio oficial de la FEB ni está afiliado a ella.</p>
 

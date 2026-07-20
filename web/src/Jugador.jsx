@@ -26,7 +26,7 @@ const METRICAS_PCT = [
   { clave: 'ts', titulo: 'TS%' },
 ];
 
-export default function Jugador({ carrera, historico, equipos, onVolver, onVerEquipo }) {
+export default function Jugador({ carrera, historico, equipos, onVolver, onVerEquipo, competicionNombre }) {
   const soloHistorico = carrera.soloHistorico === true;
   const multiEtapa = carrera.nEtapas > 1;
   const pct = carrera.percentiles || null;
@@ -151,7 +151,7 @@ export default function Jugador({ carrera, historico, equipos, onVolver, onVerEq
             })}
             <p className="pie" style={{ marginTop: 8 }}>
               Percentil respecto a jugadores con 12+ partidos. 100 = mejor de la categoría.
-              Nacional compara con toda la Tercera FEB; grupo, solo con su grupo.
+              Nacional compara con toda la {competicionNombre}; grupo, solo con su grupo.
             </p>
           </div>
         </>
