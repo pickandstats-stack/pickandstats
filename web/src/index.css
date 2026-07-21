@@ -671,3 +671,42 @@ th.col-a { color: #ffd9c4; }
   .consent-botones { width: 100%; }
   .consent-btn { flex: 1; }
 }
+
+/* ---- Play-off (fases de Primera/Segunda FEB) ---- */
+.playoff-ronda { margin-bottom: 28px; }
+.playoff-series { display: flex; flex-direction: column; gap: 14px; }
+.playoff-serie {
+  background: var(--panel); border: 1px solid var(--linea);
+  border-radius: var(--radio); overflow: hidden;
+}
+.serie-cabecera {
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+  gap: 12px; padding: 12px 16px; background: var(--fondo);
+  border-bottom: 1px solid var(--linea);
+}
+.serie-cabecera .serie-equipo:first-child { text-align: right; }
+.serie-equipo {
+  font-family: 'Barlow Condensed', sans-serif; font-size: 18px; font-weight: 600;
+  color: var(--tinta-suave);
+}
+.serie-equipo.gana { color: var(--tinta); font-weight: 700; }
+.serie-marcador {
+  font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 700;
+  color: var(--acento); white-space: nowrap; padding: 0 8px;
+}
+.serie-partidos { display: flex; flex-direction: column; }
+.serie-partido {
+  display: grid; grid-template-columns: 90px 1fr auto 1fr; align-items: center;
+  gap: 10px; padding: 8px 16px; font-size: 14px; cursor: pointer;
+  border-top: 1px solid var(--linea);
+}
+.serie-partido:hover { background: var(--fondo); }
+.serie-partido > span:nth-child(2) { text-align: right; }
+.serie-fecha { color: var(--tinta-suave); font-size: 12px; }
+.serie-partido .gana { font-weight: 700; color: var(--tinta); }
+.playoff-unico {
+  display: grid; grid-template-columns: 90px 1fr auto 1fr; align-items: center;
+  gap: 12px; padding: 14px 16px; cursor: pointer;
+}
+.playoff-unico:hover { background: var(--fondo); }
+.playoff-unico .serie-equipo:nth-child(2) { text-align: right; }

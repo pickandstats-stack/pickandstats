@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import FasesAscenso from './FasesAscenso';
+import PlayOff from './PlayOff';
 
 const numJornada = j => parseInt((String(j).match(/\d+/) || [0])[0], 10);
 const etiquetaJornada = j => (String(j).match(/Jornada\s*\d+\s*\([^)]*\)/) || [j])[0];
@@ -217,7 +218,11 @@ export default function Resultados({ partidos, equipos, grupos, temporada, compe
           {fases === null ? (
             <p className="cargando">Cargando fases…</p>
           ) : (
-            <FasesAscenso fases={fases} onVerEquipoNombre={clicEquipoNombre} onVerPartido={onVerPartido} />
+            competicion === 'tercerafeb' ? (
+              <FasesAscenso fases={fases} onVerEquipoNombre={clicEquipoNombre} onVerPartido={onVerPartido} />
+            ) : (
+              <PlayOff fases={fases} onVerEquipoNombre={clicEquipoNombre} onVerPartido={onVerPartido} />
+            )
           )}
           <p className="pie" style={{ marginTop: 8 }}>
             Los partidos de fases no computan en las estadísticas de temporada regular.

@@ -123,8 +123,8 @@ export default function App() {
     setEquipoSel(null); setPartidoSel(null); setLegalVisible(false); window.scrollTo(0, 0);
   };
 
-  const verPartido = idPartido => {
-    const p = partidos.find(x => x.id === idPartido);
+  const verPartido = arg => {
+    const p = (arg && typeof arg === 'object') ? arg : partidos.find(x => x.id === arg);
     if (p) { setPartidoSel(p); setEquipoSel(null); setJugadorSel(null); setLegalVisible(false); window.scrollTo(0, 0); }
   };
 
