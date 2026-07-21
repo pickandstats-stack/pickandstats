@@ -1,17 +1,24 @@
-// Procesa los partidos de fases de ascenso -> data/processed/<temp>/fases.json
-// Uso: node scraper/calcular-fases.js [--temporada 2025]
+// Procesa los partidos de fases -> data/processed/<comp>/<temp>/fases.json
+// Uso: node scraper/calcular-fases.js [--competicion 3] [--temporada 2025]
 const fs = require('fs');
 const path = require('path');
+const CFG = require('./config');
 
 const args = process.argv.slice(2);
-const iT = args.indexOf('--temporada');
-const TEMPORADA = iT >= 0 ? args[iT + 1] : '2025';
+const leerArg = flag => { const i = args.indexOf(flag); return i >= 0 ? args[i + 1] : null; };
+const TEMPORADA = leerArg('--temporada') || CFG.TEMPORADA_DEFECTO;
+const COMPETICION = leerArg('--competicion') || String(CFG.COMPETICION.id);
+const COMP_NOMBRE = CFG.COMPETICIONES[COMPETICION];
+if (!COMP_NOMBRE) {
+  console.error(`Competición '${COMPETICION}' desconocida. Válidas: ${Object.keys(CFG.COMPETICIONES).join(', ')}`);
+  process.exit(1);
+}
 
-const DIR = path.join('data', 'raw', TEMPORADA, '_fases');
-const DIR_OUT = path.join('data', 'processed', TEMPORADA);
+const DIR = path.join('data', 'raw', COMP_NOMBRE, TEMPORADA, '_fases');
+const DIR_OUT = path.join('data', 'processed', COMP_NOMBRE, TEMPORADA);
 
 if (!fs.existsSync(DIR)) {
-  console.log(`No hay fases descargadas para ${TEMPORADA} (falta ${DIR}).`);
+  console.log(`No hay fases descargadas para ${COMP_NOMBRE} ${TEMPORADA} (falta ${DIR}).`);
   process.exit(0);
 }
 
@@ -65,7 +72,7 @@ const salida = Object.values(fases).map(f => ({
 fs.mkdirSync(DIR_OUT, { recursive: true });
 fs.writeFileSync(path.join(DIR_OUT, 'fases.json'), JSON.stringify(salida, null, 1));
 
-console.log(`Fases procesadas: ${salida.length} | Partidos: ${totalPartidos}`);
+console.log(`${COMP_NOMBRE} ${TEMPORADA} — Fases procesadas: ${salida.length} | Partidos: ${totalPartidos}`);
 salida.forEach(f => {
   console.log(`\n  ${f.fase} (${f.partidos.length} partidos)`);
   f.partidos.forEach(p =>

@@ -1,6 +1,6 @@
-// Descarga los partidos de las fases de ascenso (todo lo que NO es Liga Regular).
-// Guarda en data/raw/<temporada>/_fases/<grupo-slug>/ID.json
-// Uso: node scraper/scrape-fases.js [--temporada 2025]
+// Descarga los partidos de las fases (todo lo que NO es Liga Regular).
+// Guarda en data/raw/<comp>/<temporada>/_fases/<grupo-slug>/ID.json
+// Uso: node scraper/scrape-fases.js [--competicion 3] [--temporada 2025]
 const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
@@ -8,8 +8,14 @@ const path = require('path');
 const CFG = require('./config');
 
 const args = process.argv.slice(2);
-const iT = args.indexOf('--temporada');
-const TEMPORADA = iT >= 0 ? args[iT + 1] : '2025';
+const leerArg = flag => { const i = args.indexOf(flag); return i >= 0 ? args[i + 1] : null; };
+const TEMPORADA = leerArg('--temporada') || CFG.TEMPORADA_DEFECTO;
+const COMPETICION = leerArg('--competicion') || String(CFG.COMPETICION.id);
+const COMP_NOMBRE = CFG.COMPETICIONES[COMPETICION];
+if (!COMP_NOMBRE) {
+  console.error(`Competición '${COMPETICION}' desconocida. Válidas: ${Object.keys(CFG.COMPETICIONES).join(', ')}`);
+  process.exit(1);
+}
 
 const pausa = ms => new Promise(r => setTimeout(r, ms));
 const slug = s => s.replace(/[^a-zA-Z0-9ºª]+/g, '-').replace(/^-|-$/g, '');
@@ -78,7 +84,6 @@ async function scrapePartido(idPartido) {
   };
 }
 
-// Extrae y guarda los partidos visibles en la vista actual ($) de una fase
 async function guardarPartidosDeVista($, fase, dirFase, jornadaTexto, contador) {
   const ids = [...new Set(
     $('a[href*="Partido.aspx?p="]').map((_, a) =>
@@ -115,7 +120,8 @@ async function guardarPartidosDeVista($, fase, dirFase, jornadaTexto, contador) 
 }
 
 async function main() {
-  const urlBase = `${CFG.BASE}/resultados.aspx?g=${CFG.COMPETICION.id}&t=${TEMPORADA}`;
+  const urlBase = `${CFG.BASE}/resultados.aspx?g=${COMPETICION}&t=${TEMPORADA}`;
+  console.log(`Competición: ${COMP_NOMBRE} (g=${COMPETICION}) | Temporada: ${TEMPORADA}`);
   const $inicial = await getConEstado(urlBase);
 
   const fases = [];
@@ -127,13 +133,13 @@ async function main() {
   });
 
   console.log(`Temporada ${TEMPORADA} — fases encontradas: ${fases.length}`);
+  fases.forEach(f => console.log(`  · ${f.nombre}`));
   const contador = { total: 0, descargados: 0, saltados: 0 };
 
   for (const fase of fases) {
-    const dirFase = path.join('data', 'raw', TEMPORADA, '_fases', slug(fase.nombre));
+    const dirFase = path.join('data', 'raw', COMP_NOMBRE, TEMPORADA, '_fases', slug(fase.nombre));
     fs.mkdirSync(dirFase, { recursive: true });
 
-    // Seleccionar la fase partiendo SIEMPRE de una carga fresca de la página
     let $ = await getConEstado(urlBase);
     const selectName = $('select[id*="gruposDropDownList"]').attr('name');
     const estado = extraerEstado($);
@@ -141,19 +147,16 @@ async function main() {
       ...estado, __EVENTTARGET: selectName, [selectName]: fase.valor
     });
 
-    // 1) Partidos visibles nada más seleccionar la fase (vista por defecto)
     const jornadaVisible = $('select[id*="jornadasDropDownList"] option:selected').text().trim()
       || $('select[id*="jornadasDropDownList"] option').first().text().trim()
       || '';
     await guardarPartidosDeVista($, fase, dirFase, jornadaVisible, contador);
 
-    // 2) Si hay más jornadas en el desplegable, recorrerlas
-    //    (re-seleccionando fase + jornada desde página fresca para no perder contexto)
     const jornadas = $('select[id*="jornadasDropDownList"] option')
       .map((_, o) => ({ valor: $(o).attr('value'), nombre: $(o).text().trim() })).get();
 
     for (const jor of jornadas) {
-      if (jor.nombre === jornadaVisible) continue; // ya capturada
+      if (jor.nombre === jornadaVisible) continue;
       let $j = await getConEstado(urlBase);
       const selName = $j('select[id*="gruposDropDownList"]').attr('name');
       const est1 = extraerEstado($j);
@@ -163,7 +166,7 @@ async function main() {
       const est2 = extraerEstado($j);
       $j = await getConEstado(urlBase, {
         ...est2, __EVENTTARGET: jorName,
-        [selName]: fase.valor,       // mantener la fase seleccionada en el postback
+        [selName]: fase.valor,
         [jorName]: jor.valor
       });
       await guardarPartidosDeVista($j, fase, dirFase, jor.nombre, contador);
