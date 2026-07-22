@@ -1,0 +1,72 @@
+---
+// Banner de consentimiento para GA4.
+// Comparte la clave 'pas-consent' con la app de estadísticas: como ambas viven
+// en el mismo dominio, localStorage es común y el visitante decide una sola vez.
+---
+
+<div id="consent-banner" class="consent-banner" hidden>
+  <p class="consent-texto">
+    Usamos cookies de analítica (Google Analytics) para entender cómo se usa la web y
+    mejorarla. No se activan hasta que las aceptes. Puedes rechazarlas y seguir navegando
+    con normalidad. Más información en la <a href="/legal#cookies">política de privacidad</a>.
+  </p>
+  <div class="consent-botones">
+    <button id="consent-rechazar" class="consent-btn consent-rechazar" type="button">Rechazar</button>
+    <button id="consent-aceptar" class="consent-btn consent-aceptar" type="button">Aceptar</button>
+  </div>
+</div>
+
+<script>
+  const CLAVE = 'pas-consent'; // 'granted' | 'denied'
+  const banner = document.getElementById('consent-banner');
+
+  function actualizar(estado) {
+    if (typeof window.gtag === 'function') {
+      window.gtag('consent', 'update', {
+        analytics_storage: estado,
+        ad_storage: estado,
+        ad_user_data: estado,
+        ad_personalization: estado
+      });
+    }
+  }
+
+  function decidir(estado) {
+    try { localStorage.setItem(CLAVE, estado); } catch (e) { /* sin almacenamiento */ }
+    actualizar(estado);
+    banner.hidden = true;
+  }
+
+  let previa = null;
+  try { previa = localStorage.getItem(CLAVE); } catch (e) { /* sin almacenamiento */ }
+
+  if (previa === 'granted' || previa === 'denied') actualizar(previa);
+  else banner.hidden = false;
+
+  document.getElementById('consent-aceptar').addEventListener('click', () => decidir('granted'));
+  document.getElementById('consent-rechazar').addEventListener('click', () => decidir('denied'));
+</script>
+
+<style>
+  .consent-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
+    background: var(--tinta); color: #fff;
+    display: flex; align-items: center; gap: 20px;
+    padding: 16px 22px; flex-wrap: wrap;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, .2);
+  }
+  .consent-banner[hidden] { display: none; }
+  .consent-texto { flex: 1; min-width: 260px; font-size: 13.5px; line-height: 1.5; margin: 0; }
+  .consent-texto a { color: var(--acento); }
+  .consent-botones { display: flex; gap: 10px; }
+  .consent-btn {
+    font-family: var(--fuente-titulo);
+    font-size: 15px; font-weight: 600; letter-spacing: .3px;
+    padding: 9px 22px; border-radius: 6px; cursor: pointer; border: none;
+    text-transform: uppercase;
+  }
+  .consent-rechazar { background: transparent; color: #fff; border: 1px solid rgba(255, 255, 255, .45); }
+  .consent-aceptar { background: var(--acento); color: #fff; }
+  .consent-rechazar:hover { border-color: #fff; }
+  .consent-aceptar:hover { opacity: .9; }
+</style>

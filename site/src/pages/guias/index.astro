@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const guias = (await getCollection('guias'))
+  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime());
+---
+
+<Base title="Guías · Pick&Stats" description="Guías para entender el baloncesto de las ligas menores: ascensos, descensos, reglamento y más.">
+  <h1>Guías</h1>
+  <p>Explicaciones claras de las dudas que se repiten cada temporada.</p>
+
+  <ul class="lista-guias">
+    {guias.map(guia => (
+      <li>
+        <a href={`/guias/${guia.id}`}>{guia.data.titulo}</a>
+        <p>{guia.data.descripcion}</p>
+      </li>
+    ))}
+  </ul>
+
+  <style>
+    .lista-guias { list-style: none; padding: 0; }
+    .lista-guias li {
+      border: 1px solid var(--linea); border-radius: var(--radio);
+      padding: 18px 20px; margin-bottom: 14px; background: var(--panel);
+    }
+    .lista-guias a {
+      font-family: var(--fuente-titulo); font-size: 22px;
+      font-weight: 600; text-decoration: none; color: var(--tinta);
+    }
+    .lista-guias a:hover { color: var(--acento); }
+    .lista-guias p { margin: 6px 0 0; color: var(--tinta-suave); font-size: 15px; }
+  </style>
+</Base>

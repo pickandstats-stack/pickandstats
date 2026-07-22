@@ -1,0 +1,37 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+// Genera una ruta por cada guía de la colección
+export async function getStaticPaths() {
+  const guias = await getCollection('guias');
+  return guias.map(guia => ({
+    params: { slug: guia.id },
+    props: { guia },
+  }));
+}
+
+const { guia } = Astro.props;
+const { Content } = await render(guia);
+
+const fechaTexto = guia.data.fecha.toLocaleDateString('es-ES', {
+  year: 'numeric', month: 'long', day: 'numeric'
+});
+---
+
+<Base title={`${guia.data.titulo} · Pick&Stats`} description={guia.data.descripcion}>
+  <article>
+    <p class="volver"><a href="/guias">← Todas las guías</a></p>
+    <h1>{guia.data.titulo}</h1>
+    <p class="meta">Publicado el {fechaTexto}</p>
+    <Content />
+  </article>
+
+  <style>
+    .volver { font-size: 14px; }
+    .meta { color: var(--tinta-suave); font-size: 14px; margin-top: -8px; }
+    article :global(h2) { margin-top: 32px; }
+    article :global(ul) { padding-left: 20px; }
+    article :global(li) { margin-bottom: 6px; }
+  </style>
+</Base>

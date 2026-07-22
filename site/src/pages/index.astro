@@ -1,0 +1,194 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const guias = (await getCollection('guias'))
+  .sort((a, b) => b.data.fecha.getTime() - a.data.fecha.getTime())
+  .slice(0, 3);
+---
+
+<Base title="Pick&Stats · Estadísticas de las ligas menores del baloncesto español">
+  <section class="hero">
+    <h1>Pick<span class="acento">&amp;</span>Stats</h1>
+    <p class="hero-lema">
+      Estadísticas avanzadas, análisis y guías de las ligas menores del baloncesto
+      español. Datos que hasta ahora nadie contaba, explicados para que cualquiera
+      los entienda.
+    </p>
+    <div class="hero-acciones">
+      <a class="boton boton-primario" href="https://pickandstats.es/app">Ver estadísticas</a>
+      <a class="boton boton-secundario" href="/guias">Leer las guías</a>
+    </div>
+  </section>
+
+  <section class="que-hacemos">
+    <h2>Qué hacemos</h2>
+    <div class="tarjetas">
+      <div class="tarjeta">
+        <div class="tarjeta-icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3.5 20.5h17" />
+            <rect x="5" y="12" width="3.6" height="5.5" rx="1" />
+            <rect x="10.2" y="7.5" width="3.6" height="10" rx="1" />
+            <rect x="15.4" y="4" width="3.6" height="13.5" rx="1" />
+          </svg>
+        </div>
+        <h3>Estadística avanzada</h3>
+        <p>
+          Ratings ofensivo y defensivo, Four Factors, ritmo, eficiencia real de tiro,
+          percentiles… las métricas que de verdad explican un partido, calculadas a
+          partir de las actas oficiales.
+        </p>
+      </div>
+      <div class="tarjeta">
+        <div class="tarjeta-icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="9" cy="8" r="3.25" />
+            <path d="M3.5 19.5a5.5 5.5 0 0 1 11 0" />
+            <path d="M16 5.4a3.25 3.25 0 0 1 0 5.2" />
+            <path d="M17.5 14.6a5.5 5.5 0 0 1 3 4.9" />
+          </svg>
+        </div>
+        <h3>Análisis de equipos y jugadores</h3>
+        <p>
+          Perfiles automáticos que traducen los números en lenguaje claro: fortalezas,
+          debilidades y claves para preparar un partido. Scouting al alcance de cualquiera.
+        </p>
+      </div>
+      <div class="tarjeta">
+        <div class="tarjeta-icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 3.5h10v5.5a5 5 0 0 1-10 0V3.5Z" />
+            <path d="M7 5.75H4.5V7A3.5 3.5 0 0 0 8 10.5" />
+            <path d="M17 5.75h2.5V7a3.5 3.5 0 0 1-3.5 3.5" />
+            <path d="M12 14v4" />
+            <path d="M8.5 20.5h7" />
+          </svg>
+        </div>
+        <h3>Fases de ascenso</h3>
+        <p>
+          El desenlace de cada temporada, contado como se merece: eliminatorias, liguillas
+          y el camino de cada equipo hacia el ascenso, con el histórico de varias temporadas.
+        </p>
+      </div>
+      <div class="tarjeta">
+        <div class="tarjeta-icono">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19.5v14H6.5A2.5 2.5 0 0 0 4 19.5V5.5Z" />
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H19.5v4H6.5A2.5 2.5 0 0 1 4 19.5Z" />
+            <path d="M8 7.5h7" />
+            <path d="M8 11h5" />
+          </svg>
+        </div>
+        <h3>Guías que resuelven dudas</h3>
+        <p>
+          Cómo funcionan los ascensos, los descensos, el reglamento… las preguntas que se
+          repiten cada año, explicadas con claridad y sin letra pequeña.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ligas">
+    <h2>Las tres categorías FEB</h2>
+    <p>
+      El baloncesto de las categorías nacionales mueve a miles de jugadores y aficionados,
+      pero apenas nadie le dedica datos serios. Pick&amp;Stats nace para cambiarlo y hoy
+      cubre <strong>Primera, Segunda y Tercera FEB</strong>: liga regular, fases de ascenso
+      y descenso, y varias temporadas de histórico para poder comparar.
+    </p>
+    <ul class="pastillas">
+      <li>Primera FEB</li>
+      <li>Segunda FEB</li>
+      <li>Tercera FEB</li>
+    </ul>
+  </section>
+
+  {guias.length > 0 && (
+    <section class="ultimas-guias">
+      <h2>Últimas guías</h2>
+      <ul class="lista-guias">
+        {guias.map(guia => (
+          <li>
+            <a href={`/guias/${guia.id}`}>{guia.data.titulo}</a>
+            <p>{guia.data.descripcion}</p>
+          </li>
+        ))}
+      </ul>
+      <p><a href="/guias">Ver todas las guías →</a></p>
+    </section>
+  )}
+
+  <style>
+    .hero { text-align: center; padding: 24px 0 12px; }
+    .hero h1 { font-size: 56px; margin-bottom: 12px; }
+    .hero h1 .acento { color: var(--acento); }
+    .hero-lema {
+      font-size: 19px; color: var(--tinta-suave);
+      max-width: 620px; margin: 0 auto 24px;
+    }
+    .hero-acciones { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .boton {
+      font-family: var(--fuente-titulo); font-size: 17px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: .3px;
+      padding: 11px 26px; border-radius: var(--radio); text-decoration: none;
+      display: inline-block;
+    }
+    .boton-primario { background: var(--acento); color: #fff; }
+    .boton-secundario { background: transparent; color: var(--tinta); border: 1px solid var(--linea); }
+    .boton-primario:hover { opacity: .9; }
+    .boton-secundario:hover { border-color: var(--acento); color: var(--acento); }
+
+    .que-hacemos { margin-top: 48px; }
+    .tarjetas {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px; margin-top: 8px;
+    }
+    .tarjeta {
+      background: var(--panel); border: 1px solid var(--linea);
+      border-radius: var(--radio); padding: 20px;
+    }
+    .tarjeta h3 { margin-top: 0; }
+    .tarjeta p { color: var(--tinta-suave); font-size: 15px; margin-bottom: 0; }
+
+    /* Iconos decorativos: heredan el color de acento y se ocultan a lectores de pantalla */
+    .tarjeta-icono {
+      width: 38px; height: 38px; margin-bottom: 12px;
+      display: grid; place-items: center;
+      border-radius: 10px;
+      background: color-mix(in srgb, var(--acento) 12%, transparent);
+      color: var(--acento);
+    }
+    .tarjeta-icono svg { width: 24px; height: 24px; }
+
+    .ligas { margin-top: 48px; }
+    .ligas p { font-size: 17px; }
+    .pastillas {
+      list-style: none; padding: 0; margin: 14px 0 0;
+      display: flex; gap: 8px; flex-wrap: wrap;
+    }
+    .pastillas li {
+      font-family: var(--fuente-titulo); font-size: 15px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: .3px;
+      padding: 5px 13px; border-radius: 999px;
+      border: 1px solid var(--linea); background: var(--panel); color: var(--tinta-suave);
+    }
+
+    .ultimas-guias { margin-top: 48px; }
+    .lista-guias { list-style: none; padding: 0; }
+    .lista-guias li {
+      border: 1px solid var(--linea); border-radius: var(--radio);
+      padding: 16px 18px; margin-bottom: 12px; background: var(--panel);
+    }
+    .lista-guias a {
+      font-family: var(--fuente-titulo); font-size: 20px;
+      font-weight: 600; text-decoration: none; color: var(--tinta);
+    }
+    .lista-guias a:hover { color: var(--acento); }
+    .lista-guias p { margin: 6px 0 0; color: var(--tinta-suave); font-size: 14px; }
+  </style>
+</Base>
