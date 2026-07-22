@@ -36,6 +36,21 @@ for (const carpeta of fs.readdirSync(DIR)) {
   }
 }
 
+// Nombres canonicos de la liga regular: la fuente mas fiable para saber que
+// nombres de equipo llevan un guion dentro.
+const CANON = new Set();
+try {
+  const eq = JSON.parse(fs.readFileSync(path.join(DIR_OUT, 'equipos.json'), 'utf8'));
+  for (const e of (Array.isArray(eq) ? eq : Object.values(eq))) {
+    const n = limpiar(e.nombre || e.equipo || '');
+    if (n) CANON.add(n);
+  }
+} catch (e) { /* sin equipos.json seguimos solo con el vocabulario de celdas */ }
+
+// Un nombre canonico pesa mas que uno deducido de las celdas, porque la FEB
+// abrevia el nombre de algunos equipos en ciertas filas.
+const punt = x => (CANON.has(x) ? 2 : 0) + (VOCAB.has(x) ? 1 : 0);
+
 function separarEquipos(bruto) {
   const pos = [];
   let i = bruto.indexOf(' - ');
@@ -44,7 +59,7 @@ function separarEquipos(bruto) {
   let mejorPuntos = -1;
   for (const p of pos) {
     const a = bruto.slice(0, p).trim(), b = bruto.slice(p + 3).trim();
-    const puntos = (VOCAB.has(a) ? 1 : 0) + (VOCAB.has(b) ? 1 : 0);
+    const puntos = punt(a) + punt(b);
     if (puntos > mejorPuntos) { mejorPuntos = puntos; mejor = [a, b]; }
   }
   return mejor;
