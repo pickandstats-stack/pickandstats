@@ -81,15 +81,34 @@ for (const carpeta of fs.readdirSync(DIR)) {
 
     const disputado = p.boxscore && p.boxscore.local && p.boxscore.local.length > 0;
 
+    // El marcador oficial es la suma de los cuartos. La FEB publica a veces el
+    // boxscore incompleto (faltan fichas de jugadores) y el resultado del
+    // listado, que deriva de esas fichas, se queda corto. Los cuartos no.
+    const cuartos = (p.boxscore && p.boxscore.cuartos) || [];
+    let resultado = disputado ? p.resultado : null;
+    let resultadoFeb = null, boxscoreIncompleto = false;
+    if (disputado && cuartos.length >= 4) {
+      const cl = cuartos.reduce((a, c) => a + (+c.local || 0), 0);
+      const cv = cuartos.reduce((a, c) => a + (+c.visitante || 0), 0);
+      const porCuartos = cl + '-' + cv;
+      if (cl > 0 && cv > 0 && porCuartos !== resultado) {
+        resultadoFeb = resultado;
+        resultado = porCuartos;
+        boxscoreIncompleto = true;
+      }
+    }
+
     if (!fases[p.fase]) fases[p.fase] = { fase: p.fase, partidos: [] };
     fases[p.fase].partidos.push({
       id: p.id,
       jornada: p.jornada,
       fecha: limpiar(p.celdas?.[2] || ''),
       local, visitante,
-      resultado: disputado ? p.resultado : null,
+      resultado,
+      ...(resultadoFeb ? { resultadoFeb } : {}),
+      ...(boxscoreIncompleto ? { boxscoreIncompleto: true } : {}),
       disputado,
-      cuartos: (p.boxscore && p.boxscore.cuartos) || [],
+      cuartos,
       boxscore: disputado ? { local: p.boxscore.local, visitante: p.boxscore.visitante } : null
     });
     totalPartidos++;
