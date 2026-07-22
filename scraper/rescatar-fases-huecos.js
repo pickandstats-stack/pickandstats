@@ -7,10 +7,8 @@ const path = require('path');
 const CFG = require('./config');
 
 const CASOS = [
-  { comp: 'primerafeb', temp: '2024', fase: 'Play-Offs Final', jornada: 'Final',
-    partidos: [ { id: '2471977' } ] },
-  { comp: 'primerafeb', temp: '2023', fase: 'Play-Offs 1/2 Final', jornada: 'Semifinal',
-    partidos: [ { id: '2401628' }, { id: '2401629' } ] },
+  { comp: 'tercerafeb', temp: '2024', fase: 'FASE FINAL-A FFA1', jornada: 'Jornada 3',
+    partidos: [ { id: '2470742' }, { id: '2470743' } ] },
 ];
 
 function dirDeFase(comp, temp, fase) {
