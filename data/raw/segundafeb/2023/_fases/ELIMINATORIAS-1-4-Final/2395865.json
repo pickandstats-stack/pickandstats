@@ -1,0 +1,681 @@
+{
+ "id": "2395865",
+ "fase": "ELIMINATORIAS 1/4 Final",
+ "jornada": "Jornada 1(27/04/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "CB L´HORTA GODELLA -\n\t\t\t\t\t\t\tCLASS BASQUET SANT ANTONI",
+  "64-65",
+  "27/04/2024",
+  "17:00"
+ ],
+ "resultado": "64-65",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1884298",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "VILA BONANY, RAFAEL",
+    "seg": 1092,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 4,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1995160",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "RIVAS PALMER, DIEGO",
+    "seg": 1083,
+    "pt": 10,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 4,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 2,
+    "tco": 1,
+    "fc": 1,
+    "fr": 6,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2816313",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "STRIKKER, MATTEO MILES",
+    "seg": 1525,
+    "pt": 7,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 11,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2246414",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "DE LARREA ASENJO, SERGIO",
+    "seg": 1848,
+    "pt": 17,
+    "t2": {
+     "a": 3,
+     "i": 8
+    },
+    "t3": {
+     "a": 6,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 14,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2144461",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "CAROT HERNANDEZ, JORGE",
+    "seg": 875,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 1,
+    "fr": -4,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2643830",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "RUTENBERG, FACUNDO OSVALDO",
+    "seg": 1077,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 1,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 2,
+    "fr": 6,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1558447",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "OLAIZOLA GONZALEZ, JULEN IMANOL",
+    "seg": 1324,
+    "pt": 6,
+    "t2": {
+     "a": 2,
+     "i": 9
+    },
+    "t3": {
+     "a": 2,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 11,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 12,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1766040",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "ORTEGA IBAÑEZ, ALEJANDRO",
+    "seg": 790,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 3,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 3,
+    "fr": 4,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1901822",
+    "titular": true,
+    "dorsal": "23",
+    "nombre": "MARI TARDIO, LUCAS",
+    "seg": 1310,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 4,
+    "fr": 4,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2743181",
+    "titular": true,
+    "dorsal": "27",
+    "nombre": "BAOKO, KEN ISSANZA",
+    "seg": 1076,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 6,
+    "va": 8,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2749353",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "MOLLGAARD, MAGNUS",
+    "seg": 52,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2534044",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "TOMAIC TOMAIC, JOSHUA TYRON",
+    "seg": 700,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": -2,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1485040",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "HARO VAL, ALEIX",
+    "seg": 833,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": -6,
+    "va": -14,
+    "pm": 0
+   },
+   {
+    "idJugador": "1198438",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "UCLES BELMONTE, FEDERICO",
+    "seg": 2114,
+    "pt": 13,
+    "t2": {
+     "a": 4,
+     "i": 11
+    },
+    "t3": {
+     "a": 4,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 6,
+    "fr": 14,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2363916",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "DE LA RUA DE AGUSTIN, DANIEL",
+    "seg": 1947,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 1,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 9,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 5,
+    "fr": 9,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2536977",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "IGLESIAS FERNANDEZ, GONZALO",
+    "seg": 480,
+    "pt": 8,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 8,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2293254",
+    "titular": true,
+    "dorsal": "16",
+    "nombre": "DA SILVA, VINICIUS LUCIO",
+    "seg": 1491,
+    "pt": 16,
+    "t2": {
+     "a": 7,
+     "i": 8
+    },
+    "t3": {
+     "a": 7,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 1,
+    "tco": 3,
+    "fc": 3,
+    "fr": 19,
+    "va": 11,
+    "pm": 0
+   },
+   {
+    "idJugador": "414682",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "GRIMAU GRAGERA, JORDI",
+    "seg": 2032,
+    "pt": 14,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 4,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 18,
+    "va": 7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1242814",
+    "titular": false,
+    "dorsal": "24",
+    "nombre": "CASANOVA DE ALBA, RAFAEL",
+    "seg": 442,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -3,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1695784",
+    "titular": false,
+    "dorsal": "32",
+    "nombre": "LLAMAS PRADO, JAIME",
+    "seg": 1909,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 3,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 0,
+    "fr": 8,
+    "va": 13,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 15,
+    "visitante": 20
+   },
+   {
+    "periodo": "2º C",
+    "local": 12,
+    "visitante": 13
+   },
+   {
+    "periodo": "3º C",
+    "local": 26,
+    "visitante": 8
+   },
+   {
+    "periodo": "4º C",
+    "local": 11,
+    "visitante": 24
+   }
+  ]
+ }
+}

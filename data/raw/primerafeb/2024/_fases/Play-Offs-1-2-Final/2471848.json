@@ -1,0 +1,745 @@
+{
+ "id": "2471848",
+ "fase": "Play-Offs 1/2 Final",
+ "jornada": "Jornada 1(07/06/2025)",
+ "temporada": "2024",
+ "celdas": [
+  "MOVISTAR ESTUDIANTES -\n\t\t\t\t\t\t\tREAL BETIS BALONCESTO",
+  "82-86",
+  "07/06/2025",
+  "17:00"
+ ],
+ "resultado": "82-86",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2371461",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "KRAVIC, DEJAN",
+    "seg": 1230,
+    "pt": 8,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 1,
+    "rt": 1,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": 9,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2524744",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "ANDRIC, MIHAJLO",
+    "seg": 1443,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 4,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1875914",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "SOLA IDDRISU, ADAMS",
+    "seg": 92,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -2,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1438620",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "RUBIO NIÑIROLA, JUAN",
+    "seg": 723,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -3,
+    "va": -10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2648545",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "SCHMIDT, DEVIN LAWRENCE",
+    "seg": 810,
+    "pt": 13,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 5,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 9,
+    "va": -10,
+    "pm": 0
+   },
+   {
+    "idJugador": "1446122",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "ALONSO MARTÍNEZ, FRANCISCO FERNANDO",
+    "seg": 1077,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 6,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2734234",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "GRANGER, JAYSON",
+    "seg": 1879,
+    "pt": 16,
+    "t2": {
+     "a": 3,
+     "i": 10
+    },
+    "t3": {
+     "a": 5,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 8,
+    "rt": 0,
+    "as": 3,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 9,
+    "fr": 16,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2680850",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "RODRÍGUEZ OLIVERA, JOAQUÍN NAZAR",
+    "seg": 1227,
+    "pt": 11,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 8,
+    "fr": 15,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2275135",
+    "titular": false,
+    "dorsal": "29",
+    "nombre": "GARINO GULLOTTA, PATRICIO",
+    "seg": 1452,
+    "pt": 9,
+    "t2": {
+     "a": 4,
+     "i": 4
+    },
+    "t3": {
+     "a": 4,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 3,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 11,
+    "va": 7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2493108",
+    "titular": true,
+    "dorsal": "33",
+    "nombre": "ALDERETE DÍAZ, HÉCTOR",
+    "seg": 1099,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 10,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2376806",
+    "titular": false,
+    "dorsal": "34",
+    "nombre": "BARRO, SERIGNE M M SY DIT DIAMIL",
+    "seg": 968,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 1,
+    "tco": 2,
+    "fc": 2,
+    "fr": 8,
+    "va": -5,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2433147",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "HUGHES, MARK ANTHONY",
+    "seg": 1708,
+    "pt": 28,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 6,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 8,
+    "fr": 41,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2734562",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "CVETKOVIC, ALEKSANDAR",
+    "seg": 828,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": 0,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2791828",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "OLUMUYIWA, BABATUNDE EDWARD",
+    "seg": 819,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 0,
+    "fr": -2,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2157874",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "ALVES BENITE, VITOR",
+    "seg": 1265,
+    "pt": 10,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 5,
+    "fr": 11,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2820727",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "KASIBABU SHILALA, JONATHAN",
+    "seg": 537,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 1,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1873981",
+    "titular": true,
+    "dorsal": "16",
+    "nombre": "LOPEZ DE LA TORRE SANCHEZ, RUBEN",
+    "seg": 922,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 2,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 9,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2703151",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "DE BISSCHOP, BROOKS LOURDEAUX",
+    "seg": 1039,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 5,
+    "fc": 1,
+    "fr": 1,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1594835",
+    "titular": false,
+    "dorsal": "25",
+    "nombre": "JELINEK, DAVID",
+    "seg": 910,
+    "pt": 10,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 5,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2236015",
+    "titular": true,
+    "dorsal": "32",
+    "nombre": "RENFROE, GREGORY ALEXANDER",
+    "seg": 1572,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 12,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2843861",
+    "titular": false,
+    "dorsal": "88",
+    "nombre": "RADONCIC, DINO",
+    "seg": 1638,
+    "pt": 9,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 11,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1322114",
+    "titular": true,
+    "dorsal": "93",
+    "nombre": "SUÁREZ CASTRO, ALEJANDRO",
+    "seg": 762,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 1,
+    "va": 2,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 16,
+    "visitante": 21
+   },
+   {
+    "periodo": "2º C",
+    "local": 16,
+    "visitante": 21
+   },
+   {
+    "periodo": "3º C",
+    "local": 28,
+    "visitante": 22
+   },
+   {
+    "periodo": "4º C",
+    "local": 22,
+    "visitante": 22
+   }
+  ]
+ }
+}

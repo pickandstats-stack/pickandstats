@@ -1,0 +1,585 @@
+{
+ "id": "2395361",
+ "fase": "PERMANENCIA 1/2 Final",
+ "jornada": "Jornada 1(13/04/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "JUVENTUD ALCALÁ ESCRIBANO EME -\n\t\t\t\t\t\t\tPALMER BASKET MALLORCA PALMA",
+  "75-103",
+  "13/04/2024",
+  "18:00"
+ ],
+ "resultado": "75-103",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2816388",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "ABDULSALAM, MOHAMMED OLUTOKUNBO",
+    "seg": 1915,
+    "pt": 11,
+    "t2": {
+     "a": 4,
+     "i": 13
+    },
+    "t3": {
+     "a": 4,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 4,
+    "fc": 3,
+    "fr": 2,
+    "va": -15,
+    "pm": 0
+   },
+   {
+    "idJugador": "1494619",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "LAFUENTE SISO, ALBERT",
+    "seg": 1441,
+    "pt": 17,
+    "t2": {
+     "a": 4,
+     "i": 11
+    },
+    "t3": {
+     "a": 7,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 3,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 13,
+    "va": -18,
+    "pm": 0
+   },
+   {
+    "idJugador": "1808439",
+    "titular": true,
+    "dorsal": "20",
+    "nombre": "GIL GARCIA, GABRIEL",
+    "seg": 706,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 2,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2032824",
+    "titular": true,
+    "dorsal": "24",
+    "nombre": "LORENZO  NEGRETE, DANIEL",
+    "seg": 1247,
+    "pt": 7,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 4,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": 3,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "1582089",
+    "titular": true,
+    "dorsal": "25",
+    "nombre": "PARRA BAEZ, JORGE",
+    "seg": 2130,
+    "pt": 26,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 10,
+     "i": 19
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 23,
+    "va": -24,
+    "pm": 0
+   },
+   {
+    "idJugador": "1820240",
+    "titular": false,
+    "dorsal": "26",
+    "nombre": "ARRIBAS GOMEZ, PEDRO IGNACIO",
+    "seg": 371,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 2,
+    "fr": 2,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1990032",
+    "titular": true,
+    "dorsal": "28",
+    "nombre": "ECHEVERRIA FERNANDEZ, MARCO",
+    "seg": 1914,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 3,
+    "fr": 9,
+    "va": -25,
+    "pm": 0
+   },
+   {
+    "idJugador": "2711878",
+    "titular": false,
+    "dorsal": "35",
+    "nombre": "ILINCIC, DEJAN",
+    "seg": 485,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 2,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "1876223",
+    "titular": false,
+    "dorsal": "55",
+    "nombre": "MONTERO ISLA, ALEJANDRO",
+    "seg": 1791,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 4,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": 1,
+    "va": -19,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2654070",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "URBUTIS, ARMINAS",
+    "seg": 1965,
+    "pt": 18,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 6,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 11,
+    "rd": 2,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 29,
+    "va": 27,
+    "pm": 0
+   },
+   {
+    "idJugador": "2364397",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "HARRIS II, ROBERT MICHAEL",
+    "seg": 1902,
+    "pt": 8,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 12,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 14,
+    "va": 31,
+    "pm": 0
+   },
+   {
+    "idJugador": "1677592",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "MENDIOLA DIEZ, SERGIO",
+    "seg": 1732,
+    "pt": 12,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 2,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 4,
+    "fr": 21,
+    "va": 24,
+    "pm": 0
+   },
+   {
+    "idJugador": "340119",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "ZENGOTITABENGOA GARCIA, ASIER",
+    "seg": 1094,
+    "pt": 11,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 4,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 11,
+    "va": 17,
+    "pm": 0
+   },
+   {
+    "idJugador": "1350769",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "VICENS MOREY, ANTONI JAUME",
+    "seg": 1103,
+    "pt": 14,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 13,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1688669",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "FELIU ESPEJO, JOAN",
+    "seg": 1609,
+    "pt": 13,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 5,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 5,
+    "rt": 4,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 19,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "1766217",
+    "titular": false,
+    "dorsal": "24",
+    "nombre": "COMENDADOR FEMENIAS, ANGEL",
+    "seg": 1306,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 1,
+    "tco": 1,
+    "fc": 1,
+    "fr": 9,
+    "va": 11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2451166",
+    "titular": false,
+    "dorsal": "31",
+    "nombre": "MATOS RAMIREZ, JHERY RAUL",
+    "seg": 1289,
+    "pt": 22,
+    "t2": {
+     "a": 4,
+     "i": 5
+    },
+    "t3": {
+     "a": 8,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 3,
+    "rt": 1,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 24,
+    "va": 10,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 15,
+    "visitante": 30
+   },
+   {
+    "periodo": "2º C",
+    "local": 14,
+    "visitante": 23
+   },
+   {
+    "periodo": "3º C",
+    "local": 23,
+    "visitante": 29
+   },
+   {
+    "periodo": "4º C",
+    "local": 23,
+    "visitante": 21
+   }
+  ]
+ }
+}

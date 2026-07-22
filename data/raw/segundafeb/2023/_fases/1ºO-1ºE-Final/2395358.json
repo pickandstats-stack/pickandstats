@@ -1,0 +1,681 @@
+{
+ "id": "2395358",
+ "fase": "1ºO-1ºE Final",
+ "jornada": "Jornada 2(20/04/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "ZAMORA ENAMORA -\n\t\t\t\t\t\t\tODILO FC CARTAGENA CB",
+  "78-94",
+  "20/04/2024",
+  "19:00"
+ ],
+ "resultado": "78-94",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2334516",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "POWELL, JAHVAUGHN EVERALD",
+    "seg": 1667,
+    "pt": 24,
+    "t2": {
+     "a": 4,
+     "i": 9
+    },
+    "t3": {
+     "a": 8,
+     "i": 18
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 4,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 20,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2335424",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "ROUND, JACOB NATHANIEL",
+    "seg": 1532,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 4,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 3,
+    "fc": 1,
+    "fr": 1,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "1702420",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "PERIS CRESPO, JOSEP",
+    "seg": 1016,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": -3,
+    "va": -12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2822578",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "SHELIST, DANIIL",
+    "seg": 422,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 1,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1947677",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "NASPLER PERAIRE, TONI",
+    "seg": 1743,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 5,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 16,
+    "va": -21,
+    "pm": 0
+   },
+   {
+    "idJugador": "2432572",
+    "titular": true,
+    "dorsal": "20",
+    "nombre": "BUCKINGHAM, KEVIN",
+    "seg": 1978,
+    "pt": 24,
+    "t2": {
+     "a": 4,
+     "i": 11
+    },
+    "t3": {
+     "a": 8,
+     "i": 20
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 6,
+    "fr": 20,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2312124",
+    "titular": false,
+    "dorsal": "21",
+    "nombre": "TRAORE, SOULEYMANE PINDA",
+    "seg": 1356,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 4,
+    "fr": 4,
+    "va": -16,
+    "pm": 0
+   },
+   {
+    "idJugador": "2029483",
+    "titular": true,
+    "dorsal": "44",
+    "nombre": "KALINICENKO, ERIKAS",
+    "seg": 1187,
+    "pt": 5,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 3,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2334629",
+    "titular": true,
+    "dorsal": "55",
+    "nombre": "PAUKSTÈ, JONAS",
+    "seg": 1099,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 14,
+    "rd": 0,
+    "rt": 0,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 2,
+    "tco": 5,
+    "fc": 4,
+    "fr": 10,
+    "va": -3,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2094445",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "GONZÁLEZ PÉREZ, ASIER",
+    "seg": 880,
+    "pt": 10,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 2,
+    "tco": 1,
+    "fc": 7,
+    "fr": 15,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2159336",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "GARUBA ALARI, AB SEDIQ",
+    "seg": 636,
+    "pt": 1,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": -2,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1394852",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "BLAT BAEZA, GERARD",
+    "seg": 1724,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 5,
+    "rt": 0,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 2,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2335802",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "BITJAA KODY, JOHAN ERNEST",
+    "seg": 1141,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "2021089",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "BERAZA POZO, XABIER",
+    "seg": 1068,
+    "pt": 11,
+    "t2": {
+     "a": 0,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 3,
+    "fr": 8,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1210759",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "ROGERS GARCIA, JORDAN ALEXANDER",
+    "seg": 1884,
+    "pt": 14,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 5,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 2,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 0,
+    "fr": 13,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "1446949",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "JIMÉNEZ JIMÉNEZ, JUAN PEDRO",
+    "seg": 1112,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": 4,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2222587",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "CERA RODRIGUEZ, JOSEP FERMÍ",
+    "seg": 676,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 4,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2793825",
+    "titular": true,
+    "dorsal": "18",
+    "nombre": "ABOUBACAR HIMA, SEYDOU",
+    "seg": 379,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 1,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1676991",
+    "titular": false,
+    "dorsal": "21",
+    "nombre": "JORDA RODRIGUEZ, ALEJANDRO",
+    "seg": 1414,
+    "pt": 27,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 8,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 2,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 5,
+    "fr": 30,
+    "va": 18,
+    "pm": 0
+   },
+   {
+    "idJugador": "1879609",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "ALONSO CUEVAS, ALBERTO",
+    "seg": 1086,
+    "pt": 12,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 4,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 4,
+    "fr": 16,
+    "va": 6,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 17,
+    "visitante": 16
+   },
+   {
+    "periodo": "2º C",
+    "local": 17,
+    "visitante": 27
+   },
+   {
+    "periodo": "3º C",
+    "local": 25,
+    "visitante": 21
+   },
+   {
+    "periodo": "4º C",
+    "local": 19,
+    "visitante": 30
+   }
+  ]
+ }
+}

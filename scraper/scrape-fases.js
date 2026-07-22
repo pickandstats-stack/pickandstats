@@ -127,7 +127,7 @@ async function main() {
   const fases = [];
   $inicial('select[id*="gruposDropDownList"] option').each((i, o) => {
     const nombre = $inicial(o).text().trim();
-    if (!/liga regular/i.test(nombre)) {
+    if (!/liga regular|copa/i.test(nombre)) {
       fases.push({ valor: $inicial(o).attr('value'), nombre });
     }
   });

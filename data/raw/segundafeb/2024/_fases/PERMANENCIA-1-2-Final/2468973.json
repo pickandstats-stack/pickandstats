@@ -1,0 +1,777 @@
+{
+ "id": "2468973",
+ "fase": "PERMANENCIA 1/2 Final",
+ "jornada": "Jornada 1(26/04/2025)",
+ "temporada": "2024",
+ "celdas": [
+  "RIOVERDE CLAVIJO -\n\t\t\t\t\t\t\tSOL GIRONÈS BISBAL BÀSQUET",
+  "87-76",
+  "27/04/2025",
+  "13:00"
+ ],
+ "resultado": "87-76",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2790879",
+    "titular": false,
+    "dorsal": "0",
+    "nombre": "FIELDS, CALEB JOSEPH",
+    "seg": 1278,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 6,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2736783",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "HRABAR, VIT",
+    "seg": 1693,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 4,
+    "va": 28,
+    "pm": 0
+   },
+   {
+    "idJugador": "1555336",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "DE PABLO DEL CASTILLO, MIGUEL",
+    "seg": 1027,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 6,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 3,
+    "fr": 9,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2438847",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "SAVKOV, ALEKSANDR",
+    "seg": 1100,
+    "pt": 13,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 16,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2137813",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "QUEREJETA MARTINEZ DE ARENAZA, JOSEBA",
+    "seg": 1501,
+    "pt": 15,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 4,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 7,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 6,
+    "fr": 28,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2137815",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "ARBOSA ROLDAN, HUGO",
+    "seg": 1035,
+    "pt": 10,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 4,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 9,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2791747",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "VANAGS, RICARDS DANIELS",
+    "seg": 818,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 0,
+    "va": -18,
+    "pm": 0
+   },
+   {
+    "idJugador": "2374450",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "SAKHNIUK, YEVGEN",
+    "seg": 1323,
+    "pt": 11,
+    "t2": {
+     "a": 5,
+     "i": 9
+    },
+    "t3": {
+     "a": 5,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 4,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 2,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 13,
+    "va": 20,
+    "pm": 0
+   },
+   {
+    "idJugador": "2736780",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "FAYE, SEYDINA LIMAMOULAYE",
+    "seg": 708,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 2,
+    "tco": 0,
+    "fc": 0,
+    "fr": 7,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2736779",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "AYESA RODRIGUEZ, MIGUEL",
+    "seg": 152,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2049104",
+    "titular": true,
+    "dorsal": "33",
+    "nombre": "TORRES CUEVAS, KEVIN",
+    "seg": 1365,
+    "pt": 12,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 3,
+    "fr": 13,
+    "va": 12,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2798068",
+    "titular": false,
+    "dorsal": "2",
+    "nombre": "NIEMI, TREY ANTHONY",
+    "seg": 1693,
+    "pt": 22,
+    "t2": {
+     "a": 4,
+     "i": 7
+    },
+    "t3": {
+     "a": 8,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 5,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 2,
+    "fr": 18,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2036909",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "SOLE MORGADO, JAUME",
+    "seg": 466,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2415311",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "FALK, WILHELM CARL-GUSTAV",
+    "seg": 1977,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 9
+    },
+    "t3": {
+     "a": 0,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 3,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 5,
+    "fr": 5,
+    "va": -21,
+    "pm": 0
+   },
+   {
+    "idJugador": "1227597",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "VALERA COROMINAS, ISAAC",
+    "seg": 98,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2049640",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "VIEJO ANDREU, FRANCESC XAVIER",
+    "seg": 10,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1925168",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "ESPINOSA VENTURA, ENRIC",
+    "seg": 1493,
+    "pt": 11,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": 9,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2333741",
+    "titular": true,
+    "dorsal": "17",
+    "nombre": "DIBBA, LAMIN",
+    "seg": 1294,
+    "pt": 8,
+    "t2": {
+     "a": 3,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 1,
+    "tco": 3,
+    "fc": 2,
+    "fr": 16,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2465344",
+    "titular": false,
+    "dorsal": "19",
+    "nombre": "ESPINOSA MELIAN, ANTONIO",
+    "seg": 1847,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 4,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 2,
+    "va": 11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2736528",
+    "titular": false,
+    "dorsal": "22",
+    "nombre": "GOSNELL, DEMETRIUS NIKO",
+    "seg": 1107,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 3,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 2,
+    "tco": 1,
+    "fc": 0,
+    "fr": 14,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2648564",
+    "titular": false,
+    "dorsal": "44",
+    "nombre": "NIKOLOV, SPAS NIKOLAEV",
+    "seg": 1,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1081949",
+    "titular": true,
+    "dorsal": "55",
+    "nombre": "JIMENEZ COLL, ERIC",
+    "seg": 679,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 4,
+    "va": -24,
+    "pm": 0
+   },
+   {
+    "idJugador": "1198592",
+    "titular": true,
+    "dorsal": "96",
+    "nombre": "TORRENT BAYÉ, XAVIER",
+    "seg": 1335,
+    "pt": 8,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 5,
+    "fr": 12,
+    "va": -4,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 20,
+    "visitante": 19
+   },
+   {
+    "periodo": "2º C",
+    "local": 24,
+    "visitante": 21
+   },
+   {
+    "periodo": "3º C",
+    "local": 24,
+    "visitante": 6
+   },
+   {
+    "periodo": "4º C",
+    "local": 19,
+    "visitante": 30
+   }
+  ]
+ }
+}

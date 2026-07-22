@@ -1,0 +1,809 @@
+{
+ "id": "2470250",
+ "fase": "Play-Offs 1/4 Final",
+ "jornada": "Jornada 1(16/05/2025)",
+ "temporada": "2024",
+ "celdas": [
+  "MOVISTAR ESTUDIANTES -\n\t\t\t\t\t\t\tINVEREADY GIPUZKOA",
+  "83-71",
+  "16/05/2025",
+  "19:30"
+ ],
+ "resultado": "83-71",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2371461",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "KRAVIC, DEJAN",
+    "seg": 1369,
+    "pt": 15,
+    "t2": {
+     "a": 7,
+     "i": 8
+    },
+    "t3": {
+     "a": 7,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 1,
+    "tco": 3,
+    "fc": 2,
+    "fr": 25,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2524744",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "ANDRIC, MIHAJLO",
+    "seg": 1377,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 2,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 12,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1875914",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "SOLA IDDRISU, ADAMS",
+    "seg": 549,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": -1,
+    "va": -5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1438620",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "RUBIO NIÑIROLA, JUAN",
+    "seg": 978,
+    "pt": 8,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 6,
+    "va": 16,
+    "pm": 0
+   },
+   {
+    "idJugador": "2648545",
+    "titular": true,
+    "dorsal": "8",
+    "nombre": "SCHMIDT, DEVIN LAWRENCE",
+    "seg": 756,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 1,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1446122",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "ALONSO MARTÍNEZ, FRANCISCO FERNANDO",
+    "seg": 1232,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 5,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2734234",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "GRANGER, JAYSON",
+    "seg": 1653,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 7,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 3,
+    "fr": 13,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1251001",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "DIAZ RODRIGUEZ, CRISTIAN",
+    "seg": 747,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 4,
+    "fr": 4,
+    "va": 10,
+    "pm": 0
+   },
+   {
+    "idJugador": "2680850",
+    "titular": false,
+    "dorsal": "15",
+    "nombre": "RODRÍGUEZ OLIVERA, JOAQUÍN NAZAR",
+    "seg": 897,
+    "pt": 18,
+    "t2": {
+     "a": 4,
+     "i": 10
+    },
+    "t3": {
+     "a": 7,
+     "i": 16
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 3,
+    "bp": 0,
+    "tf": 1,
+    "tco": 1,
+    "fc": 2,
+    "fr": 20,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2275135",
+    "titular": false,
+    "dorsal": "29",
+    "nombre": "GARINO GULLOTTA, PATRICIO",
+    "seg": 724,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2493108",
+    "titular": true,
+    "dorsal": "33",
+    "nombre": "ALDERETE DÍAZ, HÉCTOR",
+    "seg": 687,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": -1,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2376806",
+    "titular": false,
+    "dorsal": "34",
+    "nombre": "BARRO, SERIGNE M M SY DIT DIAMIL",
+    "seg": 1031,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 0,
+    "br": 2,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 0,
+    "fr": 9,
+    "va": 10,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "1591996",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "CARRALERO MARTIN, JESUS",
+    "seg": 59,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2734467",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "JOHNSON, XAVIER TRENT",
+    "seg": 1784,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 6,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 4,
+    "fr": 12,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2796917",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "SMITH, DAISHON LENARD",
+    "seg": 1733,
+    "pt": 18,
+    "t2": {
+     "a": 4,
+     "i": 5
+    },
+    "t3": {
+     "a": 7,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 0,
+    "as": 7,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": 3,
+    "va": -14,
+    "pm": 0
+   },
+   {
+    "idJugador": "1749125",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "ZUBIZARRETA ARANBARRI, AITOR",
+    "seg": 639,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 4,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 10,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2736767",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "DIAZ, MATEO",
+    "seg": 1242,
+    "pt": 10,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 9,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2219810",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "STÜRUP, MADS BONDE",
+    "seg": 513,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 2,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "1447983",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "MOTOS CABODEVILLA, MIKEL",
+    "seg": 1289,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 3,
+    "fr": 9,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2082685",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "ANSORREGUI DEBA, MANEX",
+    "seg": 1587,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 8,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 3,
+    "fc": 2,
+    "fr": 11,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1988355",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "NICOLAU ALEDON, JAVIER",
+    "seg": 851,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 3,
+    "tco": 3,
+    "fc": 1,
+    "fr": 5,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "1432499",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "MARTINEZ DE LA ORDEN, ANDER",
+    "seg": 1310,
+    "pt": 11,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 6,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2616996",
+    "titular": false,
+    "dorsal": "19",
+    "nombre": "N´GUESSAN, MARINUS LUCAS",
+    "seg": 949,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 1,
+    "fc": 4,
+    "fr": 10,
+    "va": -12,
+    "pm": 0
+   },
+   {
+    "idJugador": "2303399",
+    "titular": false,
+    "dorsal": "32",
+    "nombre": "MARTINEZ CENDON, ENEKO",
+    "seg": 44,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -1,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 23,
+    "visitante": 18
+   },
+   {
+    "periodo": "2º C",
+    "local": 18,
+    "visitante": 11
+   },
+   {
+    "periodo": "3º C",
+    "local": 22,
+    "visitante": 16
+   },
+   {
+    "periodo": "4º C",
+    "local": 20,
+    "visitante": 26
+   }
+  ]
+ }
+}

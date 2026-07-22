@@ -1,0 +1,649 @@
+{
+ "id": "2395363",
+ "fase": "ELIMINATORIAS 1/8 Final",
+ "jornada": "Jornada 1(13/04/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "GRAN CANARIA -\n\t\t\t\t\t\t\tC.B. STARLABS MORÓN",
+  "70-85",
+  "13/04/2024",
+  "19:30"
+ ],
+ "resultado": "70-85",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1825393",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "REDONDO ALVAREZ DE SOTOMAYOR, ALBERTO",
+    "seg": 606,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 1,
+    "va": -1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1251413",
+    "titular": true,
+    "dorsal": "7",
+    "nombre": "FERNÁNDEZ GÓMEZ, ARTURO",
+    "seg": 1694,
+    "pt": 12,
+    "t2": {
+     "a": 1,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 10,
+    "va": -14,
+    "pm": 0
+   },
+   {
+    "idJugador": "1973164",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "CABRERA MUJICA, GONZALO",
+    "seg": 1132,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 2,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2071269",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "MARTIN GUEDES, SAULO JOSE",
+    "seg": 116,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2641039",
+    "titular": true,
+    "dorsal": "12",
+    "nombre": "URBANIAK, JAKUB WIKTOR",
+    "seg": 1862,
+    "pt": 12,
+    "t2": {
+     "a": 5,
+     "i": 11
+    },
+    "t3": {
+     "a": 5,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 0,
+    "as": 2,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 8,
+    "va": -17,
+    "pm": 0
+   },
+   {
+    "idJugador": "1374871",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "SANTANA ROSALES, FABIO DAVID",
+    "seg": 853,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": -3,
+    "va": -20,
+    "pm": 0
+   },
+   {
+    "idJugador": "2643519",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "TOVAR URBINA, EDSON DAVID",
+    "seg": 1398,
+    "pt": 13,
+    "t2": {
+     "a": 5,
+     "i": 6
+    },
+    "t3": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 5,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 5,
+    "fr": 18,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2040696",
+    "titular": false,
+    "dorsal": "23",
+    "nombre": "GONZALEZ SARDUY, LAZARO MICHEL",
+    "seg": 784,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 0,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "2795582",
+    "titular": true,
+    "dorsal": "28",
+    "nombre": "PAUNOV, LUKA",
+    "seg": 1725,
+    "pt": 13,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 10,
+    "va": -19,
+    "pm": 0
+   },
+   {
+    "idJugador": "2578914",
+    "titular": true,
+    "dorsal": "35",
+    "nombre": "DIOP, MOR MASSAMBA",
+    "seg": 1830,
+    "pt": 10,
+    "t2": {
+     "a": 5,
+     "i": 8
+    },
+    "t3": {
+     "a": 5,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 2,
+    "bp": 0,
+    "tf": 2,
+    "tco": 2,
+    "fc": 2,
+    "fr": 15,
+    "va": -12,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2279090",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "ZALAZAR RODRIGUEZ, GASTON",
+    "seg": 856,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 2,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 4,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2469585",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "KOUADIO, LIONEL NATHAN",
+    "seg": 1952,
+    "pt": 30,
+    "t2": {
+     "a": 11,
+     "i": 17
+    },
+    "t3": {
+     "a": 12,
+     "i": 19
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 3,
+    "rt": 3,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 2,
+    "tco": 1,
+    "fc": 5,
+    "fr": 35,
+    "va": 19,
+    "pm": 0
+   },
+   {
+    "idJugador": "1356913",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "MARIN ORTEGA, JAVIER",
+    "seg": 1661,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 6,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 3,
+    "fr": 7,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2035431",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "SANTOS JIMENEZ, RAFAEL",
+    "seg": 1130,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 4,
+    "rt": 3,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 9,
+    "va": 5,
+    "pm": 0
+   },
+   {
+    "idJugador": "1842301",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "MARTIN MARTIN, PABLO",
+    "seg": 1263,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 10,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1397157",
+    "titular": true,
+    "dorsal": "14",
+    "nombre": "GOMEZ BARRAL, RODRIGO",
+    "seg": 1137,
+    "pt": 5,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 4,
+    "va": 17,
+    "pm": 0
+   },
+   {
+    "idJugador": "1953175",
+    "titular": false,
+    "dorsal": "21",
+    "nombre": "PLANELL IGLESIAS, ALBERT",
+    "seg": 861,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 11,
+    "va": -9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2690748",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "PAVRETTE, NICOLAS EDOUARD",
+    "seg": 1539,
+    "pt": 14,
+    "t2": {
+     "a": 6,
+     "i": 14
+    },
+    "t3": {
+     "a": 6,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 13,
+    "rd": 2,
+    "rt": 2,
+    "as": 0,
+    "br": 1,
+    "bp": 2,
+    "tf": 3,
+    "tco": 1,
+    "fc": 4,
+    "fr": 25,
+    "va": 24,
+    "pm": 0
+   },
+   {
+    "idJugador": "718637",
+    "titular": true,
+    "dorsal": "33",
+    "nombre": "PAREJO CAMACHO, LUIS MARIA",
+    "seg": 1601,
+    "pt": 13,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 4,
+     "i": 12
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 10,
+    "va": 22,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 27,
+    "visitante": 28
+   },
+   {
+    "periodo": "2º C",
+    "local": 12,
+    "visitante": 18
+   },
+   {
+    "periodo": "3º C",
+    "local": 18,
+    "visitante": 20
+   },
+   {
+    "periodo": "4º C",
+    "local": 13,
+    "visitante": 19
+   }
+  ]
+ }
+}

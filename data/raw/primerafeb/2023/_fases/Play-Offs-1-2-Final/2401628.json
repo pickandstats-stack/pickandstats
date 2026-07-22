@@ -1,0 +1,745 @@
+{
+ "id": "2401628",
+ "fase": "Play-Offs 1/2 Final",
+ "jornada": "Semifinal(08/06/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "MOVISTAR ESTUDIANTES -\n\tGRUPO URETA TIZONA BURGOS",
+  "86-62",
+  "08/06/2024",
+  ""
+ ],
+ "resultado": "86-62",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2276415",
+    "titular": true,
+    "dorsal": "2",
+    "nombre": "WINTERING, ALEC MARTIN",
+    "seg": 1294,
+    "pt": 11,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 3,
+    "rt": 2,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 7,
+    "fr": 13,
+    "va": 15,
+    "pm": 0
+   },
+   {
+    "idJugador": "2378856",
+    "titular": false,
+    "dorsal": "3",
+    "nombre": "NZOSA MANZILA, YANNICK",
+    "seg": 190,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1373532",
+    "titular": false,
+    "dorsal": "4",
+    "nombre": "RODRIGUEZ FEBLES, SERGIO",
+    "seg": 1118,
+    "pt": 14,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 3,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 17,
+    "va": 11,
+    "pm": 0
+   },
+   {
+    "idJugador": "1875914",
+    "titular": true,
+    "dorsal": "5",
+    "nombre": "SOLA IDDRISU, ADAMS",
+    "seg": 1736,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 6,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1807419",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "FERRANDO PORRO, GUILLEM",
+    "seg": 1022,
+    "pt": 5,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 4,
+    "rt": 2,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 9,
+    "va": 7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1446122",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "ALONSO MARTÍNEZ, FRANCISCO FERNANDO",
+    "seg": 1368,
+    "pt": 19,
+    "t2": {
+     "a": 2,
+     "i": 4
+    },
+    "t3": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 7,
+    "fr": 18,
+    "va": 23,
+    "pm": 0
+   },
+   {
+    "idJugador": "2642637",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "MURPHY, ALEX JAMES",
+    "seg": 1311,
+    "pt": 9,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 2,
+    "fc": 3,
+    "fr": 12,
+    "va": 11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2433482",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "LARSEN, KEVIN RICKI",
+    "seg": 1499,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 6
+    },
+    "t3": {
+     "a": 2,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 4,
+    "rt": 2,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 10,
+    "va": 14,
+    "pm": 0
+   },
+   {
+    "idJugador": "2722654",
+    "titular": false,
+    "dorsal": "19",
+    "nombre": "CAFFARO, FRANCISCO",
+    "seg": 692,
+    "pt": 4,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 1,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 3,
+    "fr": 5,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2371490",
+    "titular": true,
+    "dorsal": "44",
+    "nombre": "LEIMANIS, TOMS ELVIS",
+    "seg": 1770,
+    "pt": 16,
+    "t2": {
+     "a": 3,
+     "i": 3
+    },
+    "t3": {
+     "a": 6,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 16,
+    "va": 27,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2644143",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "DE SOUZA PACHECO, CAIO",
+    "seg": 1658,
+    "pt": 12,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 5,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 4,
+    "rt": 0,
+    "as": 5,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 6,
+    "va": -26,
+    "pm": 0
+   },
+   {
+    "idJugador": "1787348",
+    "titular": true,
+    "dorsal": "10",
+    "nombre": "PARRADO CALABRIA, ARNAU",
+    "seg": 1420,
+    "pt": 7,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 5,
+    "fr": 5,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2643348",
+    "titular": true,
+    "dorsal": "11",
+    "nombre": "HORTON, DEMETRIC",
+    "seg": 735,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 1,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2656258",
+    "titular": false,
+    "dorsal": "12",
+    "nombre": "BOHM, DAVID",
+    "seg": 211,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 3,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1572466",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "VILA SOLEY, RAMON",
+    "seg": 1102,
+    "pt": 6,
+    "t2": {
+     "a": 3,
+     "i": 7
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 9,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2330145",
+    "titular": false,
+    "dorsal": "17",
+    "nombre": "SAINT-SUPERY FERNANDEZ, MARIO",
+    "seg": 1303,
+    "pt": 12,
+    "t2": {
+     "a": 3,
+     "i": 8
+    },
+    "t3": {
+     "a": 5,
+     "i": 13
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 5,
+    "fc": 3,
+    "fr": 5,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2446696",
+    "titular": false,
+    "dorsal": "34",
+    "nombre": "KANDE KIELI, GARMINE",
+    "seg": 75,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1625687",
+    "titular": true,
+    "dorsal": "35",
+    "nombre": "SEOANE RODICIO, RODRIGO",
+    "seg": 1633,
+    "pt": 7,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 7,
+    "rd": 1,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 9,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "2815798",
+    "titular": true,
+    "dorsal": "44",
+    "nombre": "THIAM, ABDOU",
+    "seg": 1223,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 10,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 8,
+    "va": -17,
+    "pm": 0
+   },
+   {
+    "idJugador": "1541543",
+    "titular": false,
+    "dorsal": "50",
+    "nombre": "DIAZ ALEJANO, JACOBO",
+    "seg": 846,
+    "pt": 4,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 1,
+    "fr": 0,
+    "va": -25,
+    "pm": 0
+   },
+   {
+    "idJugador": "1787363",
+    "titular": false,
+    "dorsal": "55",
+    "nombre": "JOFRESA SARRET, GERARD",
+    "seg": 1127,
+    "pt": 4,
+    "t2": {
+     "a": 2,
+     "i": 3
+    },
+    "t3": {
+     "a": 2,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 2,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2325671",
+    "titular": false,
+    "dorsal": "60",
+    "nombre": "ALONSO RUIZ, AYOZE",
+    "seg": 667,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 3,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": -2,
+    "va": -9,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 26,
+    "visitante": 16
+   },
+   {
+    "periodo": "2º C",
+    "local": 18,
+    "visitante": 19
+   },
+   {
+    "periodo": "3º C",
+    "local": 18,
+    "visitante": 14
+   },
+   {
+    "periodo": "4º C",
+    "local": 24,
+    "visitante": 13
+   }
+  ]
+ }
+}

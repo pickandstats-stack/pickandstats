@@ -1,0 +1,745 @@
+{
+ "id": "2470247",
+ "fase": "Play-Offs 1/4 Final",
+ "jornada": "Jornada 3(23/05/2025)",
+ "temporada": "2024",
+ "celdas": [
+  "GRUPO URETA TIZONA BURGOS -\n\t\t\t\t\t\t\tFLEXICAR FUENLABRADA",
+  "79-90",
+  "23/05/2025",
+  "20:45"
+ ],
+ "resultado": "79-90",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "1958225",
+    "titular": false,
+    "dorsal": "1",
+    "nombre": "RODRIGUEZ STEGEMEIJER, JORDI",
+    "seg": 555,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": -1,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2782204",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "KEITA, TIDJAN",
+    "seg": 484,
+    "pt": 6,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 3,
+    "fc": 3,
+    "fr": 7,
+    "va": -6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2735006",
+    "titular": false,
+    "dorsal": "6",
+    "nombre": "SOLUADE, MORAYONINUOLUWA CHUKWUEMEKA",
+    "seg": 1439,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 2,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 2,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2644143",
+    "titular": true,
+    "dorsal": "9",
+    "nombre": "DE SOUZA PACHECO, CAIO",
+    "seg": 1900,
+    "pt": 16,
+    "t2": {
+     "a": 5,
+     "i": 12
+    },
+    "t3": {
+     "a": 5,
+     "i": 15
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 5,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 0,
+    "fc": 13,
+    "fr": 22,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "1572466",
+    "titular": false,
+    "dorsal": "13",
+    "nombre": "VILA SOLEY, RAMON",
+    "seg": 1231,
+    "pt": 10,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 3,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 2,
+    "fr": 11,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2816737",
+    "titular": true,
+    "dorsal": "29",
+    "nombre": "SIMEUNOVIC, DORDE",
+    "seg": 1060,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 0,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 1,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "1625687",
+    "titular": true,
+    "dorsal": "35",
+    "nombre": "SEOANE RODICIO, RODRIGO",
+    "seg": 1253,
+    "pt": 10,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 2,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 4,
+    "fr": 11,
+    "va": -3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2815798",
+    "titular": true,
+    "dorsal": "44",
+    "nombre": "THIAM, ABDOU",
+    "seg": 1353,
+    "pt": 13,
+    "t2": {
+     "a": 5,
+     "i": 7
+    },
+    "t3": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 3,
+    "fr": 12,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "1541543",
+    "titular": true,
+    "dorsal": "50",
+    "nombre": "DIAZ ALEJANO, JACOBO",
+    "seg": 2005,
+    "pt": 12,
+    "t2": {
+     "a": 3,
+     "i": 4
+    },
+    "t3": {
+     "a": 5,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 9,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 21,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2734726",
+    "titular": false,
+    "dorsal": "55",
+    "nombre": "JONES, LANCE JALEN",
+    "seg": 443,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 1
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": -1,
+    "va": -13,
+    "pm": 0
+   },
+   {
+    "idJugador": "2325671",
+    "titular": false,
+    "dorsal": "60",
+    "nombre": "ALONSO RUIZ, AYOZE",
+    "seg": 277,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 2,
+    "va": 5,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "2027826",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "MATULIONIS, OSVALDAS",
+    "seg": 1624,
+    "pt": 6,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 5
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 3,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 6,
+    "va": 6,
+    "pm": 0
+   },
+   {
+    "idJugador": "2371535",
+    "titular": true,
+    "dorsal": "4",
+    "nombre": "JORGENSEN, PAUL ANDERS",
+    "seg": 1027,
+    "pt": 12,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 4,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 2,
+    "fr": 10,
+    "va": 8,
+    "pm": 0
+   },
+   {
+    "idJugador": "2446720",
+    "titular": true,
+    "dorsal": "5",
+    "nombre": "ZURBRIGGEN, FERNANDO",
+    "seg": 1370,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 2,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 4,
+    "rt": 1,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 5,
+    "fr": 7,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1680859",
+    "titular": false,
+    "dorsal": "9",
+    "nombre": "BILBAO TORRONTEGUI, JORGE ALAIN",
+    "seg": 1078,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 1,
+    "fr": 0,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2222601",
+    "titular": false,
+    "dorsal": "11",
+    "nombre": "MIGUEL TORRERO, ASIER",
+    "seg": 745,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": -5,
+    "va": 4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2818742",
+    "titular": true,
+    "dorsal": "15",
+    "nombre": "MC GREW, TANNER BRYCE",
+    "seg": 1242,
+    "pt": 9,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 3,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 10,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "1285645",
+    "titular": false,
+    "dorsal": "16",
+    "nombre": "DURAN RUIZ, EDUARDO",
+    "seg": 1239,
+    "pt": 20,
+    "t2": {
+     "a": 2,
+     "i": 2
+    },
+    "t3": {
+     "a": 7,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 19,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2349620",
+    "titular": false,
+    "dorsal": "23",
+    "nombre": "OKITO KANYINDA, CHRIST",
+    "seg": 52,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 0,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2648543",
+    "titular": true,
+    "dorsal": "24",
+    "nombre": "NWOGBO, LOTANNA AFAM",
+    "seg": 1319,
+    "pt": 20,
+    "t2": {
+     "a": 6,
+     "i": 6
+    },
+    "t3": {
+     "a": 6,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 5,
+    "rd": 1,
+    "rt": 1,
+    "as": 4,
+    "br": 1,
+    "bp": 0,
+    "tf": 1,
+    "tco": 3,
+    "fc": 7,
+    "fr": 27,
+    "va": 16,
+    "pm": 0
+   },
+   {
+    "idJugador": "1382710",
+    "titular": false,
+    "dorsal": "33",
+    "nombre": "CRUZ UCEDA, IVAN",
+    "seg": 1066,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 1
+    },
+    "t3": {
+     "a": 1,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 1,
+    "fr": 6,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2436780",
+    "titular": false,
+    "dorsal": "99",
+    "nombre": "WESTERMANN, LEO JOSEPH PAUL",
+    "seg": 1238,
+    "pt": 9,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 3,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 3,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 1,
+    "fr": 9,
+    "va": 3,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 26,
+    "visitante": 23
+   },
+   {
+    "periodo": "2º C",
+    "local": 19,
+    "visitante": 29
+   },
+   {
+    "periodo": "3º C",
+    "local": 18,
+    "visitante": 26
+   },
+   {
+    "periodo": "4º C",
+    "local": 16,
+    "visitante": 12
+   }
+  ]
+ }
+}

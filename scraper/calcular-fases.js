@@ -24,6 +24,32 @@ if (!fs.existsSync(DIR)) {
 
 const limpiar = s => s.replace(/\s+/g, ' ').trim();
 
+// Vocabulario de equipos: los nombres que aparecen sin ambiguedad (celdas con un
+// solo ' - ') permiten desambiguar los equipos que llevan un guion en su nombre.
+const VOCAB = new Set();
+for (const carpeta of fs.readdirSync(DIR)) {
+  const d = path.join(DIR, carpeta);
+  for (const fi of fs.readdirSync(d)) {
+    const q = JSON.parse(fs.readFileSync(path.join(d, fi), 'utf8'));
+    const partes = limpiar(q.celdas?.[0] || '').split(' - ');
+    if (partes.length === 2) { VOCAB.add(partes[0].trim()); VOCAB.add(partes[1].trim()); }
+  }
+}
+
+function separarEquipos(bruto) {
+  const pos = [];
+  let i = bruto.indexOf(' - ');
+  while (i >= 0) { pos.push(i); i = bruto.indexOf(' - ', i + 1); }
+  let mejor = [bruto.slice(0, pos[pos.length-1]).trim(), bruto.slice(pos[pos.length-1] + 3).trim()];
+  let mejorPuntos = -1;
+  for (const p of pos) {
+    const a = bruto.slice(0, p).trim(), b = bruto.slice(p + 3).trim();
+    const puntos = (VOCAB.has(a) ? 1 : 0) + (VOCAB.has(b) ? 1 : 0);
+    if (puntos > mejorPuntos) { mejorPuntos = puntos; mejor = [a, b]; }
+  }
+  return mejor;
+}
+
 const fases = {};
 let totalPartidos = 0;
 
@@ -36,12 +62,7 @@ for (const carpeta of fs.readdirSync(DIR)) {
     const p = JSON.parse(fs.readFileSync(path.join(dirFase, f), 'utf8'));
 
     const brutoEquipos = limpiar(p.celdas?.[0] || '');
-    const idx = brutoEquipos.lastIndexOf(' - ');
-    let local = brutoEquipos, visitante = '';
-    if (idx > 0) {
-      local = brutoEquipos.slice(0, idx).trim();
-      visitante = brutoEquipos.slice(idx + 3).trim();
-    }
+    let [local, visitante] = separarEquipos(brutoEquipos);
 
     const disputado = p.boxscore && p.boxscore.local && p.boxscore.local.length > 0;
 

@@ -1,0 +1,681 @@
+{
+ "id": "2395374",
+ "fase": "ELIMINATORIAS 1/8 Final",
+ "jornada": "Jornada 2(20/04/2024)",
+ "temporada": "2023",
+ "celdas": [
+  "C.B. PRAT -\n\t\t\t\t\t\t\tDAMEX UDEA ALGECIRAS",
+  "93-99",
+  "20/04/2024",
+  "17:45"
+ ],
+ "resultado": "93-99",
+ "boxscore": {
+  "local": [
+   {
+    "idJugador": "2381348",
+    "titular": false,
+    "dorsal": "0",
+    "nombre": "DE OLIVEIRA SANTOS PREY, RUBEN DAVID",
+    "seg": 1219,
+    "pt": 21,
+    "t2": {
+     "a": 7,
+     "i": 7
+    },
+    "t3": {
+     "a": 7,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 3,
+    "tco": 4,
+    "fc": 5,
+    "fr": 28,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1958225",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "RODRIGUEZ STEGEMEIJER, JORDI",
+    "seg": 1581,
+    "pt": 11,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 2,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 0,
+    "fc": 3,
+    "fr": 14,
+    "va": -11,
+    "pm": 0
+   },
+   {
+    "idJugador": "2863950",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "SOUMBEY-ALLEY, LONLONVI EZEKIEL",
+    "seg": 1132,
+    "pt": 13,
+    "t2": {
+     "a": 3,
+     "i": 5
+    },
+    "t3": {
+     "a": 4,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 4,
+    "fc": 4,
+    "fr": 10,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "1384223",
+    "titular": false,
+    "dorsal": "5",
+    "nombre": "MARTIN MARIN, ALBERTO",
+    "seg": 1396,
+    "pt": 2,
+    "t2": {
+     "a": 0,
+     "i": 1
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 7,
+    "rt": 2,
+    "as": 4,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 5,
+    "fc": 3,
+    "fr": 7,
+    "va": 0,
+    "pm": 0
+   },
+   {
+    "idJugador": "2641236",
+    "titular": true,
+    "dorsal": "6",
+    "nombre": "TAIWO, SAMUEL",
+    "seg": 1181,
+    "pt": 5,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 5,
+    "fr": 10,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1564172",
+    "titular": false,
+    "dorsal": "8",
+    "nombre": "SESE FRASNEDO, MARC",
+    "seg": 1436,
+    "pt": 12,
+    "t2": {
+     "a": 3,
+     "i": 3
+    },
+    "t3": {
+     "a": 5,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 3,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 8,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "1396420",
+    "titular": true,
+    "dorsal": "13",
+    "nombre": "CARRASCO SAGRISTA, RAIMON",
+    "seg": 1655,
+    "pt": 9,
+    "t2": {
+     "a": 2,
+     "i": 9
+    },
+    "t3": {
+     "a": 3,
+     "i": 17
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 2,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 2,
+    "fr": 1,
+    "va": -8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1549741",
+    "titular": false,
+    "dorsal": "21",
+    "nombre": "ARQUES LOPEZ, EDUARD",
+    "seg": 1734,
+    "pt": 17,
+    "t2": {
+     "a": 4,
+     "i": 4
+    },
+    "t3": {
+     "a": 7,
+     "i": 9
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 1,
+    "rt": 0,
+    "as": 2,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 0,
+    "fr": 14,
+    "va": 8,
+    "pm": 0
+   },
+   {
+    "idJugador": "1990894",
+    "titular": true,
+    "dorsal": "55",
+    "nombre": "ORDOÑEZ OCHOA, IÑAKI",
+    "seg": 666,
+    "pt": 3,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 4
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 1,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 3,
+    "fc": 2,
+    "fr": 1,
+    "va": -14,
+    "pm": 0
+   }
+  ],
+  "visitante": [
+   {
+    "idJugador": "1723311",
+    "titular": true,
+    "dorsal": "0",
+    "nombre": "CECILIA PEREZ, SERGIO",
+    "seg": 1185,
+    "pt": 11,
+    "t2": {
+     "a": 1,
+     "i": 2
+    },
+    "t3": {
+     "a": 4,
+     "i": 6
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 2,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": 8,
+    "va": 2,
+    "pm": 0
+   },
+   {
+    "idJugador": "1949291",
+    "titular": true,
+    "dorsal": "1",
+    "nombre": "ORRIT SERRANO, DAVID",
+    "seg": 1737,
+    "pt": 14,
+    "t2": {
+     "a": 3,
+     "i": 6
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 8,
+    "rt": 1,
+    "as": 3,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 5,
+    "fr": 22,
+    "va": 9,
+    "pm": 0
+   },
+   {
+    "idJugador": "2560959",
+    "titular": false,
+    "dorsal": "2",
+    "nombre": "BALASTEGUI MARTINEZ, JAVIER",
+    "seg": 1241,
+    "pt": 13,
+    "t2": {
+     "a": 5,
+     "i": 9
+    },
+    "t3": {
+     "a": 6,
+     "i": 11
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 2,
+    "rt": 1,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 0,
+    "fr": 10,
+    "va": 1,
+    "pm": 0
+   },
+   {
+    "idJugador": "2523601",
+    "titular": true,
+    "dorsal": "3",
+    "nombre": "VUCICA, JERE",
+    "seg": 1556,
+    "pt": 19,
+    "t2": {
+     "a": 4,
+     "i": 6
+    },
+    "t3": {
+     "a": 7,
+     "i": 14
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 6,
+    "rd": 1,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 1,
+    "tco": 3,
+    "fc": 5,
+    "fr": 20,
+    "va": 12,
+    "pm": 0
+   },
+   {
+    "idJugador": "1989214",
+    "titular": false,
+    "dorsal": "7",
+    "nombre": "FERNANDEZ CHOCARRO, PABLO",
+    "seg": 546,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 0
+    },
+    "t3": {
+     "a": 0,
+     "i": 0
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 2,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 1,
+    "fr": 1,
+    "va": -2,
+    "pm": 0
+   },
+   {
+    "idJugador": "2705308",
+    "titular": false,
+    "dorsal": "10",
+    "nombre": "ARNOLD, WAYNE ISSAIH",
+    "seg": 293,
+    "pt": 0,
+    "t2": {
+     "a": 0,
+     "i": 2
+    },
+    "t3": {
+     "a": 0,
+     "i": 2
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 0,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": -3,
+    "va": 3,
+    "pm": 0
+   },
+   {
+    "idJugador": "2653343",
+    "titular": false,
+    "dorsal": "14",
+    "nombre": "RODRIGUEZ AGUILAR, ALEJANDRO",
+    "seg": 1313,
+    "pt": 3,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 3,
+    "rd": 0,
+    "rt": 0,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 4,
+    "fc": 0,
+    "fr": -4,
+    "va": -4,
+    "pm": 0
+   },
+   {
+    "idJugador": "2274957",
+    "titular": true,
+    "dorsal": "21",
+    "nombre": "ELERAKY, SAMI EISSA",
+    "seg": 1119,
+    "pt": 13,
+    "t2": {
+     "a": 4,
+     "i": 10
+    },
+    "t3": {
+     "a": 4,
+     "i": 10
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 11,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 1,
+    "bp": 0,
+    "tf": 1,
+    "tco": 4,
+    "fc": 4,
+    "fr": 17,
+    "va": 11,
+    "pm": 0
+   },
+   {
+    "idJugador": "1286407",
+    "titular": true,
+    "dorsal": "22",
+    "nombre": "GARCIA ALVAREZ, BERNARDO",
+    "seg": 1516,
+    "pt": 16,
+    "t2": {
+     "a": 0,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 8
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 6,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 2,
+    "fc": 7,
+    "fr": 20,
+    "va": 7,
+    "pm": 0
+   },
+   {
+    "idJugador": "1893365",
+    "titular": false,
+    "dorsal": "29",
+    "nombre": "REVILLA VAL, FERNANDO",
+    "seg": 812,
+    "pt": 2,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 1,
+     "i": 3
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 4,
+    "rd": 0,
+    "rt": 0,
+    "as": 1,
+    "br": 0,
+    "bp": 1,
+    "tf": 0,
+    "tco": 1,
+    "fc": 0,
+    "fr": 2,
+    "va": -7,
+    "pm": 0
+   },
+   {
+    "idJugador": "2432678",
+    "titular": false,
+    "dorsal": "35",
+    "nombre": "THIAM, ISSA",
+    "seg": 682,
+    "pt": 8,
+    "t2": {
+     "a": 1,
+     "i": 3
+    },
+    "t3": {
+     "a": 3,
+     "i": 7
+    },
+    "tl": {
+     "a": 0,
+     "i": 0
+    },
+    "ro": 1,
+    "rd": 0,
+    "rt": 1,
+    "as": 0,
+    "br": 0,
+    "bp": 0,
+    "tf": 0,
+    "tco": 0,
+    "fc": 0,
+    "fr": 6,
+    "va": -2,
+    "pm": 0
+   }
+  ],
+  "cuartos": [
+   {
+    "periodo": "1º C",
+    "local": 22,
+    "visitante": 27
+   },
+   {
+    "periodo": "2º C",
+    "local": 16,
+    "visitante": 24
+   },
+   {
+    "periodo": "3º C",
+    "local": 25,
+    "visitante": 22
+   },
+   {
+    "periodo": "4º C",
+    "local": 30,
+    "visitante": 26
+   }
+  ]
+ }
+}
