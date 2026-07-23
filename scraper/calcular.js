@@ -17,6 +17,43 @@ if (!COMP_NOMBRE) {
 
 const DIR_RAW = path.join('data', 'raw', COMP_NOMBRE, TEMPORADA);
 const DIR_OUT = path.join('data', 'processed', COMP_NOMBRE, TEMPORADA);
+
+// --- Identidad de club (data/clubes.json) ---------------------------------
+// La FEB cambia el id de equipo cada temporada y los patrocinadores alteran el
+// nombre, así que el club se identifica con un id propio y estable. El registro
+// se regenera al empezar cada temporada con: node scraper/generar-clubes.js
+const _partesOut = DIR_OUT.split(path.sep);
+const _COMP = _partesOut[_partesOut.length - 2];
+const _TEMP = _partesOut[_partesOut.length - 1];
+
+const _norm = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  .toUpperCase().replace(/[.'’`´]/g, '').replace(/[^A-Z0-9]+/g, ' ').replace(/\s+/g, ' ').trim();
+
+const _porNombreTemp = {}, _porNombre = {};
+try {
+  const reg = JSON.parse(fs.readFileSync(path.join('data', 'clubes.json'), 'utf8'));
+  for (const c of reg.clubes) {
+    for (const n of [c.nombre, ...(c.alias || [])]) {
+      const k = _norm(n);
+      if (_porNombre[k] === undefined) _porNombre[k] = c.id;
+      else if (_porNombre[k] !== c.id) _porNombre[k] = null;   // ambiguo: hace falta temporada
+      for (const ap of (c.apariciones || [])) _porNombreTemp[k + '|' + ap] = c.id;
+    }
+  }
+} catch (e) {
+  console.log('  ! Aviso: no se pudo leer data/clubes.json (' + e.message + '). Los equipos irán sin idClub.');
+}
+
+const _clubesDesconocidos = new Set();
+function idClubDe(nombre) {
+  const k = _norm(nombre);
+  const exacto = _porNombreTemp[k + '|' + _COMP + ' ' + _TEMP];
+  if (exacto) return exacto;
+  if (_porNombre[k]) return _porNombre[k];
+  _clubesDesconocidos.add(nombre);
+  return null;
+}
+// --------------------------------------------------------------------------
 if (!fs.existsSync(DIR_RAW)) {
   console.error(`No hay datos crudos en ${DIR_RAW}. ¿Has ejecutado el scraper para esta competición/temporada?`);
   process.exit(1);
@@ -148,7 +185,7 @@ const salidaEquipos = Object.values(equipos).map(e => {
   const pfE = Math.pow(e.pf, E), pcE = Math.pow(e.pc, E);
   const victoriasEsperadas = e.pj * pfE / (pfE + pcE);
   return {
-    id: e.id, nombre: e.nombre, grupo: e.grupo,
+    id: e.id, idClub: idClubDe(e.nombre), nombre: e.nombre, grupo: e.grupo,
     pj: e.pj, pg: e.pg, pp: e.pj - e.pg,
     pf: e.pf, pc: e.pc,
     casa: e.casa, fuera: e.fuera,
@@ -344,6 +381,11 @@ fs.writeFileSync(path.join(DIR_OUT, 'carreras.json'), JSON.stringify(carreras, n
 fs.writeFileSync(path.join(DIR_OUT, 'partidos.json'), JSON.stringify(salidaPartidos, null, 1));
 fs.writeFileSync(path.join(DIR_OUT, 'excluidos.json'), JSON.stringify(excluidos, null, 1));
 
+if (_clubesDesconocidos.size) {
+  console.log('\n  ⚠ ' + _clubesDesconocidos.size + ' equipo(s) sin club en el registro:');
+  [..._clubesDesconocidos].forEach(n => console.log('      ' + n));
+  console.log('    Regenera el registro con: node scraper/generar-clubes.js');
+}
 const sinId = salidaJugadores.filter(j => String(j.idJugador).startsWith('sin-id:')).length;
 console.log(`Equipos: ${salidaEquipos.length} | Filas jugador-equipo: ${salidaJugadores.length} | Licencias únicas: ${carreras.length}`);
 console.log(`Jugadores con más de una etapa: ${traspasados.length} | Filas sin ID: ${sinId}`);
