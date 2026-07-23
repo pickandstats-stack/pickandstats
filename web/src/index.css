@@ -10,6 +10,7 @@
   --positivo: #0a7d33;
   --negativo: #c0392b;
   --radio: 8px;
+  --alto-cinta: 59px;
 }
 
 * { box-sizing: border-box; }
@@ -727,6 +728,16 @@ th.col-a { color: #ffd9c4; }
 
 /* ---- cinta de navegación común con el sitio de contenido ---- */
 .cinta { background: var(--panel); border-bottom: 1px solid var(--linea); }
+
+/* Fija solo en escritorio: en móvil se come demasiada pantalla.
+   Por debajo del banner de cookies (z-index 1000). */
+@media (min-width: 768px) {
+  .cinta { position: sticky; top: 0; z-index: 100; }
+  /* Los encabezados de tabla se pegan bajo la cinta, no bajo el borde superior */
+  thead th { top: var(--alto-cinta); }
+  /* Al saltar a un ancla, dejar hueco para la cinta */
+  html { scroll-padding-top: calc(var(--alto-cinta) + 8px); }
+}
 .cinta-fila {
   display: flex; align-items: center; justify-content: space-between;
   padding: 14px 20px; max-width: 1100px; margin: 0 auto;
