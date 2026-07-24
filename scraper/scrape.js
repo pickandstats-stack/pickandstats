@@ -9,6 +9,11 @@ const axios = require('axios');
 
 // Reintentos ante fallos de red transitorios (EADDRNOTAVAIL, ETIMEDOUT, 5xx...).
 // Un parpadeo de conexión no debe abortar el scrape de una competición entera.
+// Grupos que no han traído ningún partido: si ocurre en plena competición,
+// es señal de que la web de la FEB ha cambiado y el scraper ya no encuentra nada.
+const _gruposVacios = [];
+const _enTemporada = () => { const m = new Date().getMonth() + 1; return m >= 9 || m <= 6; };
+
 const REINTENTOS = 4;
 const esTransitorio = e => {
   const cod = e.code || '';
@@ -271,6 +276,10 @@ async function scrapeGrupo(sesion, $, competicionNombre, temporada, grupo, maxJo
 
   fs.writeFileSync(path.join(dirGrupo, '_indice.json'), JSON.stringify(indice, null, 1));
   console.log(`Índice del grupo ${grupo.corto} guardado (${indice.length} partidos).`);
+  if (indice.length === 0) {
+    _gruposVacios.push(competicionNombre + ' ' + temporada + ' · grupo ' + grupo.corto);
+    console.log('  ⚠ El grupo ' + grupo.corto + ' no ha devuelto NINGÚN partido.');
+  }
 }
 
 async function main() {
@@ -331,6 +340,17 @@ async function main() {
     const $g = await seleccionarTemporada(s, temporada);
     await scrapeGrupo(s, $g, competicionNombre, temporada, grupo, maxJornadas);
   }
+  if (_gruposVacios.length) {
+    console.log('\n  ⚠⚠ ' + _gruposVacios.length + ' grupo(s) sin ningún partido:');
+    _gruposVacios.forEach(g => console.log('      ' + g));
+    if (_enTemporada()) {
+      console.log('  En plena competición esto NO es normal: puede que la web de la FEB haya cambiado');
+      console.log('  y el scraper ya no encuentre los partidos. Revísalo antes de fiarte de los datos.');
+    } else {
+      console.log('  (Estamos fuera de temporada, así que puede ser normal.)');
+    }
+  }
+
   // Dejar constancia de qué temporada se ha bajado y cuándo.
   // Lo lee el workflow para pasársela a calcular.js, y la app para mostrar
   // la fecha de actualización de los datos.
