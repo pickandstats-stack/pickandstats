@@ -10,6 +10,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
 const CFG = require('./config');
+const { detectar } = require('./temporada-actual');
 
 const pausa = ms => new Promise(r => setTimeout(r, ms));
 
@@ -254,9 +255,27 @@ async function main() {
     const i = args.indexOf(flag);
     return i >= 0 ? args[i + 1] : null;
   };
-  const temporada = leerArg('--temporada') || CFG.TEMPORADA_DEFECTO;
   const competicion = leerArg('--competicion') || String(CFG.COMPETICION.id);
   const competicionNombre = CFG.COMPETICIONES[competicion];
+
+  let temporada = leerArg('--temporada');
+  if (temporada) {
+    console.log('Temporada forzada por parámetro: ' + temporada);
+  } else {
+    try {
+      const det = await detectar(competicion);
+      temporada = det.temporada;
+      console.log('Temporada detectada en la FEB: ' + temporada + ' (' + det.etiqueta + ')');
+      if (det.temporada !== CFG.TEMPORADA_DEFECTO)
+        console.log('  ⚠ Cambio de temporada respecto a TEMPORADA_DEFECTO (' + CFG.TEMPORADA_DEFECTO + ')');
+      if (det.discrepancia)
+        console.log('  ⚠ La FEB ofrece una temporada más reciente sin seleccionar: ' + det.maxima);
+    } catch (e) {
+      temporada = CFG.TEMPORADA_DEFECTO;
+      console.log('  ⚠ No se pudo detectar la temporada (' + e.message + '). Uso ' + temporada);
+    }
+  }
+
   if (!competicionNombre) {
     console.error(`Competición '${competicion}' desconocida. Válidas: ${Object.keys(CFG.COMPETICIONES).join(', ')}`);
     process.exit(1);
