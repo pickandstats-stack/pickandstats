@@ -307,6 +307,26 @@ async function main() {
     const $g = await seleccionarTemporada(s, temporada);
     await scrapeGrupo(s, $g, competicionNombre, temporada, grupo, maxJornadas);
   }
+  // Dejar constancia de qué temporada se ha bajado y cuándo.
+  // Lo lee el workflow para pasársela a calcular.js, y la app para mostrar
+  // la fecha de actualización de los datos.
+  try {
+    const fEstado = path.join('data', 'processed', 'estado.json');
+    let estado = { competiciones: {} };
+    if (fs.existsSync(fEstado)) estado = JSON.parse(fs.readFileSync(fEstado, 'utf8'));
+    estado.competiciones = estado.competiciones || {};
+    estado.competiciones[competicionNombre] = {
+      temporada,
+      actualizado: new Date().toISOString()
+    };
+    estado.actualizado = new Date().toISOString();
+    fs.mkdirSync(path.dirname(fEstado), { recursive: true });
+    fs.writeFileSync(fEstado, JSON.stringify(estado, null, 1));
+    console.log('Estado guardado en ' + fEstado);
+  } catch (e) {
+    console.log('  ⚠ No se pudo guardar el estado: ' + e.message);
+  }
+
   console.log('\nScraping completado.');
 }
 

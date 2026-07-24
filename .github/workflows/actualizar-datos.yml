@@ -24,7 +24,7 @@ jobs:
       - name: Tercera · scrapear
         run: node scraper/scrape.js --competicion 3
       - name: Tercera · calcular
-        run: node scraper/calcular.js --competicion 3
+        run: node scraper/calcular.js --competicion 3 --temporada $(node -p "require('./data/processed/estado.json').competiciones.tercerafeb.temporada")
       - name: Tercera · histórico
         run: node scraper/historico.js --competicion 3
 
@@ -32,7 +32,7 @@ jobs:
       - name: Segunda · scrapear
         run: node scraper/scrape.js --competicion 2
       - name: Segunda · calcular
-        run: node scraper/calcular.js --competicion 2
+        run: node scraper/calcular.js --competicion 2 --temporada $(node -p "require('./data/processed/estado.json').competiciones.segundafeb.temporada")
       - name: Segunda · histórico
         run: node scraper/historico.js --competicion 2
 
@@ -40,7 +40,7 @@ jobs:
       - name: Primera · scrapear
         run: node scraper/scrape.js --competicion 1
       - name: Primera · calcular
-        run: node scraper/calcular.js --competicion 1
+        run: node scraper/calcular.js --competicion 1 --temporada $(node -p "require('./data/processed/estado.json').competiciones.primerafeb.temporada")
       - name: Primera · histórico
         run: node scraper/historico.js --competicion 1
 
